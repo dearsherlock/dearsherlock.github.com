@@ -11,6 +11,9 @@
 		<string>_posts</string>
 		<string>_site</string>
 		<string>assets</string>
+		<string>javascripts</string>
+		<string>images</string>
+		<string>stylesheets</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

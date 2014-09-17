@@ -6,5 +6,7 @@
 	<string>md</string>
 	<key>textFileType</key>
 	<string>Markdown</string>
+	<key>useInlineLinks</key>
+	<false/>
 </dict>
 </plist>

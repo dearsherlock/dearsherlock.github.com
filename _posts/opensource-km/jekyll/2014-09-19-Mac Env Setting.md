@@ -47,14 +47,23 @@ Jekyll其實只是一種本地端的網頁引擎，可以把一些文章重新�
 或是如圖
 
 ![設定][image-1]
+
 ### 檢查是否安裝XCode所需工具
+
 檢查是否安裝完xcode的完整工具
+
 `$ xcode-select -p`
+
 假如看到以下就表示好了
+
 /Applications/Xcode.app/Contents/Developer
+
 ### -檢查gcc版本：
+
 `$ gcc --version`
+
 如果看到以下就表示ok
+
 `Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1  
 Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)  
 Target: x86_64-apple-darwin13.0.0  

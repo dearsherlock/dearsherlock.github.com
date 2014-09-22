@@ -158,7 +158,11 @@ brew install rbenv ruby-build rbenv-gem-rehash`
 
 然後執行  ` rbenv install 2.1.2`
 
+測試Flickr圖
+![image](https://www.flickr.com/photos/proaben/15130347400/)
 
+測試圖二flickr
+![image](https://farm4.staticflickr.com/3919/15130347400_21b8c6d907_s.jpg)
 
 ---- 
 

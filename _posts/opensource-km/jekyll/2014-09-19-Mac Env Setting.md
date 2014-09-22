@@ -1,9 +1,9 @@
 ---
 layout: post
 category : mac 
-tagline: "Jekyll Mac環境安裝”
+tagline: "Jekyll Mac環境設定"
 tags : [Jekyll於Mac環境設定]
-title: "Jekyll-走入O.S.世界的第一站”
+title: "Jekyll-走入O.S.世界的第一站"
 
 ---
 {% include JB/setup %}
@@ -340,7 +340,6 @@ brew install rbenv ruby-build rbenv-gem-rehash`
 
  [http://lcwangchao.github.io/%E5%AE%89%E8%A3%85/2012/06/05/jekyllinstall/][5]
 -搭建一个免费的，无限流量的Blog—-github Pages和Jekyll入门
-
 [http://www.zan3.com/zan961.html][6]
 
 ---- 

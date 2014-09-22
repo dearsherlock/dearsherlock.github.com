@@ -91,16 +91,58 @@ title: "我的小工具系列"
 `python ~/Dropbox/MyGithub/flickr-uploader_MacVersion/uploadr.py `
 
 不一定要跟我放同一個位置啦，我的是因為程式要用Dropbox備份。執行完後會出現一個小小的提示視窗，提醒您已經執行完畢。
+## 安裝通知視窗函式庫：
+因為要在桌面上呈現通知，所以多做了這樣的功能。但是要多裝一個元件就是了。
+請多執行以下指令獲取程式包：
+
+`$ sudo gem install terminal-notifier`
+其他的就是程式中都有完成。
+
+## 設定檔說明
+隨著python 檔案跟隨著的ini檔案是設定檔，放在同一起執行，像api_key、secret都是跟著flickr api的。你可以建立自己的。
+
+`FILESDIR = "/Users/sherlock/Dropbox/Screenshots"
+``
+``FLICKR = {`
+`		"title"                 : "ScreenShot_Title",`
+
+`		"description"           : "ScreenShot_Description",`
+
+`		"tags"                  : "ScreenShot_Tag",`
+
+`		"is_public"             : "0", `
+
+`		"is_friend"             : "0",`
+
+`		"is_family"             : "0",`
+
+`		"apikey"               : "ea0051e3fed310b4541079c92efadac8",
+``
+``		"secret"                : "3955788f95fd4039"`
+`		}`
+
+## 第一次執行：
+第一次執行，請先獨立執行python檔案，如下：
+
+`python ~/Dropbox/MyGithub/flickr-uploader_MacVersion/uploadr.py `
+
+因為Flickr安全性的關係，會問你是否要授權，授權後會在本地產生一個token檔案，下一次就不需要了。那個是指你是否要授權給該APP（該APP就是你看到的Python檔案）。按下確定授權後，然後在左邊命令列按下Y，會儲存相關資訊（不然）
+
+![][image-3]
+
+授權成功就會出現下面圖片：
+
+![][image-4]
 
 ## 結合Automator：
 
 首先新增一個自動化的專案，也就是啟始點。因為我們是要在檔案新增的時候觸發automator腳本，所以選擇以下：
 
-![][image-3]
+![][image-5]
 
 建立之後，開始編寫腳本，或者您也可以[用我寫好的][5]。
 
-![][image-4]
+![][image-6]
 
 寫法後存檔，測試一下可否執行。
 
@@ -108,12 +150,12 @@ title: "我的小工具系列"
 按下螢幕列印後，或是丟個檔案到該目錄，應該都會觸發該腳本，若有問題請通知囉！
 
 - 工具列上會出現這個符號表是正在執行腳本
-	 
-![][image-5]
+	  
+![][image-7]
 
 - 執行完後會出現提示視窗
 
-![][image-6]
+![][image-8]
 
 目前是Python腳本會去看該目錄最新的檔案然後上傳(每次執行都這樣)。也許會有bug，但我測試幾次是還好。本篇文章也都是用該工具執行後貼上圖的。還算方便，嘿嘿，大家一起加油囉！
 
@@ -132,7 +174,9 @@ title: "我的小工具系列"
 
 [image-1]:	https://farm6.staticflickr.com/5569/15318539842_1fd9ccb4a0_o.png
 [image-2]:	https://farm6.staticflickr.com/5588/15318852972_e407a9a677_o.png
-[image-3]:	https://farm4.staticflickr.com/3859/15319229465_5a1d157e2c_o.png
-[image-4]:	https://farm4.staticflickr.com/3892/15132655038_b7198e93d0_o.png
-[image-5]:	https://farm4.staticflickr.com/3910/15296249446_ebf57f9f37_o.png
-[image-6]:	https://farm6.staticflickr.com/5579/15132538969_4a517c0faf_o.png
+[image-3]:	https://farm4.staticflickr.com/3878/15133889890_e728bebc10_b.jpg
+[image-4]:	https://farm4.staticflickr.com/3880/15134074807_2429b71220_z.jpg
+[image-5]:	https://farm4.staticflickr.com/3859/15319229465_5a1d157e2c_o.png
+[image-6]:	https://farm4.staticflickr.com/3892/15132655038_b7198e93d0_o.png
+[image-7]:	https://farm4.staticflickr.com/3910/15296249446_ebf57f9f37_o.png
+[image-8]:	https://farm6.staticflickr.com/5579/15132538969_4a517c0faf_o.png

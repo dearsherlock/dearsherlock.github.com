@@ -4,9 +4,7 @@
 <dict>
 	<key>childOrder</key>
 	<array>
-		<string>core-samples</string>
-		<string>opensource-km</string>
-		<string>myprojects</string>
+		<string>screenshot_flickr_uploader</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

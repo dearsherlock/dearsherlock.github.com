@@ -126,7 +126,7 @@ title: "我的小工具系列"
 
 `python ~/Dropbox/MyGithub/flickr-uploader_MacVersion/uploadr.py `
 
-因為Flickr安全性的關係，會問你是否要授權，授權後會在本地產生一個token檔案，下一次就不需要了。那個是指你是否要授權給該APP（該APP就是你看到的Python檔案）。按下確定授權後，然後在左邊命令列按下Y，會儲存相關資訊（不然）
+因為Flickr安全性的關係，會問你是否要授權，授權後會在本地產生一個token檔案，下一次就不需要了。那個是指你是否要授權給該APP（該APP就是你看到的Python檔案）。按下確定授權後，然後在左邊命令列按下Y，會儲存相關資訊（不然會一直問）
 
 ![][image-3]
 
@@ -162,7 +162,15 @@ title: "我的小工具系列"
 ## 下一版改善
 目前發現可以改善的：由於Flickr上傳時有些時間，若連續截圖會很不方便，前面擷取到的圖片位置會被下一張蓋掉，是還夠時間貼在notepad上啦。不過可能就是變成不要清空剪貼簿內容，改用append的方式，這樣所有的圖片網址就會被保留。
 另外可能需要加上參數，讓使用者(也許只有我...@@)可以選擇圖片的大小（目前是抓原始檔）
+＊剛剛又另外想到第二版：可以寫個程式包含下面的功能：
+- 可以監控某個目錄下的檔案，然後一直同步。(這個是以下[參考文章][6]中就是這功能，不過我覺得他一分鐘觸發一次太慢，改成每次有檔案就上傳)
+	- 同步過後的檔案在這篇裡沒有顯示在檔案的符號上，若有同步過可以加上就更好了
+	- 點選同步過的檔案，可以選擇右鍵點選服務中(新增一個automator腳本來完成)來取得連結(同步過後的資訊會存在本地資料庫sqlite中)。
+
 也請大家可以多試試囉～
+
+## 參考文章
+[https://github.com/trickortweak/flickr-uploader][7]
 
 ---- 
 
@@ -171,6 +179,8 @@ title: "我的小工具系列"
 [3]:	https://github.com/dearsherlock/flickr-uploader_MacVersion
 [4]:	https://www.flickr.com/services/apps/create/apply
 [5]:	https://github.com/dearsherlock/flickr-uploader_MacVersion/blob/master/mac_automator_script.workflow/Contents/document.wflow
+[6]:	https://github.com/trickortweak/flickr-uploader
+[7]:	https://github.com/trickortweak/flickr-uploader
 
 [image-1]:	https://farm6.staticflickr.com/5569/15318539842_1fd9ccb4a0_o.png
 [image-2]:	https://farm6.staticflickr.com/5588/15318852972_e407a9a677_o.png

@@ -1,9 +1,9 @@
 ---
 layout: post
 category : mac 
-tagline: "Jekyll Mac環境設定"
+tagline: "Jekyll Mac環境安裝”
 tags : [Jekyll於Mac環境設定]
-title: "Jekyll系列"
+title: "Jekyll-走入O.S.世界的第一站”
 
 ---
 {% include JB/setup %}
@@ -160,7 +160,190 @@ brew install rbenv ruby-build rbenv-gem-rehash`
 
 然後執行  ` rbenv install 2.1.2`
 
+### 安裝RubyGem
+安裝rubygem（以下為更新，MAc內建有rubygem）
+ 
+`$ gem update --system          # may need to be administrator or root`
 
+檢查版本
+`$ gem -v`
+`2.4.1`
+### 安裝Jekyll
+重點來了，要安裝這個套件需要用gem。
+
+安裝jekyll
+
+
+`$ sudo gem install jekyll`
+
+`Password:`
+
+
+`Fetching: fast-stemmer-1.0.2.gem (100%)`
+
+`Building native extensions.  This could take a while...`
+
+`Successfully installed fast-stemmer-1.0.2`
+
+`Fetching: classifier-reborn-2.0.1.gem (100%)`
+
+`Successfully installed classifier-reborn-2.0.1`
+
+`Fetching: hitimes-1.2.2.gem (100%)`
+
+`Building native extensions.  This could take a while...`
+
+`Successfully installed hitimes-1.2.2`
+
+`Fetching: timers-4.0.1.gem (100%)`
+
+`Successfully installed timers-4.0.1`
+
+`Fetching: celluloid-0.16.0.gem (100%)`
+
+`Successfully installed celluloid-0.16.0`
+
+`Fetching: rb-fsevent-0.9.4.gem (100%)`
+
+`Successfully installed rb-fsevent-0.9.4`
+
+`Fetching: ffi-1.9.3.gem (100%)`
+
+`Building native extensions.  This could take a while...`
+
+`Successfully installed ffi-1.9.3
+``…`
+
+---- 
+
+## 疑難雜症
+
+- Q:安裝Ruby 2.1.2若出現以下錯誤訊息該如何處理？
+
+`The Ruby openssl extension was not compiled. Missing the OpenSSL lib `
+
+- A:請先移除SSL套件再重新安裝OpenSSL套件。
+
+`$ brew uninstall openssl`
+
+`Uninstalling /usr/local/Cellar/openssl/1.0.1i...`
+
+`$ brew install openssl`
+
+`==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/openssl-1.0.1i.mavericks.bottle.3.tar.gz`
+`Already downloaded: /Library/Caches/Homebrew/openssl-1.0.1i.mavericks.bottle.3.tar.gz`
+
+`==> Pouring openssl-1.0.1i.mavericks.bottle.3.tar.gz`
+
+`==> Caveats`
+`…`
+
+然後重新安裝，貌似就ok,只是查詢一下版本好像還是舊的＠＠
+
+`$ rbenv install 2.1.2`
+
+`Downloading ruby-2.1.2.tar.gz...`
+
+`-> http://dqw8nmjcqpjn7.cloudfront.net/f22a6447811a81f3c808d1c2a5ce3b5f5f0955c68c9a749182feb425589e6635`
+
+`Installing ruby-2.1.2...`
+
+`Installed ruby-2.1.2 to /Users/sherlock/.rbenv/versions/2.1.2`
+
+- Q:裝完Ruby新版之後怎麼還是舊版？
+- A: 解決方法：重新對全域指令更新版次指令。
+
+`rbenv global 2.1.2   //宣告新版為2.1.2，如此再次檢查版本就會是新的了`
+
+`Titan-2:~ sherlock$ rbenv global 2.1.2`
+
+`Titan-2:~ sherlock$ ruby --version`
+
+`ruby 2.1.2p95 (2014-05-08 revision 45877) [x86_64-darwin13.0]`
+
+- Q:在Git上重新取得SSH key? 
+- A: 重新產生SSH key
+	 
+` $ ssh-keygen -t rsa -C "proaben@gmail.com"`
+
+`Generating public/private rsa key pair.`
+
+`Enter file in which to save the key (/Users/sherlock/.ssh/id_rsa): `
+
+`Enter passphrase (empty for no passphrase):    //xxxxxx`
+
+`Enter same passphrase again:                   //xxxxxx`
+
+`Your identification has been saved in /Users/sherlock/.ssh/id_rsa.`
+
+`Your public key has been saved in /Users/sherlock/.ssh/id_rsa.pub.`
+
+`The key fingerprint is:`
+
+`c0:b04:27:06:xx:xx:24:xx:9d:c5:ad:20:f2 proaben@gmail.com`
+
+`The key's randomart image is:`
+
+`+--[ RSA 2048]----+`
+
+`|    .        ... |`
+
+`|     +  .o...o. .|`
+
+`|    . + Boo.o. . |`
+
+`|     + O =E   .  |`
+
+`|      + S o      |`
+
+`|       . o       |`
+
+`|                 |`
+
+`|                 |`
+
+`|                 |`
+
+`+-----------------+`
+
+取得ssh資料：
+
+`$ pbcopy < ~/.ssh/id_rsa.pub`
+
+
+然後再貼回github網站上
+
+![][image-2]
+
+接下來再下一個指令測試SSH key是否正常
+
+
+`$ ssh -T git@github.com`
+
+`Hi dearsherlock! You've successfully authenticated, but GitHub does not provide shell access.`
+
+## 參考網站
+
+-在GitHub寫blog
+
+[http://blog.bonereborn.com/github/2013/09/05/blogging-on-github/][2]
+
+-在git上寫java 6 blog (純粹md檔構成)
+ 
+[https://github.com/dearsherlock/JavaSE6Tutorial][3]
+
+-stackedit
+ 
+[http://blog.unicsolution.com/2013/08/logdown.html][4]
+
+-MacOS下Github+Jekyll 安装配置备忘
+
+ [http://lcwangchao.github.io/%E5%AE%89%E8%A3%85/2012/06/05/jekyllinstall/][5]
+-搭建一个免费的，无限流量的Blog—-github Pages和Jekyll入门
+
+[http://www.zan3.com/zan961.html][6]
+
+---- 
 ---- 
 
 [^1]:	Knowledge Transfer
@@ -168,5 +351,11 @@ brew install rbenv ruby-build rbenv-gem-rehash`
 [^2]:	Github Pages是Github上一個網頁服務，大多的使用者拿來寫Blog用。
 
 [1]:	https://github.com/JustinSDK/JavaSE6Tutorial "Java SE 6 技術手冊"
+[2]:	http://blog.bonereborn.com/github/2013/09/05/blogging-on-github/
+[3]:	https://github.com/dearsherlock/JavaSE6Tutorial
+[4]:	http://blog.unicsolution.com/2013/08/logdown.html
+[5]:	http://lcwangchao.github.io/%E5%AE%89%E8%A3%85/2012/06/05/jekyllinstall/
+[6]:	http://www.zan3.com/zan961.html
 
 [image-1]:	https://farm4.staticflickr.com/3925/15274772466_2b253ac553_o.png "setting"
+[image-2]:	https://farm6.staticflickr.com/5583/15135402270_f5f7e2f38e_o.png

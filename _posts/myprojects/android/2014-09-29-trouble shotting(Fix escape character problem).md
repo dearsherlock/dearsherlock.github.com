@@ -19,7 +19,10 @@ title: "解決資源檔中跳脫字元問題（Error:Apostrophe not preceded by�
 
 請將以下
 
-   `<string name="hello_world">Hello Sherlock's Android world!</string>`
+   ```
+   <string name="hello_world">Hello Sherlock's Android world!</string>
+   ```
+
 改成以下就OK了！
 
 `<string name="hello_world">Hello Sherlock\'s Android world!</string>`

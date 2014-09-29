@@ -7,16 +7,16 @@
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>2014-09-23-安裝Genymotion.md</string>
+			<string>2014-09-23-Install Genymotion.md</string>
 		</array>
 		<array>
-			<string>2014-09-23-解決no_system_images_installed_for_this_target.md</string>
+			<string>2014-09-23-fixing no_system_images_installed_for_this_target.md</string>
 		</array>
 		<array>
-			<string>2014-09-29-疑難雜誌(解決跳脫字元問題).md</string>
+			<string>2014-09-29-trouble shotting(Fix escape character problem).md</string>
 		</array>
 		<array>
-			<string>2014-09-29-網路上人家已經寫好的技術文章.md</string>
+			<string>2014-09-29-Developer Guide Links.md</string>
 		</array>
 	</array>
 </dict>

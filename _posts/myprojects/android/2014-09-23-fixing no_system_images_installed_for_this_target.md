@@ -3,7 +3,7 @@ layout: post
 category : Android 
 tagline: "解決AVD問題"
 tags : [Troubleshotting,App,Android,AVD]
-title: "Android開發困難排除”
+title: "Android開發困難排除"
 
 ---
 {% include JB/setup %}

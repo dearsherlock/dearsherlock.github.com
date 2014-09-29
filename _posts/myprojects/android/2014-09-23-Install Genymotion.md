@@ -1,15 +1,15 @@
 ---
 layout: post
 category : Android 
-tagline: "安裝Genymotion"
+tagline: "Android開發"
 tags : [Installation Guide,App,Android,Genymotion]
-title: "Android開發"
+title: "安裝Genymotion "
 
 ---
 {% include JB/setup %}
 
 
-###參考文章
+### 參考文章
 [安裝Genymotion
 ](http://www.max-everyday.com/2013/07/genymotion-android.html
 )

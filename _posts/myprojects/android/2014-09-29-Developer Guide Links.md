@@ -1,9 +1,9 @@
 ---
 layout: post
 category : Android 
-tagline: "網路上人家已經寫好的技術文章"
+tagline: "Android開發教學"
 tags : [Android Develop,教學文章,推薦連結]
-title: "Android開發教學"
+title: "網路上人家已經寫好的Android教學"
 
 ---
 {% include JB/setup %}
@@ -12,7 +12,7 @@ title: "Android開發教學"
 
 
 - [Android Tutorial 第一堂（3）開始設計 Android 應用程式][1]
-[備份位置][2]
+（[備份位置][2]）
 
 說明以下：
 

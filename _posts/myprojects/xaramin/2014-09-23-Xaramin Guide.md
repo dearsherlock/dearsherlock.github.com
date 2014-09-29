@@ -17,7 +17,7 @@ title: " Xaramin 研究"
 - 共用程式碼
 - 可整合ALM(但ios無法透過TFS來編譯，Apple規定一定要用MAC上的XCode編譯才可以，即使有Xaramin也一樣)
 
-### Xaramin如何運作？aaavvvv
+### Xaramin如何運作？
 針對iOS SDK和Android SDK進行一對一對應。若是xaramin.ios就是對應到ios的，xaramin.android就是對應到android的。
 
 ### 為何要用Xaramin

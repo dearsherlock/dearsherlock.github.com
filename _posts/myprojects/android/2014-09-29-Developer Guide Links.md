@@ -31,13 +31,23 @@ title: "網路上人家已經寫好的Android教學"
 #### [Android Tutorial 第二堂（1）規劃與建立應用程式需要的資源][5]([備份位置][6])
 說明以下：
 - 建立新專案，資源目錄下的各種資源類型介紹
-- 如何取用資源檔案的內容(取用字串、背景色、尺寸)
-- 
+- 資源檔如何設定、以及如何取用資源檔案中的內容(取用字串、背景色、尺寸、圖形資源)
+\- 
+
+#### 訓練所Android基礎課程（簡報與範例資料）
+- https://sites.google.com/site/ronforwork/Home/android-2
+	 
+#### 訓練所Android基礎課程 (錄影)
+- http://www.youtube.com/user/ronforwork/videos?view=1
+
+
+
 #### 其他資源
 
 - [圖示資源，但請注意授權][7]
 - [配色導引（官方網站）][8]
 - [配色導引(Adobe)][9]
+- [圖形資源(官方網站）][10]
 
 
 
@@ -57,3 +67,4 @@ title: "網路上人家已經寫好的Android教學"
 [7]:	http://www.smashingmagazine.com/tag/icons/
 [8]:	https://developer.android.com/design/style/color.html
 [9]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[10]:	http://developer.android.com/design/downloads/index.html

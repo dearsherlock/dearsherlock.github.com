@@ -14,6 +14,7 @@
 		<string>javascripts</string>
 		<string>images</string>
 		<string>stylesheets</string>
+		<string>_theme_packages</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

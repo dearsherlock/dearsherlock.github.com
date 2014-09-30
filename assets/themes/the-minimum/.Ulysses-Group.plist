@@ -4,11 +4,17 @@
 <dict>
 	<key>childOrder</key>
 	<array>
-		<string>bootstrap-3</string>
-		<string>twitter</string>
-		<string>the-minimum</string>
+		<string>css</string>
+		<string>font</string>
+		<string>skin</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>readme.markdown</string>
+		</array>
+	</array>
 </dict>
 </plist>

@@ -6,6 +6,7 @@
 	<array>
 		<string>bootstrap-3</string>
 		<string>twitter</string>
+		<string>the-minimum</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

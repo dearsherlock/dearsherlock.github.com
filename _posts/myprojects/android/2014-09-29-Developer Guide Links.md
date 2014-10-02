@@ -38,7 +38,6 @@ title: "網路上人家已經寫好的Android教學"
 說明以下：
 - View與Layout的種類以及擺放位置
 - Layout xml 的規範原則
-	  
 #### [Android Tutorial 第二堂（3）應用程式與使用者的互動][8]
 說明以下：
 - 事件的註冊(使用xml)以及控制
@@ -52,7 +51,6 @@ title: "網路上人家已經寫好的Android教學"
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
-	   
 
 #### 訓練所Android基礎課程 (錄影)
 - http://www.youtube.com/user/ronforwork/videos?view=1

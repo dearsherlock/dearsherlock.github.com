@@ -38,11 +38,21 @@ title: "網路上人家已經寫好的Android教學"
 說明以下：
 - View與Layout的種類以及擺放位置
 - Layout xml 的規範原則
-- 
+	  
+#### [Android Tutorial 第二堂（3）應用程式與使用者的互動][8]
+說明以下：
+- 事件的註冊(使用xml)以及控制
+- 用程式碼撰寫事件註冊
+- 事件註冊與撰寫的最佳解決方案推薦
+
+#### [Android Tutorial 第二堂（4）建立與使用 Activity 元件][9]
+說明以下：
+
+
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
-	  
+	   
 #### 訓練所Android基礎課程 (錄影)
 - http://www.youtube.com/user/ronforwork/videos?view=1
 
@@ -50,10 +60,10 @@ title: "網路上人家已經寫好的Android教學"
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][8]
-- [配色導引（官方網站）][9]
-- [配色導引(Adobe)][10]
-- [圖形資源(官方網站）][11]
+- [圖示資源，但請注意授權][10]
+- [配色導引（官方網站）][11]
+- [配色導引(Adobe)][12]
+- [圖形資源(官方網站）][13]
 
 
 
@@ -71,7 +81,9 @@ title: "網路上人家已經寫好的Android教學"
 [5]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-1-res/
 [6]:	https://onedrive.live.com/edit.aspx/%e6%96%87%e4%bb%b62/Android%e9%96%8b%e7%99%bc%e6%89%8b%e5%86%8a%e7%ad%86%e8%a8%98?cid=9e5410ad0dc2833c&id=documents?id=%2F&wd=target%28%E6%96%B0%E7%9A%84%E7%AF%80%201.one%7CD9EB8D14-A331-A24C-8C2E-5FBE7A31BC1A%2FAndroid%20Tutorial%20%E7%AC%AC%E4%BA%8C%E5%A0%82%EF%BC%881%EF%BC%89%E8%A6%8F%E5%8A%83%E8%88%87%E5%BB%BA%E7%AB%8B%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%9C%80%E8%A6%81%E7%9A%84%E8%B3%87%E6%BA%90%7CD28EC984-3676-294B-8601-85FFDEE93CA9%2F%29%0Aonenote:https://d.docs.live.net/9e5410ad0dc2833c/%E6%96%87%E4%BB%B62/Android%E9%96%8B%E7%99%BC%E6%89%8B%E5%86%8A%E7%AD%86%E8%A8%98/%E6%96%B0%E7%9A%84%E7%AF%80%201.one#Android%20Tutorial%20%E7%AC%AC%E4%BA%8C%E5%A0%82%EF%BC%881%EF%BC%89%E8%A6%8F%E5%8A%83%E8%88%87%E5%BB%BA%E7%AB%8B%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%9C%80%E8%A6%81%E7%9A%84%E8%B3%87%E6%BA%90&section-id=%7BD9EB8D14-A331-A24C-8C2E-5FBE7A31BC1A%7D&page-id=%7BD28EC984-3676-294B-8601-85FFDEE93CA9%7D&end
 [7]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-2-ui/
-[8]:	http://www.smashingmagazine.com/tag/icons/
-[9]:	https://developer.android.com/design/style/color.html
-[10]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[11]:	http://developer.android.com/design/downloads/index.html
+[8]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-3-interaction/
+[9]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-4-activity/
+[10]:	http://www.smashingmagazine.com/tag/icons/
+[11]:	https://developer.android.com/design/style/color.html
+[12]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[13]:	http://developer.android.com/design/downloads/index.html

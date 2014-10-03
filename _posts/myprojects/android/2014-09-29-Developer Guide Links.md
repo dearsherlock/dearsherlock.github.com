@@ -46,7 +46,12 @@ title: "網路上人家已經寫好的Android教學"
 
 #### [Android Tutorial 第二堂（4）建立與使用 Activity 元件][9]
 說明以下：
-
+- 加入新Activity的相關步驟(manifest設定、事件、theme套用)
+- 不同Activity之間傳遞資料
+	- 使用Intent物件傳送指令以及參數：getIntent()、setResult()
+	- 子畫面送出前判斷目前畫面
+	- 結束畫面：finish()
+- 
 
 
 #### 訓練所Android基礎課程（簡報與範例資料）

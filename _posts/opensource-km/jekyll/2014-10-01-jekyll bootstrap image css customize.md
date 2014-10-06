@@ -6,7 +6,6 @@ tags : [Jekyll bootstrap,css]
 title: "修改Jekyll bootstrap的圖片css樣式"
 
 ---
-{% include JB/setup %}
 
 
 ### 自定樣式

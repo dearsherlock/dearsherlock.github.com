@@ -6,7 +6,6 @@ tags : [Installation Guide,App,Android,Genymotion]
 title: "安裝Genymotion "
 
 ---
-{% include JB/setup %}
 
 
 ### 參考文章

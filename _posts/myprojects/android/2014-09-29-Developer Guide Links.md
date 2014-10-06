@@ -6,7 +6,6 @@ tags : [Android Develop,教學文章,推薦連結]
 title: "網路上人家已經寫好的Android教學"
 
 ---
-{% include JB/setup %}
 
 ### 介紹一些Android開發的文章
 

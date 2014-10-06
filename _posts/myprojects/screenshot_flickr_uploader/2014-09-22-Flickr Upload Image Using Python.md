@@ -6,7 +6,6 @@ tags : [Flickr,Python,Mac,Upload]
 title: "我的小工具系列"
 
 ---
-{% include JB/setup %}
 
 ## 前言
 

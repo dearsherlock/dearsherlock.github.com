@@ -6,7 +6,6 @@ tags : [Troubleshotting,App,Android,AVD]
 title: "解決Android AVD問題"
 
 ---
-{% include JB/setup %}
 
 ## 解決"No system images installed for this target"
 

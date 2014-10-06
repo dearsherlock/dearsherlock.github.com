@@ -6,7 +6,6 @@ tags : [Android Develop,教學文章,單位]
 title: "Android 尺寸單位解釋"
 
 ---
-{% include JB/setup %}
 
 ### 介紹Android的尺寸單位說明
 

@@ -6,7 +6,6 @@ tags : [Mac,Markdown,Mou,Ulysses]
 title: "Markdown工具使用心得"
 
 ---
-{% include JB/setup %}
 ## Markdown介紹
 Markdown檔案格式近年來引起開發人員在撰寫文件上的注意，可能也是因為風格簡單、排版容易、可套css，不用類似寫網頁這樣，只要專心的寫文章就好。所以引起流行。當然網路上你也可以找到很多Markdown的入門介紹，在此就不多說。可見推薦參考網站。
 

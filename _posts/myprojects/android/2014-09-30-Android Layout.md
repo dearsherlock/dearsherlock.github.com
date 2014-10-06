@@ -6,7 +6,6 @@ tags : [Android Develop,教學文章,Layout]
 title: "Android 版面類型"
 
 ---
-{% include JB/setup %}
 
 #### 大致種類([下圖參考自][1])
 ![][image-1]

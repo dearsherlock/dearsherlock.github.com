@@ -6,7 +6,6 @@ tags : [Jekyll於Mac環境設定]
 title: "Jekyll-走入O.S.世界的第一站"
 
 ---
-{% include JB/setup %}
 
 ## Jekyll初認識
 

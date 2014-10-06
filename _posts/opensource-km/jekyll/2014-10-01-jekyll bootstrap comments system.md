@@ -6,7 +6,6 @@ tags : [Jekyll,blog,Comments,Facebook]
 title: "於Jekyll Bootstrap申請Blog的留言回應"
 
 ---
-{% include JB/setup %}
 
 ### 申請Blog的留言回應
 

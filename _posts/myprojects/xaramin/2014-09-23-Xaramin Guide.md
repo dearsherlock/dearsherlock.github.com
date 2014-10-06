@@ -6,7 +6,6 @@ tags : [Xaramin,iOS,Android,C#]
 title: " Xaramin 研究"
 
 ---
-{% include JB/setup %}
 
 ## 認識Xaramin
 本篇是先參考Youtube上對於Xaramin的介紹的筆記。Xaramin起源於Mono，可以在Linux上執行C#、ASP。

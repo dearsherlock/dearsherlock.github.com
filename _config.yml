@@ -19,7 +19,7 @@ author: 'Sherlock Tsai'
 author_image: "https://farm8.staticflickr.com/7350/buddyicons/58674088@N00_r.jpg"
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://dearsherlock.github.io/" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options

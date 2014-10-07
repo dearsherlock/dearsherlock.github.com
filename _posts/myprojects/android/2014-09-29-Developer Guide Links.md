@@ -13,8 +13,7 @@ title: "網路上人家已經寫好的Android教學"
 #### [Android Tutorial 第一堂（3）開始設計 Android 應用程式][1]
 （[備份位置][2]）
 
-說明以下：
-
+課程內容以下：  
 - 建立專案過程的設定檔內容
 - 建立專案過程產生的目錄
 - 執行專案過程(選擇模擬器)
@@ -22,36 +21,39 @@ title: "網路上人家已經寫好的Android教學"
 
 #### [Android Tutorial 第一堂（4）開發 Android 應用程式的準備工作][3]（[備份位置][4]）
 
-說明以下：
-
+課程內容以下：  
 - 規劃app發展指引（草圖、互動、資源檔規劃）
 - 設計時所需資源介紹
 
 #### [Android Tutorial 第二堂（1）規劃與建立應用程式需要的資源][5]([備份位置][6])
-說明以下：
-- 建立新專案，資源目錄下的各種資源類型介紹
-- 資源檔如何設定、以及如何取用資源檔案中的內容(取用字串、背景色、尺寸、圖形資源、選單資源)
+課程內容以下：  
+- 建立新專案，資源目錄下的各種資源類型介紹  
+- 資源檔如何設定、以及如何取用資源檔案中的內容(取用字串、背景色、尺寸、圖形資源、選單資源)  
 - 資源檔如何支援多語系
 
 #### [Android Tutorial 第二堂（2）設計應用程式使用者介面][7]
-說明以下：
-- View與Layout的種類以及擺放位置
-- Layout xml 的規範原則
+課程內容以下：  
+- View與Layout的種類以及擺放位置  
+- Layout xml 的規範原則  
 #### [Android Tutorial 第二堂（3）應用程式與使用者的互動][8]
-說明以下：
-- 事件的註冊(使用xml)以及控制
-- 用程式碼撰寫事件註冊
-- 事件註冊與撰寫的最佳解決方案推薦
+課程內容以下：  
+- 事件的註冊(使用xml)以及控制  
+- 用程式碼撰寫事件註冊  
+- 事件註冊與撰寫的最佳解決方案推薦  
 
 #### [Android Tutorial 第二堂（4）建立與使用 Activity 元件][9]
-說明以下：
-- 加入新Activity的相關步驟(manifest設定、事件、theme套用)
-- 不同Activity之間傳遞資料
-	- 使用Intent物件傳送指令以及參數：getIntent()、setResult()
-	- 子畫面送出前判斷目前畫面
-	- 結束畫面：finish()
-- 
+課程內容以下：  
+- 加入新Activity的相關步驟(manifest設定、事件、theme套用)  
+- 不同Activity之間傳遞資料  
+    1. 使用Intent物件傳送指令以及參數：getIntent()、setResult()  
+    2. 子畫面送出前判斷目前畫面  
+    3. 結束畫面：finish()  
 
+#### [Android Tutorial 第三堂（1）為ListView元件建立自定畫面][10]
+課程內容如下：  
+- 客製化ListView選項的顯示功能(選項物件的設計、Layout要怎麼設計)  
+- 開發客製化項目後所對應Adapter物件：該物件需要繼承`extends ArrayAdapter<選項物件型態>`   
+- 如何引入自定的Adapter到現有的ListView元件。
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
@@ -63,10 +65,10 @@ title: "網路上人家已經寫好的Android教學"
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][10]
-- [配色導引（官方網站）][11]
-- [配色導引(Adobe)][12]
-- [圖形資源(官方網站）][13]
+- [圖示資源，但請注意授權][11]
+- [配色導引（官方網站）][12]
+- [配色導引(Adobe)][13]
+- [圖形資源(官方網站）][14]
 
 
 
@@ -86,7 +88,8 @@ title: "網路上人家已經寫好的Android教學"
 [7]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-2-ui/
 [8]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-3-interaction/
 [9]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-4-activity/
-[10]:	http://www.smashingmagazine.com/tag/icons/
-[11]:	https://developer.android.com/design/style/color.html
-[12]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[13]:	http://developer.android.com/design/downloads/index.html
+[10]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-1-listview/
+[11]:	http://www.smashingmagazine.com/tag/icons/
+[12]:	https://developer.android.com/design/style/color.html
+[13]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[14]:	http://developer.android.com/design/downloads/index.html

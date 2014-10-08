@@ -20,7 +20,7 @@ Credits:
 * Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
 * There are also tools like jQuery, Modernizr, Normalize.
 
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
+If you'd like to give me credit somewhere on your blog or tweet a shout out to [@proaben](https://twitter.com/proaben), that would be pretty sweet.
 
 
 Warm Regards and Stay Creative,  

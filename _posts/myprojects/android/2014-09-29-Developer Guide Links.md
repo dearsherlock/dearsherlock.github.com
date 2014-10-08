@@ -53,7 +53,21 @@ title: "網路上人家已經寫好的Android教學"
 課程內容如下：  
 - 客製化ListView選項的顯示功能(選項物件的設計、Layout要怎麼設計)  
 - 開發客製化項目後所對應Adapter物件：該物件需要繼承`extends ArrayAdapter<選項物件型態>`   
-- 如何引入自定的Adapter到現有的ListView元件。
+- 如何於ListView元件使用客製化過的Adapter。  
+- 知道UI更新值的過程並非使用MVC。而是由UI通知Control更新，Control自行更新View。
+
+#### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][11]
+課程內容如下：  
+- 各種不同設定Key-Value的Preference  
+> > - PreferenceActivity
+> > - EditTextPreference
+> > - CheckBoxPreference
+> > - SwitchPreference
+> > - ListPreference
+> > - MultiSelectListPreference
+> > - RingtonePreference
+> > - PreferenceCategory
+
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
@@ -65,10 +79,10 @@ title: "網路上人家已經寫好的Android教學"
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][11]
-- [配色導引（官方網站）][12]
-- [配色導引(Adobe)][13]
-- [圖形資源(官方網站）][14]
+- [圖示資源，但請注意授權][12]
+- [配色導引（官方網站）][13]
+- [配色導引(Adobe)][14]
+- [圖形資源(官方網站）][15]
 
 
 
@@ -89,7 +103,8 @@ title: "網路上人家已經寫好的Android教學"
 [8]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-3-interaction/
 [9]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-4-activity/
 [10]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-1-listview/
-[11]:	http://www.smashingmagazine.com/tag/icons/
-[12]:	https://developer.android.com/design/style/color.html
-[13]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[14]:	http://developer.android.com/design/downloads/index.html
+[11]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-2-preference/
+[12]:	http://www.smashingmagazine.com/tag/icons/
+[13]:	https://developer.android.com/design/style/color.html
+[14]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[15]:	http://developer.android.com/design/downloads/index.html

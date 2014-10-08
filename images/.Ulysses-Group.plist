@@ -5,6 +5,14 @@
 	<key>childOrder</key>
 	<array>
 		<string>about</string>
+		<string>avatars</string>
+		<string>headers</string>
+		<string>icons</string>
+		<string>post</string>
+		<string>covers</string>
+		<string>page</string>
+		<string>ad</string>
+		<string>elements</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

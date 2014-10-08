@@ -5,7 +5,6 @@
 	<key>childOrder</key>
 	<array>
 		<string>vendor</string>
-		<string>foundation</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
@@ -16,9 +15,6 @@
 		</array>
 		<array>
 			<string>scripts.min.js</string>
-		</array>
-		<array>
-			<string>foundation.min.js</string>
 		</array>
 	</array>
 </dict>

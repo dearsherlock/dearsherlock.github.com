@@ -16,6 +16,12 @@
 			<string>fastclick.js</string>
 		</array>
 		<array>
+			<string>foundation.min.js</string>
+		</array>
+		<array>
+			<string>github.commits.widget.js</string>
+		</array>
+		<array>
 			<string>jquery-1.11.1.min.js</string>
 		</array>
 		<array>
@@ -31,10 +37,13 @@
 			<string>post-header-animations.js</string>
 		</array>
 		<array>
-			<string>placeholder.js</string>
+			<string>selectshare.js</string>
 		</array>
 		<array>
-			<string>jquery.cookie.js</string>
+			<string>serial.js</string>
+		</array>
+		<array>
+			<string>twitter.js</string>
 		</array>
 	</array>
 </dict>

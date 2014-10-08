@@ -5,15 +5,16 @@
 	<key>childOrder</key>
 	<array>
 		<string>_drafts</string>
-		<string>_includes</string>
-		<string>_layouts</string>
 		<string>_posts</string>
 		<string>javascripts</string>
 		<string>images</string>
 		<string>stylesheets</string>
 		<string>_theme_packages</string>
-		<string>assets</string>
 		<string>_site</string>
+		<string>_includes</string>
+		<string>_data</string>
+		<string>_layouts</string>
+		<string>assets</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
@@ -60,6 +61,15 @@
 		</array>
 		<array>
 			<string>404.md</string>
+		</array>
+		<array>
+			<string>Hossain Mohd Faysal.md</string>
+		</array>
+		<array>
+			<string>status-updates.md</string>
+		</array>
+		<array>
+			<string>update-log.md</string>
 		</array>
 	</array>
 	<key>userIconName</key>

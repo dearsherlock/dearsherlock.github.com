@@ -54,22 +54,6 @@ Currently there are [{{ statuscount }} status messages.]({{ site.url }}/status-u
 
 
 
-*Beautiful, practical, meaningful stuff.*
-
-
-I make what I love.
-
-*I love what I do.*
-
-
-
-
-For
-the makers,  
-the creators,  
-the discoverers,  
-the original thinkers,  
-***This is the space to create.***
 
 <!-- amCharts javascript code -->
 <script type="text/javascript">

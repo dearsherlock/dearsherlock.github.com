@@ -5,7 +5,7 @@ tagline: "讀書心得：王文華的A+到A咖"
 tags : [王文華,讀書會,A+到A咖]
 title: 『王文華的A+到A咖』筆記：「三位一體」、「黃金交叉」，把夢想當麵團
 featured: true
-imagefeature: https://farm3.staticflickr.com/2946/15292021220_000e74904b_o.jpg
+imagefeature: https://farm4.staticflickr.com/3930/15475792571_4e82311fc0_o.jpg
 
 ---
 ### 『王文華的A+到A咖』這本書的目錄

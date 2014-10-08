@@ -1,6 +1,9 @@
         {% if page.covereffect == "slice" %}<main id="notepad-post-container" class="notepad-post-container intro-effect-sliced" role="main">{% elsif page.covereffect == "push" %}<main id="notepad-post-container" class="notepad-post-container intro-effect-push" role="main">{% else %}<main id="notepad-post-container" class="notepad-post-container intro-effect-fadeout" role="main">{% endif %}
             <header class="notepad-post-header">
+            	<!--
                 <div class="bg-img">{% if page.imagefeature %}<img src="{{ site.url }}/images/covers/{{ page.imagefeature }}">{% endif %}</div>
+                -->
+                <div class="bg-img">{% if page.imagefeature %}<img src="{{ page.imagefeature }}">{% endif %}</div>
                 
                 {% if page.covereffect == "slice" or page.covereffect == "push" %}<div class="notepad-post-menu-header">{% else %}<div class="notepad-post-menu-header transparent">{% endif %}
                     
@@ -33,7 +36,11 @@
                     <h1>{% if page.featured %}<i class="fa fa-star-half-o fa-spin"></i>&nbsp;{% endif %}{{ page.title }}</h1>
                     <p>{% include post-meta.html %}</p>
                 </div>
+                <!--
                 {% if page.covereffect == "slice" %}<div class="bg-img"><img src="{{ site.url }}/images/covers/{{ page.imagefeature }}"></div>{% endif %}
+            -->
+            	  {% if page.covereffect == "slice" %}<div class="bg-img"><img src="{{ page.imagefeature }}"></div>{% endif %}
+            
             </header>
             <button class="trigger bg-check" data-info="Click here"><span>Trigger</span></button>{% endif %}
         </main>

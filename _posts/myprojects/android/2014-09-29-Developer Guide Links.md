@@ -5,6 +5,8 @@ tagline: "Android開發教學"
 tags : [Android Develop,教學文章,推薦連結]
 title: "網路上人家已經寫好的Android教學"
 featured: true
+imagefeature: https://farm3.staticflickr.com/2945/15292674507_d1f2ffec01_o.jpg
+covereffect: push
 
 ---
 

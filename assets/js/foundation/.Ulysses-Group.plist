@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>foundation.abide.js</string>
+		</array>
+		<array>
+			<string>foundation.accordion.js</string>
+		</array>
+		<array>
+			<string>foundation.alert.js</string>
+		</array>
+		<array>
+			<string>foundation.clearing.js</string>
+		</array>
+		<array>
+			<string>foundation.dropdown.js</string>
+		</array>
+		<array>
+			<string>foundation.equalizer.js</string>
+		</array>
+		<array>
+			<string>foundation.interchange.js</string>
+		</array>
+		<array>
+			<string>foundation.joyride.js</string>
+		</array>
+		<array>
+			<string>foundation.js</string>
+		</array>
+		<array>
+			<string>foundation.magellan.js</string>
+		</array>
+		<array>
+			<string>foundation.offcanvas.js</string>
+		</array>
+		<array>
+			<string>foundation.orbit.js</string>
+		</array>
+		<array>
+			<string>foundation.reveal.js</string>
+		</array>
+		<array>
+			<string>foundation.slider.js</string>
+		</array>
+		<array>
+			<string>foundation.tab.js</string>
+		</array>
+		<array>
+			<string>foundation.tooltip.js</string>
+		</array>
+		<array>
+			<string>foundation.topbar.js</string>
+		</array>
+	</array>
+</dict>
+</plist>

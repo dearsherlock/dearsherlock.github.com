@@ -4,22 +4,9 @@
 <dict>
 	<key>childOrder</key>
 	<array>
-		<string>vendor</string>
-		<string>foundation</string>
+		<string>about</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
-	<key>sheetClusters</key>
-	<array>
-		<array>
-			<string>notepad.js</string>
-		</array>
-		<array>
-			<string>scripts.min.js</string>
-		</array>
-		<array>
-			<string>foundation.min.js</string>
-		</array>
-	</array>
 </dict>
 </plist>

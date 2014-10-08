@@ -18,7 +18,7 @@ title: "Android Activity之UI傳值"
 
 ```  
 title Activity UI Update  
-note over MainActivity extends Activity: startActivityForResult()之後，\n關閉子Activity更新內容
+note over MainActivity extends Activity: startActivityForResult()之後，\n關閉子Activity更新內容update t
 note over MainActivity extends Activity: override onActivityResult(...)
 MainActivity extends Activity ->ItemAdapter extends ArrayAdapter<Item>: itemAdapter.notifyDataSetChanged()
 note over ItemAdapter extends ArrayAdapter<Item>:override getView(int position, View convertView, ViewGroup parent)

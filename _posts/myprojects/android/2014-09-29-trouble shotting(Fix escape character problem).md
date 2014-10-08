@@ -2,7 +2,7 @@
 layout: post
 category : Android 
 tagline: "Android疑難雜症"
-tags : [Android Develop,App,Android,Q&A,跳脫字元,資源檔]
+tags : [Android Develop,App,Android,Q＆A,跳脫字元,資源檔]
 title: "解決資源檔中跳脫字元問題（Error:Apostrophe not preceded by） "
 
 ---

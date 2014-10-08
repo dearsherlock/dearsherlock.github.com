@@ -5,7 +5,7 @@
 	<key>childOrder</key>
 	<array>
 		<string>screenshot_flickr_uploader</string>
-		<string>xaramin</string>
+		<string>xamarin</string>
 		<string>android</string>
 	</array>
 	<key>createMarkedFile</key>

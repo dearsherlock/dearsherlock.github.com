@@ -21,6 +21,7 @@ title: " Xamarin 研究"
 
 ### 為何要用Xamarin
 在新版SDK發行時，就會同步發佈Xamarin，所以都會跟上原廠腳步，標榜同一天推出。
+
 ### Xamarin的限制
 不能使用跟windows平台有關的namespace，如System.IO、Reflection、WPF框架。
 Xamarin舊版不支援在Visual studio設計iOS UI，需要先在Xcode上拉UI。但是可以支援Android畫面設計。新版會解決這個問題。

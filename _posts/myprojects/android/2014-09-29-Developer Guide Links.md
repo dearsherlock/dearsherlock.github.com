@@ -36,6 +36,7 @@ featured: true
 課程內容以下：  
 - View與[Layout的種類][9]以及擺放位置  
 - Layout xml的規範原則  
+
 #### [Android Tutorial 第二堂（3）應用程式與使用者的互動][10]
 課程內容以下：  
 - 事件的註冊(使用xml)以及控制  

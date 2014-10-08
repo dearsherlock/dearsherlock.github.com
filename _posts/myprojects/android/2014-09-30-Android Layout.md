@@ -8,16 +8,18 @@ title: "Android 版面類型"
 ---
 
 #### 大致種類([下圖參考自][1])
-![][image-1]
+![][image-1]  
+
 #### Linear Layout
-- 垂直排版，可以知道物件若超過版面也不會自動換列。
+- 垂直排版，可以知道物件若超過版面也不會自動換列。  
 
 ![][image-2]
+
 - 水平排版
 
 ![][image-3]
 - 可以設定比例
-透過以下來設定 android:layout_weight="比例"
+透過以下來設定 android:layout\_weight="比例"
 ([下圖參考自][2]) ![][image-4]
 
 #### RelativeLayout
@@ -48,78 +50,78 @@ title: "Android 版面類型"
 \<RelativeLayout android:orientation="horizontal"
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin"
-android:paddingBottom="@dimen/activity_vertical_margin"
+android:layout\_width="match\_parent"
+android:layout\_height="match\_parent"
+android:paddingLeft="@dimen/activity\_horizontal\_margin"
+android:paddingRight="@dimen/activity\_horizontal\_margin"
+android:paddingTop="@dimen/activity\_vertical\_margin"
+android:paddingBottom="@dimen/activity\_vertical\_margin"
 tools:context=".MyActivity"\>
 
 \<TextView
 android:text="@string/title"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
 android:background="@color/grey"
-android:padding="@dimen/default_padding"
-android:textSize="@dimen/title_txt_size"
+android:padding="@dimen/default\_padding"
+android:textSize="@dimen/title\_txt\_size"
 /\>
 \<ImageButton
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/ImgBtn01"
-android:layout_above="@+id/Btn01"
+android:layout\_above="@+id/Btn01"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn01"
 android:text="Button01"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn02"
 android:text="Button02"
-android:layout_below="@id/Btn01"
+android:layout\_below="@id/Btn01"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn03"
 android:text="Button03"
-android:layout_toLeftOf="@id/Btn02"
+android:layout\_toLeftOf="@id/Btn02"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn04"
 android:text="Button04"
-android:layout_toRightOf="@id/Btn01"
+android:layout\_toRightOf="@id/Btn01"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn05"
 android:text="Button05"
 /\>
 \<Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_centerInParent="true"
-android:src="@drawable/ic_action_alarms"
+android:layout\_width="wrap\_content"
+android:layout\_height="wrap\_content"
+android:layout\_centerInParent="true"
+android:src="@drawable/ic\_action\_alarms"
 android:id="@+id/Btn06"
 android:text="Button06"
 /\>
@@ -131,13 +133,13 @@ android:text="Button06"
 ![][image-6]
 有以下幾個屬性可以設定：
 
-•	android:stretchColumns：可以放多大就放多大。可以設定多個欄位，例如「1,3,5」；設定為「*」表示所有欄位。
+• android:stretchColumns：可以放多大就放多大。可以設定多個欄位，例如「1,3,5」；設定為「\*」表示所有欄位。
 
-•	android:shrinkColumns：寬度不夠顯示所有內容的時候，指定的欄位會自動縮小。第一個欄位是0，可以設定多個欄位，例如「1,3,5」；設定為「*」表示所有欄位。
+• android:shrinkColumns：寬度不夠顯示所有內容的時候，指定的欄位會自動縮小。第一個欄位是0，可以設定多個欄位，例如「1,3,5」；設定為「\*」表示所有欄位。
 甚至有可能擠成這樣如下圖
 ![][image-7]
 
-•	android:collapseColumns：隱藏指定的欄位。第一個欄位是0，可以設定多個欄位，例如「1,3,5」；設定為「*」表示所有欄位。
+• android:collapseColumns：隱藏指定的欄位。第一個欄位是0，可以設定多個欄位，例如「1,3,5」；設定為「\*」表示所有欄位。
 
 
 #### 元件與Layout之間的關係

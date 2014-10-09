@@ -72,6 +72,7 @@ covereffect: push
 > > - RingtonePreference
 > > - PreferenceCategory
 
+介紹[PreferenceActivity的用法](../how%20to%20use%20preference%20activity/)
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2

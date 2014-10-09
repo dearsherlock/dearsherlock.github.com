@@ -5,7 +5,7 @@ tagline: "簡單四步驟，製作吸睛的資訊圖表"
 tags : [資訊整理,報告,圖像化,How to]
 title: 資訊如何圖像化？
 featured: true
-imagefeature: https://farm4.staticflickr.com/3930/15475792571_4e82311fc0_o.jpg
+imagefeature: https://farm4.staticflickr.com/3927/15296446250_1c1554fcaa_o.jpg
 covereffect: slice
 
 ---

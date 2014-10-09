@@ -2,8 +2,8 @@
 layout: post
 category : books 
 tagline: "簡單四步驟，製作吸睛的資訊圖表"
-tags : [資訊整理,報告,圖像化,How to]
-title: 資訊如何圖像化？
+tags : [資訊整理,報告,圖像化,How to,infographics]
+title: 【轉載】資訊如何圖像化(infographics)？
 featured: true
 imagefeature: https://farm3.staticflickr.com/2946/15483380555_102fd71073_o.jpg
 covereffect: slice

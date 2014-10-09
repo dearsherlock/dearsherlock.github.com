@@ -4,7 +4,6 @@ category : Android
 tagline: "Android開發教學"
 tags : [Android Develop,教學文章,推薦連結]
 title: "如何啟動預設資料選項畫面"
-featured: true
 
 ---
 
@@ -28,7 +27,7 @@ PrefActivity->PrefActivity:啟動可供選項的畫面
 
 ####模型與架構
 
-以下是EA畫的，專案檔在
+以下是EA畫的，專案檔[在此](https://github.com/dearsherlock/dearsherlock.github.com/blob/master/_posts/Android%E9%96%8B%E7%99%BC.eap)
 
 ![image](https://farm6.staticflickr.com/5606/15484886175_0db9d5fdb8_o.png)
 

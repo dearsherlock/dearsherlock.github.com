@@ -76,7 +76,7 @@ covereffect: push
 - 介紹[PreferenceActivity的用法][16]
 
 #### Android Tutorial 第三堂（3）Android 內建的 SQLite 資料庫
-課程內容大致如下：
+課程內容大致如下，專案檔在[Android Studio 3-3專案檔案][17]：
 - 建立/Drop表格的Helper寫法（繼承自SQLiteOpenHelper）。
 - Cursor的操作。
 - 如何用DAO查詢、刪除、修改、新增資料表資料。（以類似prepared statement撰寫）
@@ -92,10 +92,10 @@ covereffect: push
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][17]
-- [配色導引（官方網站）][18]
-- [配色導引(Adobe)][19]
-- [圖形資源(官方網站）][20]
+- [圖示資源，但請注意授權][18]
+- [配色導引（官方網站）][19]
+- [配色導引(Adobe)][20]
+- [圖形資源(官方網站）][21]
 
 
 
@@ -122,7 +122,8 @@ covereffect: push
 [14]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-2-preference/
 [15]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/tutorial3-2.zip
 [16]:	../how%20to%20use%20preference%20activity/
-[17]:	http://www.smashingmagazine.com/tag/icons/
-[18]:	https://developer.android.com/design/style/color.html
-[19]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[20]:	http://developer.android.com/design/downloads/index.html
+[17]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/tutorial3-3.zip
+[18]:	http://www.smashingmagazine.com/tag/icons/
+[19]:	https://developer.android.com/design/style/color.html
+[20]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[21]:	http://developer.android.com/design/downloads/index.html

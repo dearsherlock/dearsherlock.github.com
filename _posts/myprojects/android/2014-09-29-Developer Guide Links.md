@@ -5,7 +5,7 @@ tagline: "Android開發教學"
 tags : [Android Develop,教學文章,推薦連結]
 title: "網路上人家已經寫好的Android教學"
 featured: true
-imagefeature: https://farm3.staticflickr.com/2945/15292674507_d1f2ffec01_o.jpg
+imagefeature: https://farm3.staticflickr.com/2945/15292674507\_d1f2ffec01\_o.jpg
 covereffect: push
 
 ---
@@ -54,13 +54,14 @@ covereffect: push
     3. 結束畫面：finish()  
 
 #### [Android Tutorial 第三堂（1）為ListView元件建立自定畫面][12]
-課程內容如下：  
+課程內容如下，專案檔在[Android Studio 3-1專案檔案][13]：  
 - 客製化ListView選項的顯示功能(選項物件的設計、Layout要怎麼設計)  
 - 開發客製化項目後所對應Adapter物件：該物件需要繼承`extends ArrayAdapter<選項物件型態>`  
 - 如何於ListView元件使用客製化過的Adapter。  
 - 知道UI更新值的過程並非使用MVC。而是由UI通知Control更新，Control自行更新View。
 
-#### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][13]
+
+#### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][14]
 課程內容如下：  
 - 各種不同設定Key-Value的Preference  
 > > - PreferenceActivity
@@ -72,7 +73,7 @@ covereffect: push
 > > - RingtonePreference
 > > - PreferenceCategory
 
-介紹[PreferenceActivity的用法](../how%20to%20use%20preference%20activity/)
+介紹[PreferenceActivity的用法][15]
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
@@ -84,10 +85,10 @@ covereffect: push
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][14]
-- [配色導引（官方網站）][15]
-- [配色導引(Adobe)][16]
-- [圖形資源(官方網站）][17]
+- [圖示資源，但請注意授權][16]
+- [配色導引（官方網站）][17]
+- [配色導引(Adobe)][18]
+- [圖形資源(官方網站）][19]
 
 
 
@@ -110,8 +111,10 @@ covereffect: push
 [10]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-3-interaction/
 [11]:	http://www.codedata.com.tw/mobile/android-tutorial-the-2nd-class-4-activity/
 [12]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-1-listview/
-[13]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-2-preference/
-[14]:	http://www.smashingmagazine.com/tag/icons/
-[15]:	https://developer.android.com/design/style/color.html
-[16]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[17]:	http://developer.android.com/design/downloads/index.html
+[13]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/tutorial3-1.zip
+[14]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-2-preference/
+[15]:	../how%20to%20use%20preference%20activity/
+[16]:	http://www.smashingmagazine.com/tag/icons/
+[17]:	https://developer.android.com/design/style/color.html
+[18]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[19]:	http://developer.android.com/design/downloads/index.html

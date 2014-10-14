@@ -62,7 +62,7 @@ covereffect: push
 
 
 #### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][14]
-課程內容如下：  
+課程內容如下，專案檔在[Android Studio 3-2專案檔案][15]：  
 - 各種不同設定Key-Value的Preference  
 > > - PreferenceActivity
 > > - EditTextPreference
@@ -73,7 +73,7 @@ covereffect: push
 > > - RingtonePreference
 > > - PreferenceCategory
 
-介紹[PreferenceActivity的用法][15]
+介紹[PreferenceActivity的用法][16]
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
@@ -85,10 +85,10 @@ covereffect: push
 
 #### 其他資源
 
-- [圖示資源，但請注意授權][16]
-- [配色導引（官方網站）][17]
-- [配色導引(Adobe)][18]
-- [圖形資源(官方網站）][19]
+- [圖示資源，但請注意授權][17]
+- [配色導引（官方網站）][18]
+- [配色導引(Adobe)][19]
+- [圖形資源(官方網站）][20]
 
 
 
@@ -113,8 +113,9 @@ covereffect: push
 [12]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-1-listview/
 [13]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/tutorial3-1.zip
 [14]:	http://www.codedata.com.tw/mobile/android-tutorial-the-3rd-class-2-preference/
-[15]:	../how%20to%20use%20preference%20activity/
-[16]:	http://www.smashingmagazine.com/tag/icons/
-[17]:	https://developer.android.com/design/style/color.html
-[18]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
-[19]:	http://developer.android.com/design/downloads/index.html
+[15]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/tutorial3-2.zip
+[16]:	../how%20to%20use%20preference%20activity/
+[17]:	http://www.smashingmagazine.com/tag/icons/
+[18]:	https://developer.android.com/design/style/color.html
+[19]:	https://kuler.adobe.com/zh/explore/most-popular/?time=month
+[20]:	http://developer.android.com/design/downloads/index.html

@@ -2,14 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>childOrder</key>
-	<array>
-		<string>screenshot_flickr_uploader</string>
-		<string>xamarin</string>
-		<string>android</string>
-		<string>dropbox</string>
-	</array>
 	<key>createMarkedFile</key>
 	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2014-10-13-how to retrive dropbox api.md</string>
+		</array>
+	</array>
 </dict>
 </plist>

@@ -3,7 +3,7 @@ layout: post
 category : Android 
 tagline: "Android開發教學"
 tags : [Android Develop,教學文章,推薦連結]
-title: "如何啟動預設資料選項畫面"
+title: "如何啟動客製化資料選擇畫面"
 
 ---
 
@@ -39,16 +39,49 @@ websequence程式如下：
 
 ![image][image-2]
 
-#### 注意
+#### 動態啟動選擇元件
 
-原本的preferenceactivity中會動態呼叫class起來的程式區塊如下：
+mypreference.xml內容如下，他會定義動態啟動class：
 
 	<intent 
 	        android:action="net.macdidi.myandroidtutorial.CHOOSE_COLOR"
 	        android:targetPackage="net.macdidi.myandroidtutorial"
 	        android:targetClass="net.macdidi.myandroidtutorial.ColorActivity"/>
 
-需要將android:targetPackage這個屬性移除，才能夠正常執行。也許是後來的版本移除了，也或許是不能這樣寫。
+**需要將android:targetPackage這個屬性移除，才能夠正常執行。（也許是後來的版本移除了，也或許是不能這樣寫。）**
+
+配合的程式碼如下：
+
+	public class PrefActivity extends PreferenceActivity {
+ 
+	private SharedPreferences sharedPreferences;
+	private Preference defaultColor;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+	    super.onCreate(savedInstanceState);
+	    // 指定使用的設定畫面配置資源
+	    addPreferencesFromResource(R.xml.mypreference);
+	    defaultColor = (Preference)findPreference("DEFAULT_COLOR");
+	    // 建立SharedPreferences物件
+	    sharedPreferences =
+	            PreferenceManager.getDefaultSharedPreferences(this);
+	}
+	
+	@Override
+	protected void onResume() {
+	    super.onResume();
+	    // 讀取設定的預設顏色
+	    int color = sharedPreferences.getInt("DEFAULT_COLOR", -1);
+	
+	    if (color != -1) {
+	        // 設定顏色說明
+	        defaultColor.setSummary(getString(R.string.default_color_summary) + 
+	                ": " + ItemActivity.getColors(color));
+	    }
+	}
+	
+	}
 
 
 [1]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/_posts/Android%E9%96%8B%E7%99%BC.eap

@@ -64,16 +64,23 @@ covereffect: push
 #### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][14]
 課程內容如下，專案檔在[Android Studio 3-2專案檔案][15]：  
 - 各種不同設定Key-Value的Preference  
-> > - PreferenceActivity
-> > - EditTextPreference
-> > - CheckBoxPreference
-> > - SwitchPreference
-> > - ListPreference
-> > - MultiSelectListPreference
-> > - RingtonePreference
-> > - PreferenceCategory
+ - PreferenceActivity  
+ - EditTextPreference  
+ - CheckBoxPreference  
+ - SwitchPreference  
+ - ListPreference  
+ - MultiSelectListPreference  
+ - RingtonePreference  
+ - PreferenceCategory  
 
-介紹[PreferenceActivity的用法][16]
+- 介紹[PreferenceActivity的用法][16]
+
+#### Android Tutorial 第三堂（3）Android 內建的 SQLite 資料庫
+課程內容大致如下：
+- 建立/Drop表格的Helper寫法（繼承自SQLiteOpenHelper）。
+- Cursor的操作。
+- 如何用DAO查詢、刪除、修改、新增資料表資料。（以類似prepared statement撰寫）
+- 如何使用Adapter把查詢回來的資料塞回畫面上。（繼承自ArrayAdapter\<Item\>，實作GetView方法）
 
 #### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2

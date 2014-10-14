@@ -16,3 +16,8 @@ title: "Android Studio 'diamond operator is not supported' 處理方法 "
 	    sourceCompatibility JavaVersion.VERSION_1_7
 	    targetCompatibility JavaVersion.VERSION_1_7
 	}
+
+另外需要請注意的是，該build.gradle是在app目錄下喔。如下圖
+![][image-1]
+
+[image-1]:	https://farm6.staticflickr.com/5605/15347380058_d42665e21d_o.png

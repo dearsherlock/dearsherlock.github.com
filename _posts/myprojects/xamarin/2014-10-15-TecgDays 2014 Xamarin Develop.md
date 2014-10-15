@@ -3,7 +3,7 @@ layout: post
 category : Xamarin 
 tagline: "Xamarin@Techdays2014 "
 tags : [Xamarin,iOS,Android,C#]
-title: “『筆記』跨平台原生 App 開發實戰 使用 Visual Studio + Xamarin 3.0 + C#"
+title: "『筆記』跨平台原生 App 開發實戰 使用 Visual Studio + Xamarin 3.0 + C#"
 
 ---
 

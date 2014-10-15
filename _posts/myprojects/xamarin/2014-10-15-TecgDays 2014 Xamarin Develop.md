@@ -9,7 +9,7 @@ title: "『筆記』跨平台原生 App 開發實戰 使用 Visual Studio + Xama
 
 #### 概述
 
-這是對於TechDays2014 Xamarin課程的筆記。有些重點功能。微軟的TechDays2014影片來源
+這是對於TechDays2014 Xamarin課程的筆記。有些重點功能。[微軟的TechDays2014影片來源][1]
 
 #### Android Multi-View Designer
 
@@ -55,11 +55,13 @@ title: "『筆記』跨平台原生 App 開發實戰 使用 Visual Studio + Xama
 ![][image-2]  
 另外也需要宣告連線後需要執行哪些事情，如下圖。  
 ![][image-3]  
-8.Client需要宣告被Server呼叫事件的名稱，如上面Server端動態呼叫的。如下圖上方。    
+8.Client需要宣告被Server呼叫事件的名稱，如上面Server端動態呼叫的。如下圖上方。  
 ![][image-4]  
 9.SignalR如此就可以完成簡單即時通訊  
 ![][image-5]  
 
+
+[1]:	http://www.microsoftvirtualacademy.com/training-courses/techdays-taiwan-2014-breakout-sessions-dev
 
 [image-1]:	https://farm6.staticflickr.com/5598/15540559282_4705c1750b_o.png
 [image-2]:	https://farm4.staticflickr.com/3952/15540564482_08a1d0e298_o.png

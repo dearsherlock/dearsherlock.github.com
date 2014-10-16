@@ -42,11 +42,12 @@ title: "如何使用Flickr Momentum Chrome Tab"
 ![image](https://farm4.staticflickr.com/3956/15544111721_45f0753e35_o.png)
 
 執行起來就真的都一樣，但Momentum 0.28會有的功能都有，該解的bug應該也都改了，所以開心使用中。
-[link](https://farm4.staticflickr.com/3934/15547641652_363dc63c12_o.png)
+![image](https://farm4.staticflickr.com/3934/15547641652_363dc63c12_o.png)
+
 
 追著程式碼有個好處，就是知道要改哪裡會有不同的功能。
-接下來我想做的是弄個設定檔可以簡單設定以下功能：
-1.改變flickr source ，看可否讀取自己的相片或是某名人的去loop...
+接下來我想做的是弄個設定檔可以簡單設定以下功能：  
+1.改變flickr source ，看可否讀取自己的相片或是某名人的去loop...  
 2.取消所有畫面是的提醒資訊，現在我是知道哪一行程式碼可以改掉，修改後就如下圖，比較乾淨。
 ![image](https://farm6.staticflickr.com/5608/14926075594_293766f990_o.png)
 

@@ -2,15 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>childOrder</key>
-	<array>
-		<string>screenshot_flickr_uploader</string>
-		<string>xamarin</string>
-		<string>android</string>
-		<string>dropbox</string>
-		<string>googlechrome</string>
-	</array>
 	<key>createMarkedFile</key>
 	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2014-10-15-how to fix plugin.md</string>
+		</array>
+	</array>
 </dict>
 </plist>

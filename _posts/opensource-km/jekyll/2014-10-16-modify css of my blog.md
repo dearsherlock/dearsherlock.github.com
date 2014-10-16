@@ -42,4 +42,40 @@ title: "修飾一下網站css"
 使用三個#就可以，不會太大也不會太小。
 
 ### 調整圖文排版
-預設的版面文字和圖片的最大寬度不一樣，圖片的最大寬度為56.25rem，文字區塊則只有
+預設的版面文字和圖片的最大寬度不一樣，圖片的最大寬度為56.25rem，如下post.css中：
+
+```
+p.with-image {
+        text-align: center;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        max-width: 56.25rem; }
+```
+
+文字區塊則只有43.75rem，請參見post.css中  
+
+```
+.post-template .notepad-post-content > div:not(.notepad-post-title) h1, .post-template .notepad-post-content > div:not(.notepad-post-title) h2, .post-template .notepad-post-content > div:not(.notepad-post-title) h3, .post-template .notepad-post-content > div:not(.notepad-post-title) h4, .post-template .notepad-post-content > div:not(.notepad-post-title) h5, .post-template .notepad-post-content > div:not(.notepad-post-title) h6, .post-template .notepad-post-content > div:not(.notepad-post-title) ul, .post-template .notepad-post-content > div:not(.notepad-post-title) ol, .post-template .notepad-post-content > div:not(.notepad-post-title) blockquote, .post-template .notepad-post-content > div:not(.notepad-post-title) pre, .post-template .notepad-post-content > div:not(.notepad-post-title) hr {
+      max-width: 43.75rem;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-font-smoothing: antialiased; }
+```
+
+內文部分也是在post.css，如下：  
+```
+.post-template .notepad-post-content > div:not(.notepad-post-title) p {
+      margin: 0 auto;
+      padding-bottom: 2em;
+      max-width: 43.75rem;
+      font-size: 1.125rem; }
+```
+
+將其改成跟圖片一樣，都是同一個垂直位置開始(`max-widthL56.25rem`)，這樣就節省空間多了。
+調整前如下圖：  
+
+![image](https://farm4.staticflickr.com/3946/15361167739_b51b2572c1_o.png)
+
+調整後如下圖：   
+
+![image](https://farm4.staticflickr.com/3943/15524089696_a2a94976fb_o.png)

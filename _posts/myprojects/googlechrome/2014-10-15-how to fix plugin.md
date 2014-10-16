@@ -1,3 +1,11 @@
+---
+layout: post
+category : Chrome 
+tagline: "css調整"
+tags : [chrome,extension]
+title: "Note"
+
+---
 
 請先到以下目錄，找尋您想要修改的plugin。
 /Users/username/Library/Application Support/Google/Chrome/Default/Extensions

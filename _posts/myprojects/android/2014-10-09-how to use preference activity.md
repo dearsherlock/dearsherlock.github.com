@@ -84,7 +84,7 @@ mypreference.xml內容如下，他會定義動態啟動class：
 	}
 
 
-[1]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/_posts/Android%E9%96%8B%E7%99%BC.eap
+[1]:	https://github.com/dearsherlock/dearsherlock.github.com/blob/master/sharedata/Android%E9%96%8B%E7%99%BC.eap
 
 [image-1]:	https://farm4.staticflickr.com/3951/15298734628_93c48c67b9_o.png
 [image-2]:	https://farm6.staticflickr.com/5606/15484886175_0db9d5fdb8_o.png

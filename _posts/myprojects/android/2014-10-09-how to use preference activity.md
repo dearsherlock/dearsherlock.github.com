@@ -7,7 +7,7 @@ title: "如何啟動客製化資料選擇畫面"
 
 ---
 
-#### 情境
+### 情境
 
 
 ![image][image-1]
@@ -33,13 +33,13 @@ websequence程式如下：
 	PrefActivity->ColorActivity:onCreate()
   
 
-#### 模型與架構
+### 模型與架構
 
 以下是EA畫的，專案檔[在此][1]
 
 ![image][image-2]
 
-#### 動態啟動選擇元件
+### 動態啟動選擇元件
 
 mypreference.xml內容如下，他會定義動態啟動class：
 

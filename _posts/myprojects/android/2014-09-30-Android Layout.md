@@ -7,10 +7,10 @@ title: "Android 版面類型"
 
 ---
 
-#### 大致種類([下圖參考自][1])
+### 大致種類([下圖參考自][1])
 ![][image-1]  
 
-#### Linear Layout
+### Linear Layout
 - 垂直排版，可以知道物件若超過版面也不會自動換列。  
 
 ![][image-2]
@@ -22,7 +22,7 @@ title: "Android 版面類型"
 透過以下來設定 android:layout\_weight="比例"
 ([下圖參考自][2]) ![][image-4]
 
-#### RelativeLayout
+### RelativeLayout
 - 可以設定物件相互之間的上下左右關係，需要指定”特定元件”的上下左右方，若沒有特別指定，則是置中，且允許元件疊在一起，只是很醜。
 
 ![][image-5]
@@ -128,7 +128,7 @@ android:text="Button06"
 
 \</RelativeLayout\>
 
-#### TableLayout
+### TableLayout
 可以設定成如下圖([下圖參考自][3])
 ![][image-6]
 有以下幾個屬性可以設定：
@@ -142,7 +142,7 @@ android:text="Button06"
 • android:collapseColumns：隱藏指定的欄位。第一個欄位是0，可以設定多個欄位，例如「1,3,5」；設定為「\*」表示所有欄位。
 
 
-#### 元件與Layout之間的關係
+### 元件與Layout之間的關係
 - 元件在容器中的位置([下圖參考自][4])
 ![][image-8]
 - 元件內部的顯示方式([下圖參考自][5])

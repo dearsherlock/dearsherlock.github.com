@@ -7,10 +7,10 @@ title: "使用最原始的Jekyll 網站"
 
 ---
 
-#### 緣由
+### 緣由
 使用Jekyll Bootstrap雖然方便，但有時候發現他的theme太少了，且顯示上不是很符合markdown該要呈現的樣式一直很困擾，且實在滿綁他的一些API，所以乾脆回復到Jekyll原始的。因為至少有一些樣板可套用。如下 [Jekyll Theme][1]
 
-#### 步驟
+### 步驟
 
 ```
  $ gem install jekyll    //從沒安裝過的可以用這方式安裝  

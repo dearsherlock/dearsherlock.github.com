@@ -9,7 +9,8 @@ title: "解決R.java檔不存在問題（Error: package R does not exist）"
 
 ### 解決R.java檔不存在問題（Error: package R does not exist）
 
-使用Android Studio剛新手可能會出現以下問題，尤其是copy別人的程式碼，更會如此！
+使用Android Studio剛新手可能會出現以下問題，尤其是copy別人的程式碼，更會如此！  
+
 ![image][image-1]
 
 解決方法就是把AndroidManifest.xml上方的package改掉，或是加上refefence/import。

@@ -10,10 +10,9 @@ covereffect: push
 
 ---
 
-### 介紹一些Android開發的文章
 
 
-#### [Android Tutorial 第一堂（3）開始設計 Android 應用程式][1]
+### [Android Tutorial 第一堂（3）開始設計 Android 應用程式][1]
 （[備份位置][2]）
 
 課程內容以下：  
@@ -22,30 +21,30 @@ covereffect: push
 - 執行專案過程(選擇模擬器)
 - AndroidManifest.xml設定檔內容說明
 
-#### [Android Tutorial 第一堂（4）開發 Android 應用程式的準備工作][3]（[備份位置][4]）
+### [Android Tutorial 第一堂（4）開發 Android 應用程式的準備工作][3]（[備份位置][4]）
 
 課程內容以下：  
 - 規劃app發展指引（草圖、互動、資源檔規劃）
 - 設計時所需資源介紹、[尺寸單位][5]
 
-#### [Android Tutorial 第二堂（1）規劃與建立應用程式需要的資源][6]([備份位置][7])
+### [Android Tutorial 第二堂（1）規劃與建立應用程式需要的資源][6]([備份位置][7])
 課程內容以下：  
 - 建立新專案，資源目錄下的各種資源類型介紹  
 - 資源檔如何設定、以及如何取用資源檔案中的內容(取用字串、背景色、尺寸、圖形資源、選單資源)  
 - 資源檔如何支援多語系
 
-#### [Android Tutorial 第二堂（2）設計應用程式使用者介面][8]
+### [Android Tutorial 第二堂（2）設計應用程式使用者介面][8]
 課程內容以下：  
 - View與[Layout的種類][9]以及擺放位置  
 - Layout xml的規範原則  
 
-#### [Android Tutorial 第二堂（3）應用程式與使用者的互動][10]
+### [Android Tutorial 第二堂（3）應用程式與使用者的互動][10]
 課程內容以下：  
 - 事件的註冊(使用xml)以及控制  
 - 用程式碼撰寫事件註冊  
 - 事件註冊與撰寫的最佳解決方案推薦  
 
-#### [Android Tutorial 第二堂（4）建立與使用 Activity 元件][11]
+### [Android Tutorial 第二堂（4）建立與使用 Activity 元件][11]
 課程內容以下：  
 - 加入新Activity的相關步驟(manifest設定、事件、theme套用)  
 - 不同Activity之間傳遞資料  
@@ -53,7 +52,7 @@ covereffect: push
     2. 子畫面送出前判斷目前畫面  
     3. 結束畫面：finish()  
 
-#### [Android Tutorial 第三堂（1）為ListView元件建立自定畫面][12]
+### [Android Tutorial 第三堂（1）為ListView元件建立自定畫面][12]
 課程內容如下，專案檔在[Android Studio 3-1專案檔案][13]：  
 - 客製化ListView選項的顯示功能(選項物件的設計、Layout要怎麼設計)  
 - 開發客製化項目後所對應Adapter物件：該物件需要繼承`extends ArrayAdapter<選項物件型態>`  
@@ -61,7 +60,7 @@ covereffect: push
 - 知道UI更新值的過程並非使用MVC。而是由UI通知Control更新，Control自行更新View。
 
 
-#### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][14]
+### [Android Tutorial 第三堂（2）儲存與讀取應用程式資訊][14]
 課程內容如下，專案檔在[Android Studio 3-2專案檔案][15]：  
 - 各種不同設定Key-Value的Preference  
  - PreferenceActivity  
@@ -75,22 +74,22 @@ covereffect: push
 
 - 介紹[PreferenceActivity的用法][16]
 
-#### Android Tutorial 第三堂（3）Android 內建的 SQLite 資料庫
+### Android Tutorial 第三堂（3）Android 內建的 SQLite 資料庫
 課程內容大致如下，專案檔在[Android Studio 3-3專案檔案][17]：
 - 建立/Drop表格的Helper寫法（繼承自SQLiteOpenHelper）。
 - Cursor的操作。
 - 如何用DAO查詢、刪除、修改、新增資料表資料。（以類似prepared statement撰寫）
 - 如何使用Adapter把查詢回來的資料塞回畫面上。（繼承自ArrayAdapter\<Item\>，實作GetView方法）
 
-#### 訓練所Android基礎課程（簡報與範例資料）
+### 訓練所Android基礎課程（簡報與範例資料）
 - https://sites.google.com/site/ronforwork/Home/android-2
 
-#### 訓練所Android基礎課程 (錄影)
+### 訓練所Android基礎課程 (錄影)
 - http://www.youtube.com/user/ronforwork/videos?view=1
 
 
 
-#### 其他資源
+### 其他資源
 
 - [圖示資源，但請注意授權][18]
 - [配色導引（官方網站）][19]

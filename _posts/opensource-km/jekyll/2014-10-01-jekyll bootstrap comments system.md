@@ -7,14 +7,13 @@ title: "於Jekyll Bootstrap申請Blog的留言回應"
 
 ---
 
-### 申請Blog的留言回應
 
-#### 緣由
+### 緣由
 有時候若有需要答覆讀者來信，當然是在文章下面有個問答區會比較方便。
 而facebook就有有這樣的API開放。
 外面其實也有一些討論的服務可以提供，如disqus、livefyre、intensedebate，但是會有廣告出現很礙眼。
 
-#### 解決方案
+### 解決方案
 因為是要在Jekyll bootstrap的blog樣板引擎中導入，所以不免也是要看一下它如何使用fb來做留言板，
 請參見[如何啟用Jekyll 的留言][1]。
 
@@ -56,7 +55,7 @@ title: "於Jekyll Bootstrap申請Blog的留言回應"
 ![][image-5] 
 
 
-#### 參考連結：
+### 參考連結：
 - [Facebook留言管理][5]
 
 [1]:	http://jekyllbootstrap.com/usage/blog-configuration.html#toc_3

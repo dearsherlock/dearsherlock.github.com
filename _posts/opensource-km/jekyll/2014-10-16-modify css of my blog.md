@@ -79,3 +79,22 @@ p.with-image {
 調整後如下圖：   
 
 ![image](https://farm4.staticflickr.com/3943/15524089696_a2a94976fb_o.png)
+
+###調整H3等級的字型顏色
+
+橘色還不錯用，拿來try看看 `color: #F16522;` 
+找到foundation.min.css，搜尋`h3{font-size:1.375rem}` 改成 `h3{font-size:1.375rem;color:#F16522}`，但要注意可能在以下區塊有被設定共用顏色，拿掉h3等級即可。
+```
+h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;font-weight:normal;font-style:normal;color:#222;text-rendering:optimizeLegibility;margin-top:0.2rem;margin-bottom:0.5rem;line-height:1.4}
+
+```
+
+###設定favicon
+有兩個圖片需要修改，都在根目錄下。favicon.ico、favicon.png
+可以使用[favicon產生器](http://www.favikon.com/)，產生器使用方法。  
+
+![image](https://farm6.staticflickr.com/5609/15545257221_b7f411039e_o.png)
+
+修改之後如下圖，png影響的是瀏覽器上的圖片，ico應該是我的最愛或書籤。  
+
+![image](https://farm4.staticflickr.com/3932/14927774423_e418ba2b56_o.png)

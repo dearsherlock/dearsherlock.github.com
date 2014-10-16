@@ -84,9 +84,9 @@ p.with-image {
 
 橘色還不錯用，拿來try看看 `color: #F16522;` 
 找到foundation.min.css，搜尋`h3{font-size:1.375rem}` 改成 `h3{font-size:1.375rem;color:#F16522}`，但要注意可能在以下區塊有被設定共用顏色，拿掉h3等級即可。
+
 ```
 h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;font-weight:normal;font-style:normal;color:#222;text-rendering:optimizeLegibility;margin-top:0.2rem;margin-bottom:0.5rem;line-height:1.4}
-
 ```
 
 ###設定favicon
@@ -98,3 +98,38 @@ h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-
 修改之後如下圖，png影響的是瀏覽器上的圖片，ico應該是我的最愛或書籤。  
 
 ![image](https://farm4.staticflickr.com/3932/14927774423_e418ba2b56_o.png)
+
+### 設定文章標題的置中排版
+
+原本的版面如下圖：  
+
+![image](https://farm6.staticflickr.com/5597/14929600713_9b5fc03239_o.png)
+
+找到 `post.css` 中下面這段：
+```
+.notepad-post-title-simple h1 {
+    color: #000;
+    font-weight: 800;
+    font-size: 3.125rem;
+    padding: 0;
+    padding-top: 5rem;
+    padding4-bottom: 4.375rem;
+    margin: 0 auto;
+    line-height: 1.1;
+    text-align: center;
+```
+修改為left。
+
+另外再修改另外一種情境下的h1 css，也是在post.css。不過這時有點訣竅了，因為css會有分層，或是or/and要怎麼描述，請[參見這裡看一下css的分層設定](http://www.w3schools.com/cssref/css_selectors.asp)
+
+```
+ .post-template .notepad-post-title h1 {
+      color: #000;
+      font-weight: 800;
+      font-size: 2.1875rem;
+      margin: 0 auto;
+      line-height: 1.1;
+      text-align: left;  //加上這句
+```
+
+

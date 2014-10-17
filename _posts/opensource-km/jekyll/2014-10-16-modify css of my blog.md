@@ -44,32 +44,17 @@ title: "修飾一下網站css"
 ### 調整圖文排版
 預設的版面文字和圖片的最大寬度不一樣，圖片的最大寬度為56.25rem，如下post.css中：
 
-```
-p.with-image {
-        text-align: center;
-        padding-top: 3.125rem;
-        padding-bottom: 3.125rem;
-        max-width: 56.25rem; }
-```
+{%gist dearsherlock/65546ab95ebe33d55f25%}
+
 
 文字區塊則只有43.75rem，請參見post.css中  
 
-```
-.post-template .notepad-post-content > div:not(.notepad-post-title) h1, .post-template .notepad-post-content > div:not(.notepad-post-title) h2, .post-template .notepad-post-content > div:not(.notepad-post-title) h3, .post-template .notepad-post-content > div:not(.notepad-post-title) h4, .post-template .notepad-post-content > div:not(.notepad-post-title) h5, .post-template .notepad-post-content > div:not(.notepad-post-title) h6, .post-template .notepad-post-content > div:not(.notepad-post-title) ul, .post-template .notepad-post-content > div:not(.notepad-post-title) ol, .post-template .notepad-post-content > div:not(.notepad-post-title) blockquote, .post-template .notepad-post-content > div:not(.notepad-post-title) pre, .post-template .notepad-post-content > div:not(.notepad-post-title) hr {
-      max-width: 43.75rem;
-      margin-left: auto;
-      margin-right: auto;
-      -webkit-font-smoothing: antialiased; }
-```
+{%gist dearsherlock/8c27fc341122d634078c%}
 
 內文部分也是在post.css，如下：  
-```
-.post-template .notepad-post-content > div:not(.notepad-post-title) p {
-      margin: 0 auto;
-      padding-bottom: 2em;
-      max-width: 43.75rem;
-      font-size: 1.125rem; }
-```
+
+{%gist dearsherlock/3ff22149b969f65a30a6%}
+
 
 將其改成跟圖片一樣，都是同一個垂直位置開始(`max-widthL56.25rem`)，這樣就節省空間多了。
 調整前如下圖：  
@@ -85,9 +70,7 @@ p.with-image {
 橘色還不錯用，拿來try看看 `color: #F16522;` 
 找到foundation.min.css，搜尋`h3{font-size:1.375rem}` 改成 `h3{font-size:1.375rem;color:#F16522}`，但要注意可能在以下區塊有被設定共用顏色，拿掉h3等級即可。
 
-```
-h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;font-weight:normal;font-style:normal;color:#222;text-rendering:optimizeLegibility;margin-top:0.2rem;margin-bottom:0.5rem;line-height:1.4}
-```
+{%gist dearsherlock/8dd15922bbb2850daf62%}
 
 ###設定favicon
 有兩個圖片需要修改，都在根目錄下。favicon.ico、favicon.png
@@ -106,30 +89,31 @@ h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue","Helvetica",Helvetica,Arial,sans-
 ![image](https://farm6.staticflickr.com/5597/14929600713_9b5fc03239_o.png)
 
 找到 `post.css` 中下面這段：
-```
-.notepad-post-title-simple h1 {
-    color: #000;
-    font-weight: 800;
-    font-size: 3.125rem;
-    padding: 0;
-    padding-top: 5rem;
-    padding4-bottom: 4.375rem;
-    margin: 0 auto;
-    line-height: 1.1;
-    text-align: center;
-```
-修改為left。
+{%gist dearsherlock/301544c12487e068abeb%}  
+
+修改為text-left:left。
 
 另外再修改另外一種情境下的h1 css，也是在post.css。不過這時有點訣竅了，因為css會有分層，或是or/and要怎麼描述，請[參見這裡看一下css的分層設定](http://www.w3schools.com/cssref/css_selectors.asp)
 
-```
- .post-template .notepad-post-title h1 {
-      color: #000;
-      font-weight: 800;
-      font-size: 2.1875rem;
-      margin: 0 auto;
-      line-height: 1.1;
-      text-align: left;  //加上這句
-```
+{%gist dearsherlock/237507cd8eb23b931105%}
 
 
+###程式碼區塊
+
+可以使用Gist。這是Github提供的程式碼區塊服務，可以產生一塊程式碼，讓你可以貼在任何地方。(只要支援gist就好。)
+你必須要先到[這裡新增或管理](https://gist.github.com/)你的gist程式碼，可以指定程式碼語言，撰寫程式碼會依據你選的語言會有不同的code complete。
+寫完後會產生一個gistcode，然後可以貼到markdown文件上，讓jekyll執行產生。
+如下圖寫好的gist code，請複製他的網址，從使用者開始。  
+
+![image](https://farm6.staticflickr.com/5609/15554972272_aaaa4fc48f_o.png)
+
+然後在markdown文件中貼上
+{%gist dearsherlock/9f2bb1b6b41c1a7209e9%}
+
+就可以看見類似本篇文章中程式碼區塊的樣子囉！
+
+接下來執行的時候會靠左對齊，且範圍區塊很大。這因為本身並沒有設定有關於gist的css。可以在post.css中新增如下：
+
+{%gist dearsherlock/cb765f424365b09b1516%}
+
+修改好就會看到如上的樣子囉！

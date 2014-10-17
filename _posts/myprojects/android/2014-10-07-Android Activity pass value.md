@@ -16,15 +16,7 @@ title: "Android Activity之UI傳值"
 
 以下是[websequence](https://www.websequencediagrams.com/)程式
 
-```  
-title Activity UI Update  
-note over MainActivity extends Activity: startActivityForResult()之後，\n關閉子Activity更新內容update t
-note over MainActivity extends Activity: override onActivityResult(...)
-MainActivity extends Activity ->ItemAdapter extends ArrayAdapter<Item>: itemAdapter.notifyDataSetChanged()
-note over ItemAdapter extends ArrayAdapter<Item>:override getView(int position, View convertView, ViewGroup parent)
-"ItemAdapter extends ArrayAdapter<Item>" -> "ItemAdapter extends ArrayAdapter<Item>": 用position取出資料
-"ItemAdapter extends ArrayAdapter<Item>" -> "ItemAdapter extends ArrayAdapter<Item>": 用convertView來取出UI
-"ItemAdapter extends ArrayAdapter<Item>" -> "ItemAdapter extends ArrayAdapter<Item>": 對UI塞值
-```  
+{%gist dearsherlock/72954c4bfa75129dcf22 %}
+
 
 

@@ -1,4 +1,11 @@
----layout: postcategory : life tagline: "Flickr Favorites"tags : [life,photos share,flickr] title: "(Update)Share My Photos"---### Share My Flickr Favorites  
+---
+layout: postcategory : life 
+tagline: "Flickr Favorites"
+tags : [life,photos share,flickr] 
+title: "(2014-10-30Update)Share My Photos"
+
+---
+### Share My Flickr Favorites  
 
 1. [link](https://www.flickr.com/photos/hkvam/15330623771/in/photostream/)
 ![image](http://c1.staticflickr.com/3/2944/15330623771_e3999ac842_k.jpg)2. [link](https://www.flickr.com/photos/hkvam/15234742202/in/photostream/)

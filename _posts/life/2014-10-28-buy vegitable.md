@@ -98,9 +98,44 @@ title: "轉載：16種常見蔬菜的挑選竅門"
 選購捲心菜的共同標準是：葉球要堅硬緊實，鬆散的表示包心不緊，不要買(尖頂捲心菜吃的是時鮮，松點也無妨)。葉球堅實，但頂部隆起，表示球內開始挑薹，中心柱過高，食用風味變差，也不要買。
  
 16.豆芽   
+[link](https://farm8.staticflickr.com/7547/15469530877_2131317974_o.jpg)
 
 ![image](https://farm8.staticflickr.com/7547/15469530877_2131317974_o.jpg) 
 
 如何識別「化學豆芽」？選豆芽時，要先抓一把聞聞有沒有氨味，再看看有沒有鬚根，如果發現有氨味和無鬚根的，就不要購買和食用。
 
+
+
 轉載自：http://www.life.com.tw/?app=view&no=185235
+
+
+
+### Share My Flickr Favorites  
+1. [link][1]
+![image][image-1]
+2. [link][2]
+![image][image-2]
+3. [link][3]  
+![image][image-3]  
+4. [link][4]  
+![image][image-4]  
+5. [link][5]  
+![image][image-5]  
+6. [link][6]  
+![image][image-6]  
+7. [link][7]  
+![image][image-7]  
+8. [link][8]  
+![image][image-8]  
+9. [link][9]  
+![image][image-9]  
+10. [link][10]  
+![image][image-10]  
+11. [link][11]  
+![image][image-11]  
+12. [link][12]  
+![image][image-12]  
+13. [link][13]  
+![image][image-13]  
+14. [link][14]  
+![image][image-14]  

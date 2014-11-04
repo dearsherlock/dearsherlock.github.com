@@ -33,6 +33,10 @@ https://confluence.atlassian.com/display/BITBUCKET/Publishing+a+Website+on+Bitbu
 
 2.請到command line模式下，我是參考[以下網址](http://m00nlight.bitbucket.org/miscellaneous/2014/01/03/building-a-blog-using-jekyll-on-bitbucket.html)介紹。
 
+執行指令：
+{%gist dearsherlock/94907535542b028e3ad2%}
+
+執行結果：
 {%gist dearsherlock/2ae83574d39e7ff2177c%}
 
 

@@ -30,17 +30,29 @@ Xamarin舊版不支援在Visual studio設計iOS UI，需要先在Xcode上拉UI�
 AOT為Apple的編譯規定，需要事先編譯，如此將不支援動態Reflection的功能以及namespace，取得動態欄位等功能。
 JIT為Java、C#、ASP之類的語言所使用，程式用到哪裡就編譯哪些然後再執行。
 
-## 參考資料
+### 參考資料
 - [https://www.youtube.com/watch?v=ELuFTTn1gS4][1]
 - [ios app在開發後需要xcode來編譯 ][2] 
 - [微軟提供給Xamarin的Azure服務元件][3]
 - [如何共用一個呼叫webservice的函式庫(ios/winphone/android)][4]
 - [進階APP開發][5]
 
-## 安裝Xamarin後的新功能介紹
+### 安裝Xamarin後的新功能介紹
 - [http://developer.xamarin.com/releases/android/xamarin.android\_4/xamarin.android\_4.16/#Xamarin.Android\_4.16.0][6]
 - [http://developer.xamarin.com/releases/ios/xamarin.ios\_7/xamarin.ios\_7.4/#0][7]
 - [http://developer.xamarin.com/releases/ios/xamarin.ios\_8/xamarin.ios\_8.0/#0][8]
+
+### 各種版本比較
+![image](https://farm4.staticflickr.com/3943/15514574718_e0a976b74a_o.png)
+
+###實際案例
+![image](https://farm4.staticflickr.com/3946/15515253750_a9a1c43d44_o.png)
+
+![image](https://farm4.staticflickr.com/3943/15701662442_b653d91f8b_o.png)
+
+![image](https://farm8.staticflickr.com/7523/15698172071_757a27bc92_o.png)
+
+![image](https://farm4.staticflickr.com/3949/15514210219_f10416b222_o.png)
 
 [1]:	https://www.youtube.com/watch?v=ELuFTTn1gS4
 [2]:	https://www.youtube.com/watch?v=ELuFTTn1gS4#t=2920

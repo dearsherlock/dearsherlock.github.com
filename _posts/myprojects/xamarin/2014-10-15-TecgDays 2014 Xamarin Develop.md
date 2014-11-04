@@ -60,6 +60,10 @@ title: "『筆記』跨平台原生 App 開發實戰 使用 Visual Studio + Xama
 9.SignalR如此就可以完成簡單即時通訊  
 ![][image-5]  
 
+### Xamarin開發示範
+
+http://flashcast.azurewebsites.net/stream/episode/35
+
 
 [1]:	http://www.microsoftvirtualacademy.com/training-courses/techdays-taiwan-2014-breakout-sessions-dev
 

@@ -13,3 +13,5 @@ title: "Android QRCode產生和掃描範例"
 
 https://github.com/dearsherlock/QRCodeScanTutorial
 
+### 解決網路資源問題
+{%gist dearsherlock/0e9b1ebd50dc6017877e%}

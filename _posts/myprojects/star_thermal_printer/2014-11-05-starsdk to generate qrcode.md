@@ -109,3 +109,10 @@ TSP650II Emulation 調整方法,是在機器底殼有一個約 2*4 cm的小鐵�
       
 以下連結為[Visual Studio c#的程式](https://drive.google.com/file/d/0B62x5TTVLcQ0VW5wSXAtbkRaQU0/view?usp=sharing)(ESC/POS 指令集，可印製一行兩個QRCode，解壓縮密碼:d12345)  
 [C#程式文件讀我檔](https://drive.google.com/file/d/0B62x5TTVLcQ0T2U3OXdjaXRUZzA/view?usp=sharing)
+
+
+### 可正常列印一行兩個QRCode的程式碼
+{%gist dearsherlock/050150e71cbcf4b761ff%}
+如下印製成果。主要重點是如何進入page mode，以及結束page mode後要重新initial 一次。
+
+![image](https://farm8.staticflickr.com/7519/15134388923_94a8d0dc16_o.jpg)

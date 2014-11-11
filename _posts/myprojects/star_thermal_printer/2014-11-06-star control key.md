@@ -112,3 +112,16 @@ barCodeData
 換算位置如下圖，工具[如下網址](
 )
 ![image](https://farm8.staticflickr.com/7501/15110033824_bc73f95d3d_o.png)
+
+
+###Star POS Printer v.s. Mobile Print
+兩者確實指令集不同。
+StarLine模式下就已經兩種不同了...@@
+Star POS Printer Command
+Star Mobile Print Command
+
+###比對Star SM-S220和TSP650II的StarLine指令集差別
+
+[POS Printer](https://drive.google.com/file/d/0B62x5TTVLcQ0NkxHaDVFbTItV1U/view?usp=sharing)  
+[Mobile 指令集](https://drive.google.com/file/d/0B62x5TTVLcQ0SFFXaTFpS0Z4SkE/view?usp=sharing)
+

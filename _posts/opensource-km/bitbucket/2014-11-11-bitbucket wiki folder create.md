@@ -15,7 +15,7 @@ title: "Bitbucket Wiki目錄建立"
 
 而測試檢視該網頁，中文也正常。
 
-![image](https://farm8.staticflickr.com/7564/15763511265_bc3976eb62_o.png)
+![image](https://farm8.staticflickr.com/7576/15578368087_e704e251ac_o.png)
 
 而本地目錄結構如下
 

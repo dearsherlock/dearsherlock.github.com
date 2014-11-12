@@ -34,6 +34,8 @@ Open Graph是Facebook或是比較新的網站所支援的標籤，可以讓你�
 可以在_config.yml中設定為zh_Hant_TW，用意是不大知道＠＠
 
 ### og:url
-可以取得永久位置，
-<meta property="og:url" content="/project/company_culture_reporting">
+可以取得永久位置，而open graph對於url檢查十分嚴格，需要在_config.yml中設定site.url，這樣產生的meta才會是對的
+。  
+如下範例：  
+{%gist dearsherlock/e98cbcfb2e709b62dd61%}
 

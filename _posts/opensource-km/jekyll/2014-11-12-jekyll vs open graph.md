@@ -4,7 +4,7 @@ category : Jekyll
 tagline: "Open Graph tags"
 tags : [Open Graph,Jekyll]
 title: Jekyll的Open Graph設定
-imagefeature: https://farm4.staticflickr.com/3930/15475792571_4e82311fc0_o.jpg
+imagefeature: http://img01.36krcnd.com/thumbs/w_720/h_480/wp-content/uploads/2012/01/fb-Open-Graph.png
 
 ---
 
@@ -39,3 +39,15 @@ Open Graph是Facebook或是比較新的網站所支援的標籤，可以讓你�
 如下範例：  
 {%gist dearsherlock/e98cbcfb2e709b62dd61%}
 
+設定到這邊，得到了以下![image](https://farm6.staticflickr.com/5609/15772255922_107692a6f4_o.png)
+
+還需要在把title加上去。
+
+### og:title
+如下的open_graph.html中所述，title會依照你的md檔上面的title進行產生，若沒有則會用網站的title。
+
+{%gist dearsherlock/c836e4fd7107b8082a9a%}
+
+設定好之後就會如下產生正確的open graph
+
+![image](https://farm6.staticflickr.com/5603/15585049459_25cafae2d0_o.png)

@@ -28,3 +28,5 @@ Open Graph是Facebook或是比較新的網站所支援的標籤，可以讓你�
 ### og:type
 
 可以由以上連結的網頁中得知，可以分為article或是website。
+
+### og:locale

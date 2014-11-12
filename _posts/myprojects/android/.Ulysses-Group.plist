@@ -36,6 +36,18 @@
 		<array>
 			<string>2014-10-14-trouble shotting(Fix diamond operator is not supported).md</string>
 		</array>
+		<array>
+			<string>2014-11-03-fix android studio camera error.md</string>
+		</array>
+		<array>
+			<string>2014-11-03-fix gradle error.md</string>
+		</array>
+		<array>
+			<string>2014-11-04-android qrcode project.md</string>
+		</array>
+		<array>
+			<string>2014-11-11-android component.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

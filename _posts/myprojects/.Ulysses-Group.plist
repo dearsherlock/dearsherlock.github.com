@@ -9,6 +9,8 @@
 		<string>android</string>
 		<string>dropbox</string>
 		<string>googlechrome</string>
+		<string>companyculture</string>
+		<string>star_thermal_printer</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

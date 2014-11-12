@@ -2,16 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>childOrder</key>
-	<array>
-		<string>jekyll</string>
-		<string>mdtool</string>
-		<string>balsamiq</string>
-		<string>bitbucket</string>
-		<string>office</string>
-		<string>qrcode</string>
-	</array>
 	<key>createMarkedFile</key>
 	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2014-11-03-add new pluging.md</string>
+		</array>
+	</array>
 </dict>
 </plist>

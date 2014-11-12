@@ -2,7 +2,7 @@
 layout: post
 category : mac 
 tagline: "Jekyll Mac環境設定"
-tags : [Jekyll於Mac環境設定]
+tags : [Jekyll於Mac環境設定,Ruby,gem]
 title: "Jekyll-走入O.S.世界的第一站"
 
 ---

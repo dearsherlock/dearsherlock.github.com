@@ -30,3 +30,10 @@ Open Graph是Facebook或是比較新的網站所支援的標籤，可以讓你�
 可以由以上連結的網頁中得知，可以分為article或是website。
 
 ### og:locale
+
+可以在_config.yml中設定為zh_Hant_TW，用意是不大知道＠＠
+
+### og:url
+可以取得永久位置，
+<meta property="og:url" content="/project/company_culture_reporting">
+

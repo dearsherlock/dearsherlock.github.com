@@ -2,7 +2,7 @@
 layout: post
 category : Project 
 tagline: “小公司文化"
-tags : [Project,Note]
+tags : [Project ,Company Culture,Note]
 title: "虛耗的內部權責分工"
 
 ---

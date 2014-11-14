@@ -2,7 +2,7 @@
 layout: post
 category : Project 
 tagline: "小公司文化"
-imagefeature: https://farm8.staticflickr.com/7478/15599204329\_6968f3c759\_o.jpg
+imagefeature: https://farm8.staticflickr.com/7478/15599204329_6968f3c759_o.jpg
 tags : [Project,Company Culture,product,Note]
 title: "我們的產品很豐富"
 

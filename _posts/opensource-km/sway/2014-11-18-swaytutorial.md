@@ -17,7 +17,13 @@ title: "Sway初體驗"
 
 ![image](https://farm8.staticflickr.com/7528/15197275513_68b0faa018_o.png)
 
-一進去是十分的簡潔，就是新增和匯入(匯入圖片，然後自動產生簡報)，以及已經編輯好的Sway檔案。他會自動上傳到onenote去備份，這倒是方便之一。
+一進去是十分的簡潔，就是新增和匯入(匯入Word或PPT檔案，然後自動產生簡報，[請見這裡介紹](https://support.office.com/en-us/article/Getting-Started-with-Sway-2076c468-63f4-4a89-ae5f-424796714a8a))，以及旁邊會有一些已經編輯好的Sway檔案。
+
+當然你不要太期待匯入的簡報會有多好，還是要自己編排一下，只是減少你copy文字的時間。
+
+例如我匯入PPT的範例。[https://sway.com/seTWGvxNFlKfkvED](https://sway.com/seTWGvxNFlKfkvED)
+
+另外他的內容，我在onedrive只有看到圖片，沒有看到這些編排的資訊，可能是另外放在Sway的Server資料結構上。
 
 若已經編輯存在的Sway可以看到如下圖
 
@@ -41,10 +47,20 @@ title: "Sway初體驗"
 
 左側條就沒有啥對應功能了～
 
-#### 上方的Style功能
+#### 上方的自定風格功能
 ![image](https://farm8.staticflickr.com/7573/15814912231_30882559fc_o.png)
 
 點選Mood，可以看到有Structure、Style、配色可以選取，若你懶得動腦筋，那就按下Remix，讓他自動配囉！
+
+點選Structure，可以看到其實只有兩種，以後還會再增加
+![image](https://farm6.staticflickr.com/5611/15817530105_27a69b7e37_o.png)
+
+點選Style，可以看到已經有一些可以選擇，以後也許支援客製化
+![image](https://farm8.staticflickr.com/7505/15819092212_2bac6eb3ab_o.png)
+
+點選Color，可以依照簡報內容的色系進行文字的配色，或是你自己選擇，看來這功能做的也差不多了
+![image](https://farm8.staticflickr.com/7520/15815653791_e62476fdc8_o.png)
+
 
 ####新增Layout功能
 現在也只有Header、Group、Stack可以選，其他都是Coming Soon...不能選取。
@@ -96,8 +112,16 @@ title: "Sway初體驗"
 
 ![image](https://farm6.staticflickr.com/5606/15793729006_818eef21bc_o.png)
 
+####Section的概念
+
+初步測試了一下，一個Sway基本上你可以看成是一個簡報，每個簡報會有多個Section，就這樣了。例如以下：
+
+![image](https://farm9.staticflickr.com/8667/15632147228_87a04b4b5f_o.png)
+
+以下是[我的範例網址](https://sway.com/tnYQO1pu_eK85-Kb)，可以參考。
+
 ###優缺點
 
 優點：
-1.整合OneNote，全雲端化編輯。聽說以後會出APP  
+1.整合OneNote，會把圖片都放在Onenote上當圖床，全雲端化編輯。聽說以後會出APP  
 2.是比較流行的回饋式HTML，可以依據使用者裝置或是瀏覽器的大小進行修飾顯示。

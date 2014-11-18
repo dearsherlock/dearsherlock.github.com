@@ -2,6 +2,7 @@
 layout: post
 category : Sway 
 tagline: "新的KM/簡報工具"
+imagefeature: https://farm8.staticflickr.com/7466/15819137212_eeaa8dc229_o.png
 tags : [Sway,microsoft,km,present]
 title: "Sway初體驗"
 

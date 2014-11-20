@@ -15,11 +15,12 @@ title: "自定你的Chrome應用程式(加上啟動參數)"
 
 1.先開啟Automator，新增『應用程式』  
 2.點選執行Shell指令。  
-3.修改Shell內容  
+3.修改Shell內容，貼上
+{%gist dearsherlock/147129e512c070ade64b%}
 
 結果如下： 
  
-![image](https://farm8.staticflickr.com/7573/15832324442_84473e2391_o.png)
+![image](https://farm8.staticflickr.com/7495/15646040410_cc49e45739_o.png)
 
 4.儲存在任何地方都可以  
 5.接下來要修改icon，不然預設是automator的icon。   
@@ -33,3 +34,6 @@ title: "自定你的Chrome應用程式(加上啟動參數)"
 10.你的程式就會建立了。  
 
 ![image](https://farm8.staticflickr.com/7571/15832350922_d709721af3_o.png)
+
+11.啟動後，是正常的就完工！  
+![image](https://farm9.staticflickr.com/8654/15210903944_da883cf910_o.png)

@@ -31,4 +31,4 @@ title: "React.JS環境安裝"
 
 網路上是說加上後面的參數就好。
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --disable-web-security
-參考連結：[如何在chrome加上參數](customerize%20your%20app%20in%20mac)
+參考連結：[如何在chrome加上參數](../mac/customerize%20your%20app%20in%20mac)

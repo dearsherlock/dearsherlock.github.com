@@ -36,4 +36,5 @@ title: "自定你的Chrome應用程式(加上啟動參數)"
 ![image](https://farm8.staticflickr.com/7571/15832350922_d709721af3_o.png)
 
 11.啟動後，是正常的就完工！  
+![image](https://farm6.staticflickr.com/5610/15211131204_fd931c61bc_o.png)
 ![image](https://farm9.staticflickr.com/8654/15210903944_da883cf910_o.png)

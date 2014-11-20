@@ -8,10 +8,10 @@ title: "React.JS環境安裝"
 ---
 ###安裝Server
 
-安裝套件
-sudo npm install -g react-tools 
-執行邊測邊改
-jsx --watch src/ build/  
+安裝套件  
+`sudo npm install -g react-tools `  
+執行邊測邊改  
+`jsx --watch src/ build/`  
 
 ###範例結構
 
@@ -22,7 +22,7 @@ jsx --watch src/ build/
 
 2.若是要拆開成兩個檔案，也是支援的！
 
-
+3.執行`jsx --watch src/ build/` 可以即時修改。
 
 
 ###CHROME異常
@@ -31,3 +31,4 @@ jsx --watch src/ build/
 
 網路上是說加上後面的參數就好。
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-file-access-from-files --disable-web-security
+參考連結：[如何在chrome加上參數](customerize%20your%20app%20in%20mac)

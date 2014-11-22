@@ -66,4 +66,4 @@ title: "日本沖繩自助行（自定行程規劃）"
 ![image](https://farm9.staticflickr.com/8632/15664499969_fd48010c9e_o.png)
 
 路線二
-![image](https://farm8.staticflickr.com/7496/15230908963_5b61d4a74b_o.pngˋ)
+![image](https://farm8.staticflickr.com/7496/15230908963_5b61d4a74b_o.png)

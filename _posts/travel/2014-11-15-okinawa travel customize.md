@@ -32,6 +32,8 @@ title: "日本沖繩自助行（自定行程規劃）"
 放大美國村景點地圖
 ![image](https://farm8.staticflickr.com/7576/15189008374_2a905449b0_o.png)
 
+美國村官方地圖
+![image](https://farm8.staticflickr.com/7536/15664702569_7c86927dc3_o.jpg)
 
 ####第二天行程
 原始地圖  
@@ -39,6 +41,10 @@ title: "日本沖繩自助行（自定行程規劃）"
 
 路線圖
 ![image](https://farm8.staticflickr.com/7561/15661980647_dee8e85350_o.png)
+
+
+####第一天～第二天的路線規劃(google map)
+https://mapsengine.google.com/map/edit?hl=zh-TW&authuser=0&mid=zVGIbPsx-CPI.kQ41qqH4OAxE
 
 ####第三天行程
 去程路線圖

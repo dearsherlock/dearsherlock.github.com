@@ -1,3 +1,12 @@
+---
+layout: post
+category : POS 
+tagline: "POS Function Testing"
+tags : [pos]
+title: "客訂作業流程測試"
+
+---
+
 ###客訂作業流程
 
 1.先到後台建立訂單

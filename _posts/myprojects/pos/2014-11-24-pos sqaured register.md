@@ -10,7 +10,8 @@ title: "測試Squared Register功能"
 ###Square Register功能測試
 ###感想
 ![image](https://farm8.staticflickr.com/7512/15866583075_6da871e1e2_o.png)
-就是簡潔，簡易，雖然沒有支援很複雜的優惠折扣方案，但是也提供了相當的彈性(Data Model、API架構)，也許可以藉由API的介接做到複雜的計算。前端銷售可以由iPhone、Android Pad來銷售;畫面相當的簡潔（前端沒有報表，但是可以處理已經夠用的購買交易、退貨功能。）折扣、退貨的方式需要充分的測試才知道是否有缺陷。但若想要半小時內開店，這些功能是足夠了。外部支援的硬體也已經有對應方案，我們在這塊也可以透過支援清單或許找到一些較為便宜的方案。
+就是簡潔，簡易，雖然沒有支援很複雜的優惠折扣方案，但是也提供了相當的彈性(Data Model、API架構)，也許可以藉由API的介接做到複雜的計算。前端銷售可以由iPhone、Android Pad來銷售;畫面相當的簡潔（前端沒有報表，但是可以處理已經夠用的購買交易、退貨功能。）折扣、退貨的方式需要充分的測試才知道是否有缺陷;交易過程中的回退(敲錯金額或品項)似乎有點不足(硬著頭皮敲完？)
+但若想要半小時內開店，這些功能是足夠了。外部支援的硬體也已經有對應方案，我們在這塊也可以透過支援清單或許找到一些較為便宜的方案。
 
 
 ###後台功能(庫存管理、商品管理類)
@@ -115,3 +116,13 @@ title: "測試Squared Register功能"
 ![image](https://farm8.staticflickr.com/7514/15679165828_e75998d3a0_o.png)
 
 [硬體支援方案](https://squareup.com/help/us/en/article/5084-supported-hardware)
+
+
+###app畫面
+![image](https://farm8.staticflickr.com/7533/15680803909_2e747f7bdd_o.png)
+
+![image](https://farm8.staticflickr.com/7505/15866178052_1b95bed893_o.png)
+
+![image](https://farm8.staticflickr.com/7489/15679475370_13e935b883_o.png)
+
+![image](https://farm8.staticflickr.com/7550/15247175363_fcedfd4d02_o.png)

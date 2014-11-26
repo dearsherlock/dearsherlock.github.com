@@ -73,24 +73,28 @@ title: "測試Squared Register功能"
 6.打出去的折扣
 ![image](https://farm9.staticflickr.com/8633/15246837673_b002a89151_o.png)
 
-7.加價配料
+7.加價配料  
 ![image](https://farm9.staticflickr.com/8627/15678901928_bf3d421e21_o.png)
 
-8.稅歸納分析
+8.稅歸納分析  
 ![image](https://farm8.staticflickr.com/7537/15679084920_ba35b59707_o.png)
 
 
 ###客戶關係維護
+
 具有雙向互動機會，並可以藉由客戶留下電子信箱收取收據而得到客戶溝通的機會。
 (客戶需回覆才會有關係關連的價值)
 
 ####電子收據與客戶意見回饋
+
 ![image](https://farm9.staticflickr.com/8561/15680076199_cae3f1826d_o.png)
 
 ####客戶意見回饋
+
 ![image](https://farm8.staticflickr.com/7477/15680311277_82f0d41e39_o.png)
 
-####店家回覆客戶意見
+####店家回覆客戶意見  
+
 ![image](https://farm8.staticflickr.com/7549/15680329187_4fc0e66b6f_o.png)
 
 ####客戶收到店家回覆意見

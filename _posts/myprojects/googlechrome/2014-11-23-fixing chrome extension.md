@@ -1,3 +1,11 @@
+---
+layout: post
+category : Chrome 
+tagline: "外掛開發"
+tags : [Chrome extension,develop]
+title: "Chrome外掛修改"
+
+---
 
 ### 修改chrome外掛
 

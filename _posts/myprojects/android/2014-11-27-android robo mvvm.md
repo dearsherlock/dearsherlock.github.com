@@ -1,3 +1,11 @@
+---
+layout: post
+category : Android 
+tagline: "Design Pattern"
+tags : [Android,MVVM,Presentation Model,Design Pattern]
+title: "Android之RoboMVVM"
+
+---
 
 ##RoboMVVM
 ###Presentation Model

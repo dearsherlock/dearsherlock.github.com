@@ -7,8 +7,9 @@ title: "Android之RoboMVVM"
 
 ---
 
-##RoboMVVM
-###Presentation Model
+##RoboMVVM  
+###Presentation Model  
+
 1.View依賴於Presentation Model，Presentation沒有依賴於View。提供介面供綁定，具體解釋成什麼介面是在Binding的時候。
 
 2.屬性綁定就是介面的狀態，
@@ -26,8 +27,10 @@ title: "Android之RoboMVVM"
 ###View的Command綁訂
 View上面的命令還是一樣的寫法
 {%gist dearsherlock/a632d50c626fe16836eb%}
+
 但是因為有指定Presentation Model，所以會被PresentationModel上來執行
 如下
+
 {%gist dearsherlock/4efc0dbbe35fd67d8360%}
 
 而View上面有一些方法，是回應Presentation model處理主要邏輯(更新或刪除)

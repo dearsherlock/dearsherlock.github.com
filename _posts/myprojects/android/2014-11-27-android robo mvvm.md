@@ -8,7 +8,8 @@ title: "Android之RoboMVVM"
 ---
 
 ##RoboMVVM  
-###Presentation Model  
+
+### Presentation Model  
 
 1.View依賴於Presentation Model，Presentation沒有依賴於View。提供介面供綁定，具體解釋成什麼介面是在Binding的時候。
 
@@ -24,7 +25,7 @@ title: "Android之RoboMVVM"
 下面是更新、刪除情境，presentation model與view、control之間的關係
 ![image](https://farm8.staticflickr.com/7580/15708870340_1cd69f0c1c_o.png)
 
-###View的Command綁訂
+### View的Command綁訂
 View上面的命令還是一樣的寫法
 {%gist dearsherlock/a632d50c626fe16836eb%}
 

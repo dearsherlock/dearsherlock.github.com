@@ -10,15 +10,15 @@
 ![image](https://farm9.staticflickr.com/8588/15268228253_9a9d02f1a5_o.png)
 
 下面是新增Album情境，presentation model與view、control之間的關係
-![image](https://farm8.staticflickr.com/7503/15887960345_facc623b1a_o.png)
+![image](https://farm8.staticflickr.com/7516/15894025321_c4ae69a9b6_o.png)
 
 下面是更新、刪除情境，presentation model與view、control之間的關係
-
+![image](https://farm8.staticflickr.com/7580/15708870340_1cd69f0c1c_o.png)
 
 ###View的Command綁訂
 View上面的命令還是一樣的寫法
 {%gist dearsherlock/a632d50c626fe16836eb%}
-但是因為有指定Presentation MOdel，所以會被PresentationModel上來執行
+但是因為有指定Presentation Model，所以會被PresentationModel上來執行
 如下
 {%gist dearsherlock/4efc0dbbe35fd67d8360%}
 
@@ -31,7 +31,7 @@ View上面的命令還是一樣的寫法
 ###幾個annotation
 
 #### @PresentationModel
-用在Presentation Model的定義。若Presentation Model
+用在Presentation Model的定義。
 
 #### @DependsOnStateOf
 
@@ -48,3 +48,9 @@ View上面的命令還是一樣的寫法
     }
     
     
+#### @ItemPresentationModel
+通常用來指名listview的datasource，在presentation model中的用法如下：
+{%gist dearsherlock/9be2089504bcb1416133%}
+
+在view中的指定datasource方式如下：
+{%gist dearsherlock/a37dbfe908c5cca77fdc%}

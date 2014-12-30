@@ -89,6 +89,13 @@ covereffect: push
 
 
 
+### 進階課程
+- [如何寫出有效率的換頁瀏覽功能的app](http://developer.android.com/intl/zh-tw/training/implementing-navigation/index.html)
+
+- [Material Design](http://wcc723.gitbooks.io/google_design_translate/content/material-design-introduction.html)
+
+
+
 ### 其他資源
 
 - [圖示資源，但請注意授權][18]

@@ -28,4 +28,3 @@ title: "Azure DevOps 設定初始篇：建立專案"
 ![image](https://farm8.staticflickr.com/7488/15958200978_24a3414d85_o.png)
 
 6.而建立好的專案可以新增User，可以是本身建立的AD下的user或是微軟帳號的使用者。  
-![image](http://)

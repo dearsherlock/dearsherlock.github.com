@@ -1,10 +1,9 @@
-
 ---
 layout: post
 category : Azure 
-tagline: "Azure Devops"
+tagline: "Azure Devops: Team Project Setting"
 tags : [Azure,Devops]
-title: "Azure DevOps 設定"
+title: "Azure DevOps 設定初始篇：建立專案"
 
 ---
 

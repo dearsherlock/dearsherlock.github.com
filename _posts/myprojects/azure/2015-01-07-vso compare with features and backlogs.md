@@ -29,3 +29,29 @@ http://www.visualstudio.com/get-started/create-your-backlog-vs#article11
 還滿直覺的，就是這樣子建立就好
 
 ![image](https://farm8.staticflickr.com/7554/16033742338_9f3619a611_o.png)
+
+
+### Product Backlog Item和Task的關係
+Product Backlog Item一開始的Iteration會放在根目錄。若要在某個Sprint進行請搬移。
+![image](https://farm8.staticflickr.com/7472/15604851674_c5b733af9d_o.png)
+
+以下是Product Backlog Item的畫面，可以看到已經可以預估一些工時，指派人和狀態，接下來可以更細化
+![image](https://farm8.staticflickr.com/7569/15604709584_9cd84bb080_o.png)
+
+Product Backlog Item可以藉由設定Link來產生Task或是關連。
+建立關連中：
+![image](https://farm9.staticflickr.com/8577/16227240985_1240c37826_o.png)
+建立好關連：
+![image](https://farm8.staticflickr.com/7533/16039873950_72e6647523_o.png)
+
+Task的資料畫面
+![image](https://farm9.staticflickr.com/8625/16041126809_3a841aaefd_o.png)
+
+在查詢畫面中，你可以選擇Unfinished Work來看這之間的Tree狀關係。
+![image](https://farm8.staticflickr.com/7492/16039910870_fe90a9965f_o.png)
+
+
+###Excel編輯工作項目注意
+用Excel Windows版本會有個Team的葉籤，可以進行大批編輯比較方便。但要注意，新增的Task的Iteration Path會預設在根目錄(此欄位預設隱藏，要叫出來編輯)，請調整到你想要的。
+
+![image](https://farm8.staticflickr.com/7566/15604923334_970c5ab4fd_o.png)

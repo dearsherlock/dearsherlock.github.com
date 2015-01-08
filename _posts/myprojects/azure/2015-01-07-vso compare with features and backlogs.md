@@ -55,3 +55,31 @@ Task的資料畫面
 用Excel Windows版本會有個Team的葉籤，可以進行大批編輯比較方便。但要注意，新增的Task的Iteration Path會預設在根目錄(此欄位預設隱藏，要叫出來編輯)，請調整到你想要的。
 
 ![image](https://farm8.staticflickr.com/7566/15604923334_970c5ab4fd_o.png)
+
+
+###個人推薦的Excel編輯欄位
+
+| ID | Title 1                              | Title 2               | Activity     | Iteration Path      | Backlog Priority | Assigned To       | State | Remaining Work | Blocked | Work Item Type       |
+|----|--------------------------------------|-----------------------|--------------|---------------------|------------------|-------------------|-------|----------------|---------|----------------------|
+| 6  | 帳號：註冊功能                       |                       |              | \Release 1\Sprint 1 | 999905135        |                   | New   |                |         | Product Backlog Item |
+| 58 |                                      | 需求分析              | Requirements | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 59 |                                      | Information Model設計 | Design       | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 60 |                                      | App前端開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 61 |                                      | 後端服務開發          | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 62 |                                      | Web功能開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 63 |                                      | 測試                  | Testing      | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 4  | 帳號：忘記密碼處理、多次輸入錯誤鎖定 |                       |              | \Release 1\Sprint 1 | 999968378        |                   | New   |                |         | Product Backlog Item |
+| 64 |                                      | 需求分析              | Requirements | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 65 |                                      | Information Model設計 | Design       | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 0.5            |         | Task                 |
+| 66 |                                      | App前端開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 67 |                                      | 後端服務開發          | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 0.5            |         | Task                 |
+| 68 |                                      | Web功能開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 69 |                                      | 測試                  | Testing      | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 2  | 帳號：登入/登出功能                  |                       |              | \Release 1\Sprint 1 | 1000000000       |                   | New   |                |         | Product Backlog Item |
+| 70 |                                      | 需求分析              | Requirements | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 71 |                                      | Information Model設計 | Design       | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 0.5            |         | Task                 |
+| 72 |                                      | App前端開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 73 |                                      | 後端服務開發          | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 0.5            |         | Task                 |
+| 74 |                                      | Web功能開發           | Deployment   | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+| 75 |                                      | 測試                  | Testing      | \Release 1\Sprint 1 |                  | Sherlock Sherlock | To Do | 1              |         | Task                 |
+|    |                                      |                       |              |                     |                  |                   |       |                |         |                      |

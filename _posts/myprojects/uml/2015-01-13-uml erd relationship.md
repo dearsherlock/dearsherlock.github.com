@@ -21,6 +21,6 @@ title: "UML relationship"
 ![image](https://farm8.staticflickr.com/7524/16080759958_b447a59004_o.png)
 
 ###Non-Identifying
-透過以上你可以完成，但其實你也可以不用這麼嚴謹。用ID是Store Table的PK，然後建立FK，其實也是可以。這種情形也滿常出現在CodeTable的對照，如圖中，Company的Status需要存在於Code_Orgnization，但是Status不見得是Company的PK，以FK存在即可。但真的你想要把Status當Company的PK，就真的得思考這樣的意義為何，或是會喪失一些彈性。
+透過以上你可以完成，但其實你也可以不用這麼嚴謹。Store Table使用一個內部ID當PK，然後另外建立把CompanyID設定成FK，其實也是可以，也會有Persistence層的限制功能。這種情形也滿常出現在CodeTable的對照，如圖中，Company的Status需要存在於Code_Orgnization，但是Status不見得是Company的PK，以FK存在即可。但真的你想要把Status當Company的PK，就真的得思考這樣的意義為何，或是會喪失一些彈性。
 ![image](https://farm9.staticflickr.com/8602/15645894644_408bbe5a16_o.png)
 

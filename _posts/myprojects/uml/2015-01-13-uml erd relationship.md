@@ -16,7 +16,7 @@ title: "UML relationship"
 而其實在實作上都可以做到，只是看要不要這麼嚴謹的在Persistence層做這麼強的規範。
 
 ### Identifying
-如下圖，Company和Store之間的關係，因為是一對多，所以就會在Store Table 增加一個欄位來做關連。這種關係你可用Identifying，然後會要求CompanyId會是PK之一。
+如下圖，Company和Store之間的關係，因為是一對多，所以就會在Store Table 增加一個欄位來做關連。這種關係你可用Identifying，然後會要求CompanyId會是PK之一。會做比較嚴謹的限制，但在複雜的關係圖中，會影響更大。如下方的StorePartyRelation就會多出一堆欄位...所以建議若是Model越簡單，才用這樣強烈的關係。
 
 ![image](https://farm8.staticflickr.com/7524/16080759958_b447a59004_o.png)
 

@@ -1,3 +1,12 @@
+---
+layout: post
+category : UML 
+tagline: "UML 教學"
+tags : [uml,association,composiition,aggregation]
+title: "網路上與UML相關之KM文章"
+
+---
+
 
 astah 在畫OOA的關連性：
 

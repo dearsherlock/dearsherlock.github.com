@@ -76,3 +76,9 @@ https://mapsengine.google.com/map/edit?hl=zh-TW&authuser=0&mid=zVGIbPsx-CPI.kQ41
 
 首里城詳細地圖
 ![image](https://farm9.staticflickr.com/8652/16114344208_68920a5dab_o.jpg)
+
+
+####氣象
+http://www.jnto.go.jp/weather/chc/area_detail.php?area_id=9410
+
+![image](https://farm9.staticflickr.com/8662/16360081355_a09e8df135_o.png)

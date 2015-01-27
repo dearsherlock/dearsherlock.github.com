@@ -48,6 +48,21 @@
 		<array>
 			<string>2014-11-11-android component.md</string>
 		</array>
+		<array>
+			<string>2014-11-27-android robo mvvm.md</string>
+		</array>
+		<array>
+			<string>2014-12-02-android L rooting.md</string>
+		</array>
+		<array>
+			<string>2014-12-02-android start error-default activity not found.md</string>
+		</array>
+		<array>
+			<string>2015-01-05-android l10n.md</string>
+		</array>
+		<array>
+			<string>2015-01-05-android proxy charles.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>childOrder</key>
-	<array>
-		<string>books</string>
-		<string>myprojects</string>
-		<string>opensource-km</string>
-		<string>life</string>
-		<string>travel</string>
-	</array>
 	<key>createMarkedFile</key>
 	<false/>
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>2014-12-20-monitor Pixel Density.md</string>
+			<string>2014-11-19-javascript resource.md</string>
+		</array>
+		<array>
+			<string>2014-11-19-reactjs totorial.md</string>
+		</array>
+		<array>
+			<string>2014-11-20-reactjs install.md</string>
 		</array>
 	</array>
 </dict>

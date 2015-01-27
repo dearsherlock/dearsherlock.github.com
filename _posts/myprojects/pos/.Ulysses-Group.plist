@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2014-11-18-pos customerize operation.md</string>
+		</array>
+		<array>
+			<string>2014-11-24-pos sqaured register.md</string>
+		</array>
+		<array>
+			<string>2014-11-24-pos term.md</string>
+		</array>
+		<array>
+			<string>2014-12-05-ichef features.md</string>
+		</array>
+		<array>
+			<string>2014-12-05-pos ui.md</string>
+		</array>
+		<array>
+			<string>2014-12-08-ichef story.md</string>
+		</array>
+		<array>
+			<string>2015-01-13-i18n_related tables.md</string>
+		</array>
+		<array>
+			<string>2015-01-26-chtpos schedule design.md</string>
+		</array>
+		<array>
+			<string>2015-01-26-ooa and er of design i18n product order org.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

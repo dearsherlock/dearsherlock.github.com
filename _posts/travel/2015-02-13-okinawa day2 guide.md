@@ -50,10 +50,10 @@ title: "沖繩之旅Day2"
 ![image](https://farm9.staticflickr.com/8619/15845563033_4d83749a7a_b.jpg)
 ![image](https://farm8.staticflickr.com/7318/15845565733_a676e3cde2_b.jpg)
 
-影片一
+影片一  
 https://www.youtube.com/watch?v=siunqIf2GtA
 
-影片二
+影片二  Í
 https://www.youtube.com/watch?v=Ejs7fVKOUjI
 
 裡面其實還滿多日本童玩，跟中國人玩的都差不多
@@ -143,12 +143,12 @@ https://www.youtube.com/watch?v=Ejs7fVKOUjI
 ![image](https://farm8.staticflickr.com/7402/16280006607_8bb02391a7_b.jpg)
 
 
-影片一：（鼓表演）
-https://www.youtube.com/watch?v=r_Ra73SJ-Ik
-影片二：（鼓表演）
-https://www.youtube.com/watch?v=tG2sOSp8org
-影片三：（下午表演）
-https://www.youtube.com/watch?v=JRaOyGvkrRk
+影片一：（鼓表演）  
+https://www.youtube.com/watch?v=r_Ra73SJ-Ik  
+影片二：（鼓表演）  
+https://www.youtube.com/watch?v=tG2sOSp8org  
+影片三：（下午表演）  
+https://www.youtube.com/watch?v=JRaOyGvkrRk  
 
 在裡面吃午餐，也是這種機器在點菜
 ![image](https://farm9.staticflickr.com/8597/16504156941_5d1902d4fc_b.jpg)
@@ -223,8 +223,8 @@ https://www.google.com.tw/maps/place/26%C2%B027'47.3%22N+127%C2%B049'00.8%22E/@2
 ![image](https://farm8.staticflickr.com/7327/16318168358_91eed6b336_b.jpg)
 
 之前參考的blog文章
-http://hiromishi.com/2013/07/ryuukyuutei.html
-GPS
+http://hiromishi.com/2013/07/ryuukyuutei.html  
+GPS  
 https://www.google.com.tw/maps/place/26%C2%B027'46.4%22N+127%C2%B049'05.9%22E/@26.462881,127.818305,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=zh-TW
 
 來沖繩不點苦瓜炒蛋有點沒算來  

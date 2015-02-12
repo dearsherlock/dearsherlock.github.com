@@ -1,3 +1,13 @@
+---
+layout: post
+category : travel 
+tagline: "20150129"
+tags : [okinawa,20155 travel,american village]
+title: "沖繩之旅Day1"
+
+---
+
+
 ### OKINAWA遊記第一天
 
 
@@ -17,17 +27,17 @@ http://dearsherlock.github.io/travel/okinawa%20travel%20customize/)
 
 ![image](https://farm8.staticflickr.com/7445/16475668556_63301ccda7_b.jpg)
 
-出國會在24hr前通知預先報到，可以先上網填資料，避免登記時太久(其實比較了一下其他人，好像有快一些)
+出國會在24hr前通知預先報到，可以先上網填資料，避免登記時太久(其實比較了一下其他人，好像有快一些)  
 ![image](https://farm9.staticflickr.com/8572/16501669745_9a67834c15_b.jpg)
 
 咪醬也起了大早，不過是要出國，就勉強了一下。
 
 ![image](https://farm8.staticflickr.com/7431/15881519413_0aa1e989a3_b.jpg)
 
-掛上行李準備出關了
+掛上行李準備出關了  
 ![image](https://farm9.staticflickr.com/8682/15881521533_a7c938d910_b.jpg)
 
-現在的飛機看板都改成LED螢幕了，感覺就沒那麼好玩的刷刷刷。且顯示也會lag。
+現在的飛機看板都改成LED螢幕了，感覺就沒那麼好玩的刷刷刷。且顯示也會lag。  
 ![image](https://farm8.staticflickr.com/7363/15881528433_127372305c_b.jpg)
 
 同團的一堆小孩，出國去！  
@@ -44,27 +54,28 @@ http://dearsherlock.github.io/travel/okinawa%20travel%20customize/)
 
 ![image](https://farm8.staticflickr.com/7444/16315765817_1c277172bb_b.jpg)
 
-一番飛行之後，到了日本機場，出機場後就排隊搭接駁車前往OTS租車地點。
+一番飛行之後，到了日本機場，出機場後就排隊搭接駁車前往OTS租車地點。  
 ![image](https://farm8.staticflickr.com/7455/16315766637_2dc29c34d4_b.jpg)
 
-5天的租車費用，包含保險，後來比較起來是有比較彈性，也比較便宜(後來團員搭計程車到機場就要五六百塊)
+5天的租車費用，包含保險，後來比較起來是有比較彈性，也比較便宜(後來團員搭計程車到機場就要五六百塊)  
 ![image](https://farm8.staticflickr.com/7366/15879132364_bfbfe332f2_b.jpg)
 
 到了OTS之後，這台鋼彈的旁邊是一台模擬駕駛，當然不用想，都是一堆小孩在玩＠＠
 
 ![image](https://farm9.staticflickr.com/8673/16313962728_ce849719c1_b.jpg)
 
-OTS的租車地方有會中文的服務人員，可以大方的問問題。解說交通的也是中國人。建議一到就趕快分兩頭，一個去租車手續和聽交通要點，然後一個去買海洋館的套票
+OTS的租車地方有會中文的服務人員，可以大方的問問題。解說交通的也是中國人。建議一到就趕快分兩頭，一個去租車手續和聽交通要點，然後一個去買海洋館的套票  
 ![image](https://farm9.staticflickr.com/8658/16315420109_c73a02a3c5_b.jpg)
 
 
-結果我這幾天都忘記拍或錄影開車情形，這是唯一一張，好像是裕隆的油電車
+結果我這幾天都忘記拍或錄影開車情形，這是唯一一張，好像是裕隆的油電車  
 ![image](https://farm8.staticflickr.com/7304/15881550653_224a1def5b_b.jpg)
-車子的內裝
+
+車子的內裝  
 ![image](https://farm8.staticflickr.com/7303/16314256100_788ef99240_b.jpg)
 
 
-跟OTS的人員交接車子之後，終於有空買杯飲料了，終於有種到達日本開始旅遊的感覺了。
+跟OTS的人員交接車子之後，終於有空買杯飲料了，終於有種到達日本開始旅遊的感覺了。  
 ![image](https://farm9.staticflickr.com/8652/16314252470_2f926de1ce_b.jpg)
 
 ###美國村

@@ -7,7 +7,6 @@ title: "沖繩之旅Day1"
 
 ---
 
-
 ### OKINAWA遊記第一天
 
 
@@ -234,6 +233,10 @@ https://www.google.com.tw/maps/place/26%C2%B018'44.7%22N+127%C2%B045'27.5%22E/@2
 ![image](https://farm8.staticflickr.com/7415/16276405988_8911ce259f_b.jpg)
 ![image](https://farm8.staticflickr.com/7289/16464098835_7ed2aec8c1_b.jpg)
 ![image](https://farm8.staticflickr.com/7438/16464103495_58344f3571_b.jpg)
+
+
+[晚上摩天輪的影片](https://www.youtube.com/watch?v=DFmTqT6-35o)
+
 
 #### 晚餐 お好み焼お志乃
 看blog來的，是在二樓，別漏掉了～^^

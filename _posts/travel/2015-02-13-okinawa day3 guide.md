@@ -133,6 +133,7 @@ title: "沖繩之旅Day3"
 
 ![image](https://farm8.staticflickr.com/7399/16282582139_10cf771c1a_b.jpg)
 
+![image](https://farm8.staticflickr.com/7438/16505931225_f524022f7f_b.jpg**)
 ![image](https://farm9.staticflickr.com/8673/16282954107_4ece9e8bda_b.jpg)
 
 

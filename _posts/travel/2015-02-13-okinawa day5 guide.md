@@ -64,6 +64,14 @@ title: "沖繩之旅Day5"
 
 ![image](https://farm8.staticflickr.com/7344/16286070830_8caf08f569_b.jpg)
 
+[影片一](https://www.youtube.com/watch?v=i9xNmykhxM4)
+
+[影片二](https://www.youtube.com/watch?v=mWea2IVx64s)
+
+[影片三](https://www.youtube.com/watch?v=RKpJykGY7nY)
+
+
+
 旁邊還有遊樂設施
 ![image](https://farm9.staticflickr.com/8568/16286473468_4fd03492f7_b.jpg)
 

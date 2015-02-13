@@ -102,7 +102,9 @@ OTS的租車地方有會中文的服務人員，可以大方的問問題。解�
 
 純粹一連串小人的拍照  
 ![image](https://farm8.staticflickr.com/7332/15843789243_d11ebb6abc_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7331/16277974147_0c4b3efe7e_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7286/16277636829_61333df45f_b.jpg)
 
 往摩天輪的路邊的大水溝，水清則無魚...
@@ -110,7 +112,9 @@ OTS的租車地方有會中文的服務人員，可以大方的問問題。解�
 
 一堆的裝置藝術，白天跟夜晚其實感覺不同
 ![image](https://farm8.staticflickr.com/7417/16463882435_6673f9208f_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7374/16462951912_307ed2c86e_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7306/16277996317_e5d861de97_b.jpg)
 
 #### 午餐Benson's
@@ -118,6 +122,7 @@ OTS的租車地方有會中文的服務人員，可以大方的問問題。解�
 史丹利推薦的熱狗店，Nathan's。後來改名字叫做Benson，有研發新的熱狗，是安格斯牛肉作的熱狗。
 https://www.google.com.tw/maps/place/26%C2%B018'58.2%22N+127%C2%B045'23.5%22E/@26.316171,127.756532,19z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=zh-TW
 ![image](https://farm9.staticflickr.com/8600/16313992288_c19bab6332_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8665/16277999087_d1f1fd453f_b.jpg)
 
 我是叫了一份類似墨西哥肉醬的火腿堡，家人叫了雞塊、薯條和草莓冰。
@@ -125,6 +130,7 @@ https://www.google.com.tw/maps/place/26%C2%B018'58.2%22N+127%C2%B045'23.5%22E/@2
 
 垃圾食物總是大人小孩都愛吃。  
 ![image](https://farm9.staticflickr.com/8665/16475740656_79e06b89d7_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7370/16463893515_a2c3816bc8_b.jpg)
 
 也許一年四季都是這樣的佈置。
@@ -138,10 +144,12 @@ https://www.google.com.tw/maps/place/26%C2%B018'58.2%22N+127%C2%B045'23.5%22E/@2
 
 Benson's旁邊就是一間雜貨店，買了飲料和餅乾準備去海邊吃～  
 ![image](https://farm8.staticflickr.com/7329/16462970302_3071280204_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7383/16277668089_5e6bc7a3d2_b.jpg)
 
 小寶拍照時總愛消失躲起來，就肥了這兩人
 ![image](https://farm9.staticflickr.com/8682/16462180801_1435110df4_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7447/15841405944_7804cf331f_b.jpg)
 
 純粹是陽光大，應該看的到我的眼睛吧？  
@@ -149,36 +157,49 @@ Benson's旁邊就是一間雜貨店，買了飲料和餅乾準備去海邊吃～
 
 摩天輪主體樓下，其實感覺滿...樸實的，不會像台灣東區的商場一樣，不過還算乾淨啦～  
 ![image](https://farm8.staticflickr.com/7410/15841408614_c022b53f95_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8670/16437930776_5385ab4acb_b.jpg)
 
 玩玩打地鼠  
 ![image](https://farm8.staticflickr.com/7431/16276236418_6546b913b4_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7299/15841417684_202c203745_b.jpg)
 
 摩天輪售票口，雖然服務人員就在旁邊，但可能這樣就不需要守著錢櫃，沖繩大多是這樣的服務方式
 ![image](https://farm9.staticflickr.com/8651/16314316400_9d17067fcc_b.jpg)
 在摩天輪上亂亂拍
 ![image](https://farm9.staticflickr.com/8662/16500038431_2f7e2c59ee_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7352/16463928495_e8d941c07e_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7435/16276244978_3c9be7170f_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7361/15843859583_2f6175d962_b.jpg)
 
 摩天輪上的view，環顧附近  
 ![image](https://farm8.staticflickr.com/7298/16277700339_767d36650c_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8677/16277706629_f710e553af_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8642/16277709599_93175f085b_b.jpg)
 
 其實還滿推薦大家來坐摩天輪，且一輪就好（有在賣兩輪的票）時間其實夠長，夠讓你亂亂拍了...
 
 ![image](https://farm8.staticflickr.com/7426/15841442924_30510974b1_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7457/16463022562_c2a03c2916_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7366/16463032342_f3b6aae3c6_b.jpg)
 
 下來之後回頭往海灘走，必拍的風師爺  
 ![image](https://farm8.staticflickr.com/7452/16462242101_7073301563_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7292/16276558110_1d363d988e_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7357/16462252251_db6595aca7_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7339/16276306378_3a65eb66a8_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7327/16276308688_222785b2ec_b.jpg)
 
 嗯，白天和晚上會感覺不同，就多拍幾張
@@ -195,6 +216,7 @@ Benson's旁邊就是一間雜貨店，買了飲料和餅乾準備去海邊吃～
 https://www.google.com.tw/maps/place/26%C2%B018'44.7%22N+127%C2%B045'27.5%22E/@26.312422,127.757641,18z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=zh-TW
 
 ![image](https://farm8.staticflickr.com/7406/16277775359_7810b3d2ab_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7316/15841509634_c8a9d84ef4_b.jpg)
 
 這位中國大娘說她是嫁給日本人，來日本工作，來自寒冷的日本北方來這裡要待半年。
@@ -205,6 +227,7 @@ https://www.google.com.tw/maps/place/26%C2%B018'44.7%22N+127%C2%B045'27.5%22E/@2
 
 小孩就在旁邊玩沙  
 ![image](https://farm9.staticflickr.com/8653/16276599870_2786033296_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7377/16462300031_90a3ac7ea0_b.jpg)
 
 大人泡腳...  
@@ -219,19 +242,33 @@ https://www.google.com.tw/maps/place/26%C2%B018'44.7%22N+127%C2%B045'27.5%22E/@2
 
 休息後，出來覓食。果然白天和晚上是不同的view
 ![image](https://farm8.staticflickr.com/7373/16277806789_2b38ce349c_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7360/16276626230_abc681f5b2_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7456/16277813739_29d8994051_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7332/16438066296_02a085347e_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8639/15843986013_80d68516ab_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7285/16438072786_745e6c871a_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7338/16462334671_03351ced93_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7379/16463142562_35c7967040_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7366/16277838369_fd6dfe51de_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8659/16438089986_4a92643d59_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7429/16438093976_676cf43cc3_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7422/16276664870_330804f954_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7415/16276405988_8911ce259f_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7289/16464098835_7ed2aec8c1_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7438/16464103495_58344f3571_b.jpg)
 
 
@@ -243,8 +280,11 @@ https://www.google.com.tw/maps/place/26%C2%B018'44.7%22N+127%C2%B045'27.5%22E/@2
 https://www.google.com.tw/maps/place/26%C2%B018'58.1%22N+127%C2%B045'23.3%22E/@26.316127,127.756461,19z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=zh-TW
 
 ![image](https://farm8.staticflickr.com/7370/16438116176_b0490e6dcb_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8659/16464115825_27652c35e3_b.jpg)
+
 ![image](https://farm9.staticflickr.com/8651/16276696210_52aa02a47c_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7395/16464128115_2834ca9e2e_b.jpg)
 
 送的沙拉  
@@ -252,15 +292,18 @@ https://www.google.com.tw/maps/place/26%C2%B018'58.1%22N+127%C2%B045'23.3%22E/@2
 
 點了大阪燒套餐，跟服務生也是比手畫腳，感覺自己英文很溜的美好...@@  
 ![image](https://farm8.staticflickr.com/7386/15881650773_1ebd03225b_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7370/16501804805_6e4f0cc6bf_b.jpg)
 
 
 
 吃完了，附近逛逛American Depot，有看到喜歡的衣服，但都是逼死人的S是怎樣？這裡大多是二手的軍用衣服，或是工作服，可能也都是軍用品外流出來賣的吧＠＠
 ![image](https://farm8.staticflickr.com/7297/16501807325_ee504abb0e_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7421/16500799872_1740600304_b.jpg)
 附近的夜景～
 ![image](https://farm8.staticflickr.com/7375/16276445538_d63d81f9aa_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7393/16277895249_bb2edeed3f_b.jpg)
 附近逛逛免稅店，聽說是日本2014年10月才發行的免稅新規定，滿一萬以上日幣的藥妝品或是非必需品就可以免稅，會貼一張收據在護照。據說是不能拆，但其實託運的時候都是放這些東西，海關哪會這麼閒做檢查，但店員都會用個袋子封起來，大家也千萬不要隨身帶上飛機了(因為有些是液體嘛...)，另外說一下，美國村這家藥妝店雖然號稱是沖繩最便宜的，但後來其實在國際通的藥妝店比較一下，其實大概差了一塊錢新台幣(沒有細比啦)
 
@@ -271,9 +314,13 @@ https://www.google.com.tw/maps/place/26%C2%B018'58.1%22N+127%C2%B045'23.3%22E/@2
 瞎拼後出來已經人很少了，也夜很深了。
 
 ![image](https://farm9.staticflickr.com/8619/16462409221_58665019aa_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7295/16278263587_27916bd5ce_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7303/16462431511_98e8b7b5fa_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7305/16462435321_003ca15851_b.jpg)
+
 ![image](https://farm8.staticflickr.com/7332/16278286057_3b816a2562_b.jpg)
 
 睡了一晚，吃完早餐，準備第二天的行程囉！

@@ -235,7 +235,7 @@ https://www.google.com.tw/maps/place/26%C2%B027'46.4%22N+127%C2%B049'05.9%22E/@2
 ![image](https://farm9.staticflickr.com/8622/16319622539_61af4b9d4d_b.jpg)
 
 
-點了烤蛋、炸蝦(以為是糖醋明蝦，結果是溪蝦＠＠)、焢肉、比薩（沒拍到就吃完了）、泡盛（覺得還是orion好喝）、其他還有啥忘了...
+點了烤蛋、炸蝦(以為是糖醋明蝦，結果是溪蝦＠＠)、焢肉、比薩（沒拍到就吃完了）、泡盛（覺得還是orion好喝）、餃子、其他還有啥忘了...
 ![image](https://farm9.staticflickr.com/8563/16319993647_bcba0180b7_b.jpg)
 ![image](https://farm9.staticflickr.com/8649/15883344694_4a477c14ab_b.jpg)
 ![image](https://farm9.staticflickr.com/8642/16504177251_75e7dbdb25_b.jpg)
@@ -243,7 +243,7 @@ https://www.google.com.tw/maps/place/26%C2%B027'46.4%22N+127%C2%B049'05.9%22E/@2
 
 還算有feel...這家店有外籍移工在，所以還可以說點英文
 ![image](https://farm8.staticflickr.com/7363/16318179138_086b758fc9_b.jpg)
-這頓也吃了不少就是了＠＠
+這頓也吃了不少就是了＠＠ (大碗飯竟然要價一碗500...早知道就叫炒飯＠＠)
 ![image](https://farm9.staticflickr.com/8590/16504181901_9265edca40_b.jpg)
 
 隔天起床吃早餐拍的海邊，太冷風大且趕著行程就沒去海邊走了

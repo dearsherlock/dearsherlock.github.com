@@ -92,6 +92,14 @@ title: "沖繩之旅Day3"
 ![image](https://farm8.staticflickr.com/7421/15849725023_2e760760f7_b.jpg)
 
 ![image](https://farm8.staticflickr.com/7401/16282119488_50d47ba8c0_b.jpg)
+
+一小段的影片
+[vedeo1](https://www.youtube.com/watch?v=rZQpW2Uv7Ys)
+
+[video2](https://www.youtube.com/watch?v=xOIkEsdtibs)
+
+
+
 #### 午餐時間，裡面就有得吃
 ![image](https://farm9.staticflickr.com/8660/16443820326_cc68b2c586_b.jpg)
 ![image](https://farm9.staticflickr.com/8641/16468085281_7ccb64a748_b.jpg)
@@ -164,6 +172,10 @@ https://www.google.com.tw/maps/place/26%C2%B039'37.2%22N+127%C2%B053'45.1%22E/@2
 ![image](https://farm8.staticflickr.com/7455/15846439724_1ea570b9dc_b.jpg)
 ![image](https://farm9.staticflickr.com/8646/16442977166_99b9de3145_b.jpg)
 ![image](https://farm8.staticflickr.com/7341/16443009356_da8a62e063_b.jpg)
+
+店內果然很多名人來過啊，補上拍一下影片和背景音樂，真有沖繩feel...
+https://www.youtube.com/watch?v=nVHUhhE2t0M
+
 
 趕路時，發現有一家express，就進來補貨，且補齊外帶麵的晚（因為沒有附）
 ![image](https://farm9.staticflickr.com/8648/16282810269_520cbc508e_b.jpg)

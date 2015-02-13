@@ -340,6 +340,9 @@ Best電器幫買東西時看到的保溫碗，不過後來沒買
 ![image](https://farm9.staticflickr.com/8643/16504423021_de9f76b87c_b.jpg)
 ![image](https://farm8.staticflickr.com/7457/15883592244_3c20922cc8_b.jpg)
 ![image](https://farm8.staticflickr.com/7347/15886002993_05f14e3d80_b.jpg)
+![image](https://farm8.staticflickr.com/7285/16318699550_5ab2131fba_b.jpg)
+![image](https://farm9.staticflickr.com/8635/16505139402_6f8d5e0aa4_b.jpg)
+
 
 回飯店路上看到yamada電器進去逛了一下，好少人，這麼大的電器賣場好冷清喔，下次來會不會已經關閉了＠＠
 ![image](https://farm8.staticflickr.com/7338/16318430138_28b6d58d4b_b.jpg)

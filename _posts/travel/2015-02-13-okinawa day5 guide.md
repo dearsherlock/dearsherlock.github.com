@@ -1,3 +1,12 @@
+---
+layout: post
+category : travel 
+tagline: "20150202"
+tags : [okinawa,2015 travel]
+title: "沖繩之旅Day5"
+
+---
+
 ### 沖繩之旅最後一天的進擊（浦添公園、宜野灣uniqlo、波上宮、）
 
 最後一天在沖繩，仍然不花太多時間在睡覺，但也沒有太趕啦。

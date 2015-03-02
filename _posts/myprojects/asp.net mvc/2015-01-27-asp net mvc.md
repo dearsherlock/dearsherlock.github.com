@@ -7,6 +7,12 @@ http://www.microsoftvirtualacademy.com/training-courses/introduction-to-asp-net-
 
 [參考source code在此][1]
 
+### MVC 意義
+![image](https://farm9.staticflickr.com/8592/16688646531_c6f5d92ee0_o.png)
+
+Model只是純粹資料結構，並沒有連線到資料庫的資訊，View也不應該寫太多邏輯如if等判斷，若有則表示有部分的不正常（開始寫太多邏輯在View的趨勢）邏輯應該交給Control。
+
+
 
 ### Model
 沒有一定要放在Models目錄下，只是習慣問題。
@@ -29,9 +35,9 @@ Required/StringLength/RegularExpression/Range
 Control是在runtime產生，Scaffolding是在Design Time產生view
 
 ### Entity Framework
-1.目前已經整合到MVC，且有對應一個Scaffolding來自動產生程式碼。
+1.目前已經整合到MVC，且有對應一個Scaffolding框架來自動產生程式碼。
 2.relation和FK都可以透過一些鍵值來產生。背地裡會有隱藏id來對應(通常就會是一個下拉式選單)
-3.virtual為lazy loading
+3.virtual修飾子為lazy loading
 4.seed 方法：建立範本資料的method
 5.Migration:更新欄位時要更新資料庫，entity framework會知道這些變化。會有兩個點AB區段來監看變化。
 
@@ -45,6 +51,7 @@ Control是在runtime產生，Scaffolding是在Design Time產生view
 
 3.codelens：在程式碼上面會出現一些資訊：
 ![image][image-3]
+
 
 
 ### asp.net mvc 之自動控制項

@@ -3,7 +3,7 @@ layout: postcategory : life
 tagline: "download subtitle"
 tags : [video help] 
 title: "Microsoft Virtual Academy 字幕下載"
-imagefeature: https://farm9.staticflickr.com/8675/16503263689_4d090b4187_h.jpg
+imagefeature: https://farm9.staticflickr.com/8657/16068676124_a479886850_h.jpg
 covereffect: slice
 
 ---

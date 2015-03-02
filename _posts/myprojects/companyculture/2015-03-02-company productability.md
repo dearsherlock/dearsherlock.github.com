@@ -3,7 +3,7 @@ layout: postcategory : life
 tagline: "Productability nightmare"
 tags : [project management] 
 title: "我們的產品力"
-imagefeature: https://farm9.staticflickr.com/8675/16503263689_3c9f067469_o.jpg
+imagefeature: https://farm9.staticflickr.com/8675/16503263689_4d090b4187_h.jpg
 covereffect: slice
 
 ---

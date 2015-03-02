@@ -40,3 +40,11 @@ covereffect: slice
 可以自行決定工作是否完成，完成後就下載吧
 ![image](https://farm9.staticflickr.com/8584/16503510230_057fb1c07e_b.jpg)
 
+5.接下來你可能打開srt會有亂碼
+![image](https://farm9.staticflickr.com/8676/16503355468_a8dcd013a6_o.png)
+
+6.請用notepad打開，另存成unicode
+![image](https://farm9.staticflickr.com/8665/16504822759_0031a44f90_o.png)
+
+7.重新載入字幕就可以囉！
+![image](https://farm9.staticflickr.com/8641/16503396108_48bb117d2a_o.png)

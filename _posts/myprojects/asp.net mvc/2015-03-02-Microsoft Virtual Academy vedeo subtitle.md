@@ -28,17 +28,22 @@ covereffect: slice
 ![image](https://farm9.staticflickr.com/8575/16483557807_fda765fb04_o.png)
 
 4.若是想要自行翻成另外一種語言，請用[youtube給的功能](https://translate.google.com/toolkit/docupload?hl=zh_TW)進行翻譯，可以翻譯後另存新檔。
-上傳你的檔案，選擇翻譯語系
+
+a.上傳你的檔案，選擇翻譯語系
 ![image](https://farm9.staticflickr.com/8624/16503264138_0c8a3053b1_o.png)
 
-選擇自行翻譯
+b.選擇自行翻譯
 ![image](https://farm9.staticflickr.com/8582/16690878645_b29c4bb23c_o.png)
 
-工作列清單
+c.工作列清單
 ![image](https://farm9.staticflickr.com/8678/16070931433_29e19c88b2_o.png)
 
-可以自行決定工作是否完成，完成後就下載吧
+d.可以自行決定工作是否完成，完成後就下載吧
 ![image](https://farm9.staticflickr.com/8584/16503510230_057fb1c07e_b.jpg)
+
+e. 或是以上你也可以省略，直接在chrome上進行翻譯，然後另存srt附檔名就可以
+
+![image](https://farm9.staticflickr.com/8565/16691083015_5ea2034d29_o.png)
 
 5.接下來你可能打開srt會有亂碼
 ![image](https://farm9.staticflickr.com/8676/16503355468_a8dcd013a6_o.png)

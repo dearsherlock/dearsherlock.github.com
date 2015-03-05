@@ -73,7 +73,7 @@ title: "整理Android 連接Star印表機的控制碼"
 ###強調重點（加粗）
 
 ![image](https://farm8.staticflickr.com/7537/15103181913_9c98e14be7_o.png)
-
+x
 在要強調加粗的文字前後加上這個指令
 實際上傳入是{ 0x1b, 0x45 }、{ 0x1b, 0x46 }
 

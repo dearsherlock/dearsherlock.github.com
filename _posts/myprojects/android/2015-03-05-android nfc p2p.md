@@ -10,7 +10,7 @@ title: "NFC入門P2p"
 
 ### NFC對傳資料範例
 
-可以參考wrox的電子書
+可以參考wrox的電子書（PROFESSIONALNFC APPLICATION DEVELOPMENT FOR ANDROIDTM），需要的人fb密我
 
 範例請到[這裡](www.wrox.com/remtitle.cgi?isbn=1118380096)下載第八章中的第一個範例，使用NFC來聊天。
 

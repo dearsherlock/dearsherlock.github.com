@@ -43,6 +43,8 @@ Activity先實作一下NFC的介面，聲明要如何製作message
 初始化需要多做一些
 {%gist dearsherlock/e0907585f50ec3f93114%}
 
+onresum的時候需要改變一點，改用另外一個行為flag(ACTION_TECH_DISCOVERED)
+
 {%gist dearsherlock/bff5ba3b3157ea9f90b7%}
 
 解開資料範例

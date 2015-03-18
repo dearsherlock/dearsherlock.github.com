@@ -10,6 +10,8 @@ title: "Xamarin開發"
 本篇主要參考[這裡](https://msdn.microsoft.com/zh-tw/library/dn879698%28v=vs.140%29.aspx)。
 主要解決如何使用Xamarin來做跨平台App，另外也介紹了Shared Project，補充了上面連結中的iOS程式碼。並且上傳到github上。
 
+三種平台的專案 [Github位置](https://github.com/dearsherlock/XamarinCrossApp_Weather)
+
 ### 直接看結果
 切記，若要換模擬器或是在不同平台上debug（他也可以一次debug不同平台），記得要設定set as startup project
 

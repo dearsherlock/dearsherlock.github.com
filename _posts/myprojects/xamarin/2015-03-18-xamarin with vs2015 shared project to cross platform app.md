@@ -34,6 +34,13 @@ title: "Xamarin開發"
 Host Mac本機上的Xamarin Android Player
 ![image](https://farm9.staticflickr.com/8571/16663812798_a04c9cac74_o.png)
 
+要使用Android Player，請先在設定那邊看一下IP，知道了之後，回到VM中執行
+`adb connect 10.71.34.101`
+
+![image](https://farm9.staticflickr.com/8618/16668401549_66d53b9184_o.png)
+
+之後就可以在VM裡debug
+
 VM中的虛擬機(想當然爾很慢)
 ![image](https://farm8.staticflickr.com/7644/16665302309_5f5459d1b2_o.png)
 

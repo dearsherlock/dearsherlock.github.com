@@ -3,7 +3,7 @@ layout: postcategory : life
 tagline: "名人開講"
 tags : [company culture] 
 title: "李開復評論蘋果微軟還有Google三間公司"
-imagefeature: https://farm8.staticflickr.com/7619/16859075995_80fdaf73b9_o.jpg
+imagefeature: https://farm8.staticflickr.com/7598/16239130313_637f2b57ea_h.jpg
 covereffect: slice
 
 ---
@@ -23,7 +23,7 @@ Google看到大公司為了溝通而產生內耗的摩擦(微軟已經不錯了�
 
 ### 人才與產出的不同  
 微軟要的人有兩種：架構師和工程師，架構師就是畫很高階的目標，進行切分，交給工程師開發，最後檢視成果。
-而Google因為是集結天才，自己就可以有想法，且有能力完成。所以微軟的員工很少去Google會被錄取。而三家大公司的員工出去創業，Google是比較有一些機會成功。
+而Google因為是集結天才，自己就可以有想法，且有能力完成(重點是工程師薪水比專案管理高)，但管理較為鬆散。所以微軟的員工很少去Google會被錄取。而三家大公司的員工出去創業，Google是比較有一些機會成功。
 
 ### 關於我們  
 以上其實跟我們公司看起來沒關係，某個才集結幾百人做一個把Cobol 程式JSP化的工程也可以自吹自擂很久;至於自由發想？有啦，區經理想做人脈所以隨便答應官員或其他企業做一些公關專案交辦，或是專案經理為了補滿空洞的五年計畫所天馬行空搪塞的需求這算嗎？

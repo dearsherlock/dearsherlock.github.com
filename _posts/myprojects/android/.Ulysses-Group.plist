@@ -63,6 +63,36 @@
 		<array>
 			<string>2015-01-05-android proxy charles.md</string>
 		</array>
+		<array>
+			<string>2015-02-04-android app monitor with fiddler.md</string>
+		</array>
+		<array>
+			<string>2015-02-16-Android Best Practices.md</string>
+		</array>
+		<array>
+			<string>2015-02-16-Mobile interface design pattern.md</string>
+		</array>
+		<array>
+			<string>2015-03-03-android nfc term.md</string>
+		</array>
+		<array>
+			<string>2015-03-04-android adb over tcp.md</string>
+		</array>
+		<array>
+			<string>2015-03-05-android nfc p2p.md</string>
+		</array>
+		<array>
+			<string>2015-03-11-android performance.md</string>
+		</array>
+		<array>
+			<string>2015-03-12-android_trouble_shooting.md</string>
+		</array>
+		<array>
+			<string>2015-03-17-android with xamarin debug.md</string>
+		</array>
+		<array>
+			<string>2015-03-18-xamarin ios dismiss keyboard.md</string>
+		</array>
 	</array>
 </dict>
 </plist>

@@ -30,8 +30,13 @@ http://developer.xamarin.com/recipes/android/other_ux/camera_intent/take_a_pictu
 ![image](https://farm8.staticflickr.com/7584/16683262858_52e8f7b191_o.png)
 
 
-### 非同步寫法Android和iOS有點不一樣
+### 非同步寫法
+
+參考以下（xamarin官網有點寫錯，且ios沒有click，只有TouchUpInside，請參考[Xamarin官網處理Click](http://developer.xamarin.com/recipes/ios/standard_controls/buttons/handle_clicks/)）
+
+ios使用labmda expression（android也是一樣寫法，只是改成click）  
 {%gist dearsherlock/6f719dda1c423b865769%}
 
+android使用anonymous delegate（ios也可以一樣寫法，只是改成TouchUpInside）  
 {%gist dearsherlock/306def107719040f0ddc%}
 

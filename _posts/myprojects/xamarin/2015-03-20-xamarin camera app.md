@@ -28,3 +28,10 @@ http://developer.xamarin.com/recipes/android/other_ux/camera_intent/take_a_pictu
 ### 呼叫Zxing進行QRCode解析
 已經有Nuget套件可以下載。若是Android請參考如下
 ![image](https://farm8.staticflickr.com/7584/16683262858_52e8f7b191_o.png)
+
+
+### 非同步寫法Android和iOS有點不一樣
+{%gist dearsherlock/6f719dda1c423b865769%}
+
+{%gist dearsherlock/306def107719040f0ddc%}
+

@@ -40,3 +40,7 @@ ios使用labmda expression（android也是一樣寫法，只是改成click）
 android使用anonymous delegate（ios也可以一樣寫法，只是改成TouchUpInside）  
 {%gist dearsherlock/306def107719040f0ddc%}
 
+
+### Github 參考
+
+[FYI](https://github.com/dearsherlock/Xamarin_CrossApp_Camara_QRCode)

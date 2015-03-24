@@ -26,3 +26,17 @@ View就是Activity，透過interface定義了UI的呈現，如LoginView（註冊
 3.當登入錯誤需要呼叫View顯示哪種錯誤(處理listener所接收到的錯誤)。  
 4.當登入成功需要呈現什麼？回首頁或是...行為  
 
+
+
+#### 另外的範例
+
+一樣是透過MVP來取得資料(在Presenter層)， 
+![image](https://farm8.staticflickr.com/7585/16911307892_e84dbecd50_o.png)
+
+
+### MVP 缺點
+雖然View少了一些類似MVVM的前置設定，但沒有了雙向綁定，View仍然需要透過原本的方式來取得值。  
+{%gist dearsherlock/4bcbe77466dfed5552ae%}
+
+若要塞值的話也是透過尋找，取代...  
+{%gist dearsherlock/2de69853135efbd1bc26%}

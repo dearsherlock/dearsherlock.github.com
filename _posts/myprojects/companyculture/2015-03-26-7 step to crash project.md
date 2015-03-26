@@ -50,10 +50,11 @@ http://channel9.msdn.com/Events/MVP-Virtual-Conference/2015-Taiwan-MVP-Comcamp/7
 ![image](https://farm9.staticflickr.com/8702/16311784754_874bdea076_b.jpg)
 
 ### 第七招 開發標準非萬能，適才適所
-快速多變的開發方法，沒辦法適用於各種專案。找對人做對的事情才比較重要!
+快速多變的開發方法，沒辦法適用於各種專案。找對人做對的事情才比較重要! 每個人都要有不能被取代的志向。也不要去只是當螺絲釘的專案。PM要想辦法讓大家作合適、正確的事情，因此產出更優質！
 ![image](https://farm8.staticflickr.com/7623/16933199221_4163dd7eb2_b.jpg)
 
 ### 結論(for PM)
+
 ![image](https://farm9.staticflickr.com/8694/16933196541_0047b4dd45_b.jpg)
 
 

@@ -1,11 +1,10 @@
-
 ---
 layout: post
-category : Xamarin 
-tagline: "跨平台開發"
-tags : [Xamarin,Visual Studio 2015,Android,iOS,java binding library,reuse]
-title: "Amazon 無限大"
-imagefeature: https://farm8.staticflickr.com/7613/16943255685_6654090f44_h.jpg
+category : Cloud 
+tagline: "Amazon好厲害"
+tags : [Amazon,Cloud,雲端空間]
+title: "Amazon 無限大空間"
+imagefeature: https://farm8.staticflickr.com/7613/16943255685_f5a12d1593_h.jpg
 covereffect: slice
 
 ---

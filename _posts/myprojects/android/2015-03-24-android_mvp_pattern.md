@@ -40,3 +40,36 @@ View就是Activity，透過interface定義了UI的呈現，如LoginView（註冊
 
 若要塞值的話也是透過尋找，取代...  
 {%gist dearsherlock/2de69853135efbd1bc26%}
+
+### Q&A
+
+#### 若要應用到Service取得資料
+作者認為此Pattern只處理UI，若要用到服務取資料，則使用Observer pattern 或是 event bus。
+
+#### 如何更快處理View和Presenter的註冊
+作者建議Dagger來進行Injection，網站如http://square.github.io/dagger/,並且使用scope modules來進行記憶體的管理和物件的控制
+
+#### 如何處理非同步工作
+作者建議使用android-priority-queue，這是官方的建議作法來改善UX，使用的範例如下：
+
+https://github.com/path/android-priority-jobqueue
+作者是使用：
+http://square.github.io/otto/
+![image](https://farm9.staticflickr.com/8720/16912582511_5b78791ce6_o.png)
+
+#### 如何處理各層次之間的資料傳遞
+作者建議閱讀他寫的一些有關於『DI and Dagger』的文章。使用DI就可以解決這些事情。  
+[Dagger系列之一](http://antonioleiva.com/dependency-injection-android-dagger-part-1/)  
+[Dagger系列之二](http://antonioleiva.com/dagger-android-part-2/)  
+[Dagger系列之三](http://antonioleiva.com/dagger-3/)
+
+#### 如何處理網路之間的通訊？
+作者是建議使用Retrofit and OkHttp，尤其是推薦Retrofit
+
+
+####有人問及是否有使用過RxJava，可以解決很多非同步的問題，但可能會需要寫很多儲存狀態的最佳化程式
+
+
+#### 如何寫出一個Materialize app
+請參考[這裡](http://antonioleiva.com/materialize-app/)
+以及[這裡](http://antonioleiva.com/material-design-everywhere/)

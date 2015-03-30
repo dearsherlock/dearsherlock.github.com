@@ -1,3 +1,12 @@
+---
+layout: post
+category : Xamarin 
+tagline: "Xamarin Trouble Shooting"
+tags : [Xamarin,Trouble Shooting]
+title: "Xamarin 疑難雜症"
+
+
+---
 
 
 
@@ -22,3 +31,31 @@ Deployment failed because of an internal error: Failure [INSTALL_FAILED_UPDATE_I
 
 
 Deployment failed. Minimum Android version not supported by device.
+
+### Deployment failed because the device does not support the package's minimum Android version
+
+Deployment failed because the device does not support the package's minimum Android version. You can change the minimum Android version in the Android Application section of the Project Options.
+
+Deployment failed. Minimum Android version not supported by device.
+
+---->更改最低版本，但是會出現下面另外一個錯誤。
+
+#### [INSTALL_FAILED_UPDATE_INCOMPATIBLE]
+Deployment failed because of an internal error: Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]
+
+Deployment failed. Internal error.
+
+----> 到Android設備中的設定的應用程式移除app，重新執行可以部署，但是runtime error 如下：
+
+{%gist dearsherlock/188978e03eb3c69d7513%}
+
+看到網路上有人這樣解：
+http://notesfun.blogspot.tw/2014/11/xamarinunable-to-find-application_5.html
+
+需要在csproj的配置中修改 AndroidUseLatestPlatformSdk 屬性為 false。
+
+
+### ios build error
+/Volumes/MySD/MyMacXamarinStudioProj/MVVMTest/DailyDilbert/DailyDilbert.Touch/MTOUCHTASK: Error MT0047: The minimum deployment target for Unified applications is 5.1.1, the current deployment target is '3.2'. Please select a newer deployment target in your project's iOS Application options. (MT0047) (DailyDilbert.Touch)
+
+--->修改選項中的目的版本，改成7.2以上都可以。

@@ -60,14 +60,18 @@ http://blog.csdn.net/zjbpku/article/details/18732295
 ### 完整程式
 [Github](https://github.com/square/dagger/tree/master/examples/simple/src)
 
-比較重要的列在下面。
+比較重要的列在下面。  
 {%gist dearsherlock/28bb1e693603992484a6%}
  
 {%gist dearsherlock/195e9977e2761472836a%}
 
 {%gist dearsherlock/8c54503ef96485ed7b5b%}
  
- 
+{%gist dearsherlock/a69323c00df9c3f8ede0%}
+
+{%gist dearsherlock/530648e54b3b418fef2e%}
+
+{%gist dearsherlock/291ae2b7b16ccd2807c7%}
  
  
  

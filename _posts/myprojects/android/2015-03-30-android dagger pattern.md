@@ -30,10 +30,10 @@ http://blog.csdn.net/zjbpku/article/details/18732295
  - 可以注入建構子
  - 可以注入區域變數
  
- 若區域變數是用注入的方式建立，則區域變數的本身建構子也要宣告成是@Inject，否則會出錯。且會呼叫＠Provider的方法來產生。
+ 若你的Class中有使用到＠Inject來宣告區域變數，則Class本身建構子也要宣告成是@Inject，若沒有他會去呼叫預設建構子，不然會出錯。
 如下  
 {%gist dearsherlock/f918e79d69bc224ace38%}
-
+而這個建構子將來會由有宣告Provider的方法來呼叫。
  
 ### Module介紹
  

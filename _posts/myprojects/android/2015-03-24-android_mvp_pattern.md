@@ -73,3 +73,13 @@ http://square.github.io/otto/
 #### 如何寫出一個Materialize app
 請參考[這裡](http://antonioleiva.com/materialize-app/)
 以及[這裡](http://antonioleiva.com/material-design-everywhere/)
+
+
+
+### 要能在Android上寫出Annotation
+優點：程式碼更容易乾淨維護
+http://androidannotations.org/
+中文介紹：http://blog.csdn.net/zjbpku/article/details/18676149
+
+
+

@@ -57,3 +57,29 @@ http://notesfun.blogspot.tw/2014/11/xamarinunable-to-find-application_5.html
 /Volumes/MySD/MyMacXamarinStudioProj/MVVMTest/DailyDilbert/DailyDilbert.Touch/MTOUCHTASK: Error MT0047: The minimum deployment target for Unified applications is 5.1.1, the current deployment target is '3.2'. Please select a newer deployment target in your project's iOS Application options. (MT0047) (DailyDilbert.Touch)
 
 --->修改選項中的目的版本，改成7.2以上都可以。
+
+
+
+### Add Nuget for xamarin.android.support.v7.appcompat
+會得到以下的錯誤。
+{%gist dearsherlock/5518fce82ef58588f941%}
+
+請更新你的專案設定，設定Target為api 21，而最低版本仍然可以保留。
+如同下面這篇所說的，圖中有設定
+http://blog.xamarin.com/android-tips-hello-material-design-v7-appcompat/
+
+
+### android support library v4 vs v13
+https://kb.xamarin.com/customer/portal/articles/1698191-smarter-xamarin-android-support-v4-v13-nuget-packages
+
+
+
+### 如何在xamarin studio 中指定版本下載nuget?
+http://forums.xamarin.com/discussion/25810/how-do-i-downgrade-a-nuget-package-in-xamarin-studio
+
+若不行則直接編輯.csproj目錄下的 packages.config。
+
+內容範例  
+{%gist dearsherlock/b27e20552b027f2365e1%}
+xxx.csproj也要改  
+{%gist dearsherlock/a22f75bc16175b238921%}

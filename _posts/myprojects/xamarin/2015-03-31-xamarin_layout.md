@@ -1,4 +1,11 @@
+---
+layout: post
+category : Xamarin
+tagline: "Xamarin Layout"
+tags : [Xamarin,Layout]
+title: "Xamarin Layout"
 
+---
 
 ### Xamarin Layout
 ![image](https://farm8.staticflickr.com/7602/16798010870_878dece426_o.png)
@@ -35,3 +42,8 @@ Snap
 
 ### 有換頁效果的tabcontrol
 https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android
+
+### framework測試結果
+若是有用到appcompat，需要用20.0.2搭配著會是android.support.v4 20.0.4版，若用了21以上會有錯誤。
+
+

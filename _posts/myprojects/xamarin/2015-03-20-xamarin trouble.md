@@ -81,5 +81,21 @@ http://forums.xamarin.com/discussion/25810/how-do-i-downgrade-a-nuget-package-in
 
 內容範例  
 {%gist dearsherlock/b27e20552b027f2365e1%}
+
 xxx.csproj也要改  
 {%gist dearsherlock/a22f75bc16175b238921%}
+
+### 無法進行debug
+![image](https://farm8.staticflickr.com/7620/16803249938_6d1765ab3d_o.png)
+到solution的視窗中，把android的project後面的deploy打勾就可以了
+![image](https://farm8.staticflickr.com/7585/16991011125_177e5f31d0_o.png)
+
+### 注意namespace
+若出現以下，請注意是否xml中tag已經有指名了tag namespace，若有就不用特別重複指定，ex:
+以下的radius、fillcolor都是EInvoiceDetailNFC.Android.CirclePageIndicator類別中已經有定義，所以不須要再特別宣告。
+
+{%gist dearsherlock/07741ec0b40e321f36cc%}
+就不需要特別再指定：
+       `xmlns:app="http://schemas.android.com/apk/res/ViewPagerIndicator.ViewPagerIndicator"`    
+不然會有以下的錯誤：
+{%gist dearsherlock/c1755606e1b6613bf0ab%}

@@ -32,3 +32,37 @@ http://feed.dilbert.com/dilbert/daily_strip
 ![image](https://farm8.staticflickr.com/7622/16313996373_09edfba742_o.png)
 
 [改完的GitProject在這裡](https://github.com/dearsherlock/XamarinCross_Tutorial/tree/master/DailyDilbert)
+
+
+### Dialog Example
+
+用到了MvxDialogActivity、MvxDialogActivity
+
+#### 頁面的組成
+頁面的組成可以用
+ - RootElement 
+    - Section（類似GroupBox）
+    		- EntryElement
+    		- BooleanElement
+    		- CheckboxElement
+    		- RootElement （類似GroupBox，可以再往下包元件）
+    		
+#### 屬性的Binding
+
+` new EntryElement("Login", "Enter Login name").Bind(bindings, vm => vm.TextProperty)
+`    			
+.Bind方法的參數中binding為要綁定的來源，後面就是你要Binding到哪個屬性（元件不同當然就需要綁定到不同的屬性名稱）。
+ex: 
+TextBox就是TextProperty，
+密碼欄位就是PasswordProperty
+Boolean元件就是SwitchThis
+CheckBox就是CheckThis
+
+![image](testPic.png)
+
+SS
+![image](img/testPic.png)
+SSS
+![image](../testPic.png)
+D
+![image](../../../images/testImg/testPic.png)

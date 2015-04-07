@@ -99,3 +99,24 @@ xxx.csproj也要改
        `xmlns:app="http://schemas.android.com/apk/res/ViewPagerIndicator.ViewPagerIndicator"`    
 不然會有以下的錯誤：
 {%gist dearsherlock/c1755606e1b6613bf0ab%}
+
+
+
+
+### 出現error MSB6006: "aapt.exe" exited with code 1
+
+1>C:\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(794,2): error MSB6006: "aapt.exe" exited with code 1.
+
+通常是發生在新加檔案到resource目錄下，且檔名不符合java 命名規定，可能是有括弧等符號。移除後我就可以了～
+
+因為若檔名有()，變成resource時變數怎麼取呢？所以會有這個問題！
+
+### No resource identifier found for attribute 'selectedBold' in package ...
+
+1>Z:\Volumes\MySD\Download\viewpager\viewpager_source_WinVS\ViewPagerIndicator\ViewPagerIndicator\Resources\layout\themed_titles.xml(15): error : No resource identifier found for attribute 'selectedBold' in package 'ViewPagerIndicator.ViewPagerIndicator'因為Android有設定Package Name，所以若xml中有定義需要存取app中的resource的時候就需要設定正確。
+
+ex: 像以下的就配不起來就會出錯。
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res/ViewPagerIndicator.ViewPagerIndicator"    android:orientation="vertical"    android:layout_width="fill_parent"    android:layout_height="fill_parent">
+![image](https://farm8.staticflickr.com/7606/16993119586_3677020af7_o.png)
+    
+    

@@ -51,18 +51,17 @@ http://feed.dilbert.com/dilbert/daily_strip
 
 ` new EntryElement("Login", "Enter Login name").Bind(bindings, vm => vm.TextProperty)
 `    			
-.Bind方法的參數中binding為要綁定的來源，後面就是你要Binding到哪個屬性（元件不同當然就需要綁定到不同的屬性名稱）。
-ex: 
-TextBox就是TextProperty，
-密碼欄位就是PasswordProperty
-Boolean元件就是SwitchThis
-CheckBox就是CheckThis
-
-![image](testPic.png)
-
-SS
-![image](img/testPic.png)
-SSS
-![image](../testPic.png)
-D
-![image](../../../images/testImg/testPic.png)
+.Bind方法的參數中binding為要綁定的來源，後面就是你要Binding到Context的哪個屬性，通常會綁定到這些元件的Value屬性。  
+ex:  
+ 
+| 類型                | ViewModel定義的屬性 | 備註                                       |
+|---------------------|---------------------|--------------------------------------------|
+| TextBox             | TextProperty        |                                            |
+| EntryElement        | PasswordProperty    | 設定Password = true 就會變成密碼型態的欄位 |
+| BooleanElement      | SwitchThis          |                                            |
+| CheckboxElement     | CheckThis           |                                            |
+| RadioGroup          | RadioSelected/      |                                            |
+| StringElement       | StringElement       |                                            |
+| ButtonElement       | GoSecondCommand     | 綁定到元件的SelectedCommand                |
+| StyledStringElement | GoSecondCommand     | 綁定到元件的SelectedCommand                |
+| StyledStringElement | GoSecondCommand     | 綁定到元件的BindableElementsCommand        | 

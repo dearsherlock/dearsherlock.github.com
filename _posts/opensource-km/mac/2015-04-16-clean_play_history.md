@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Mac
+category : mac
 tagline: "Clear Play History"
 tags : [Mac,VLC,Quicktime]
 title: "清除VLC/Quicktime的播放歷史"

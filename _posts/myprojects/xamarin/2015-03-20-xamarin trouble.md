@@ -8,8 +8,6 @@ title: "Xamarin 疑難雜症"
 
 ---
 
-
-
 ### project not built in active configuration:
 重新把project unload 然後載入一次。
 
@@ -116,7 +114,7 @@ xxx.csproj也要改
 1>Z:\Volumes\MySD\Download\viewpager\viewpager_source_WinVS\ViewPagerIndicator\ViewPagerIndicator\Resources\layout\themed_titles.xml(15): error : No resource identifier found for attribute 'selectedBold' in package 'ViewPagerIndicator.ViewPagerIndicator'因為Android有設定Package Name，所以若xml中有定義需要存取app中的resource的時候就需要設定正確。
 
 ex: 像以下的就配不起來就會出錯。
-<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res/ViewPagerIndicator.ViewPagerIndicator"    android:orientation="vertical"    android:layout_width="fill_parent"    android:layout_height="fill_parent">
+{%gist dearsherlock/dd0974c26425632c805a%}
 ![image](https://farm8.staticflickr.com/7606/16993119586_3677020af7_o.png)
     
 #### 出現套件無法裝在特定的project

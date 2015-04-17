@@ -159,7 +159,7 @@ Log如下：
 {%gist dearsherlock/3758f951bfea7e1766c1%}
 
 使用方式如下
-{%gist dearsherlock/3a1ea8f7d1c1a2b734f9}### Android 的文字輸入方塊檢查原則以及顯示錯誤
+{%gist dearsherlock/3a1ea8f7d1c1a2b734f9%}### Android 的文字輸入方塊檢查原則以及顯示錯誤
 [Android的作法](http://javatechig.com/android/edittext-validation-in-android-example)
 
 mvvmcross的版本：

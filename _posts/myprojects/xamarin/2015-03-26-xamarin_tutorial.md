@@ -65,3 +65,55 @@ ex:
 | ButtonElement       | GoSecondCommand     | 綁定到元件的SelectedCommand                |
 | StyledStringElement | GoSecondCommand     | 綁定到元件的SelectedCommand                |
 | StyledStringElement | GoSecondCommand     | 綁定到元件的BindableElementsCommand        | 
+
+
+
+
+#### View和ViewModel的綁定
+
+{%gist dearsherlock/8e22ed3d49f6653d6f4e%}
+
+| View       | Initial Method            | View Type               | ViewModel       |
+|------------|---------------------------|-------------------------|-----------------|
+| FirstView  | CreateInlineBindingTarget | MvxDialogActivity       | FirstViewModel  |
+| SecondView | CreateInlineBindingTarget | MvxDialogActivity       | SecondViewModel |
+| ThirdView  | CreateInlineBindingTarget | MvxDialogActivity       | ThirdViewModel  |
+| LinearView | CreateInlineBindingTarget | MvxLinearDialogActivity | LinearViewModel |
+|            |                           |                         |                 |
+
+
+要產生View，是透過ViewModel的對應（如上表）來啟動
+ {%gist dearsherlock/2b88311ecade1366b164%}
+ 
+ 
+也可以看到範例ThirdViewModel中有不同的元件來顯示同一個model。ex:  
+ - CustomStringElement（實作StringElement、IBindableElement）  
+ - CustomViewElement （實作ViewElement、IBindableElement，使用CustomPersonView.axml作為template）
+
+以下是把axml載入到CustomPersonElement當成View的寫法：
+{%gist dearsherlock/05e98142b1878d5299b8%}
+
+
+要把List物件綁定到CustomStringElement元件的屬性上：
+{%gist dearsherlock/ea1bac25a4d0399a408f%}
+
+#### MVXDiaglogActivity和MvxActivity的關係
+![image](https://farm9.staticflickr.com/8704/16886978269_fa242ff872_o.png)
+
+### MVVMCross的Property snippet
+如下，建立一個附檔名是.snippet，
+放在vs目錄下如：C:\Users\sherlock\Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets
+
+{%gist dearsherlock/cebc229fc146d23c9530%}
+
+如同該snippet所說，按下propm就看到,tab兩下可以呼叫出來了
+Sample如下：  
+{%gist dearsherlock/36656aacd8e6f09ba910%}
+
+若是command的也可以參考如下  
+{%gist dearsherlock/344085576a2ac773168d%}
+
+### 簡單的換頁（Pager）
+
+https://github.com/dearsherlock/XamarinCross_Tutorial/tree/master/Cheesebaron.MvvmCross.Bindings-master
+

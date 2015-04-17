@@ -119,4 +119,68 @@ ex: 像以下的就配不起來就會出錯。
 <LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res/ViewPagerIndicator.ViewPagerIndicator"    android:orientation="vertical"    android:layout_width="fill_parent"    android:layout_height="fill_parent">
 ![image](https://farm8.staticflickr.com/7606/16993119586_3677020af7_o.png)
     
-    
+#### 出現套件無法裝在特定的project
+![image](https://farm8.staticflickr.com/7590/17046749186_189f67f941_o.png)請檢查你的專案以及package作者頁面有寫的支援項目
+打開專案設定看target:
+
+![image](https://farm8.staticflickr.com/7628/17046768386_012952bec9_o.png)
+
+然後去看package(在此是mvvmcross)所支援的項目
+像我是把.csproject中的以下兩個值改掉就可以了
+ `
+ <TargetFrameworkProfile>Profile78</TargetFrameworkProfile> 
+   `    `   
+ <TargetFrameworkVersion>v4.5</TargetFrameworkVersion> `   
+ 
+### runtime出現以下訊息找不到明明有的方法
+ ： System.MissingMethodException: Method not found: 'Cirrious.MvvmCross.ViewModels.MvxNavigatingObject.ShowViewModel'.
+通常是其中有一個project的抓的nuget package版本不同，我是這樣發現這個問題的。
+ 
+ 
+### compiler time 一直出現error cs0103
+error CS0103: The name 'ThreadPool' does not exist in the current context
+
+回復到MVVMCross 3.1.1就可以＠＠### 版本對應
+MVVMCross 3.1.1 可安裝在以下（3.2.1都不行）
+<TargetFrameworkProfile>Profile158</TargetFrameworkProfile> <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+### 找不到swich "Switch" could not be found
+
+"Switch" could not be found因為是API以上才有Switch，所以需要把Target改一下，在API14以上。
+### 出現No resource identifier found for attribute 'MvxBind' in package 'xxx.xx'
+先確認xx.xx是你的package name，可以在下面進行確認：
+![image](https://farm8.staticflickr.com/7659/16464829803_6d11676533_o.png)若是，則改成以下也可以。
+     xmlns:local="http://schemas.android.com/apk/res-auto
+### 新加入的Resource找不到
+新加上的圖片或是字串或是style都有可能找不到，就重新rebuild，然後重新打開vs，就可以了。
+### android 的文字輸入需要設成電話號碼
+把inputtype設成phone
+* [全部的inputtype解釋](http://developer.android.com/reference/android/widget/TextView.html#attr_android%3ainputTypef)### 要如何在viewmodel裡面呼叫瀏覽器做事？
+[參考技術文章](http://stackoverflow.com/questions/16616774/mvvmcross-how-to-navigate-to-something-besides-a-viewmodel)
+到nuget下載mvvmcross web搜尋，對android和core專案都下載。
+Log如下：
+{%gist dearsherlock/3758f951bfea7e1766c1%}
+
+使用方式如下
+{%%gist dearsherlock/3a1ea8f7d1c1a2b734f9}### Android 的文字輸入方塊檢查原則以及顯示錯誤
+[Android的作法](http://javatechig.com/android/edittext-validation-in-android-example)
+
+mvvmcross的版本：
+https://github.com/Agies/MVVMCross.Plugins.Validation
+
+
+### 其他參考網站
+http://benjaminhysell.com/archive/category/mvvmcross/
+
+### 外掛收集
+https://github.com/MvvmCross/MvvmCross/wiki/MvvmCross-plugins#ballcontrol
+### mvvmcross外掛可以進行互動
+確認，提示https://github.com/brianchance/MvvmCross-UserInteraction
+### MVVM's viewmodel 回收機制
+https://github.com/MvvmCross/MvvmCross/wiki/View-Model-Lifecycle#viewmodel-deactivation-activation-and-destruction
+### viewpager範例
+http://blog.ostebaronen.dk/2013/07/fragments-and-viewpager-with-mvx.html
+完整的實作：https://github.com/Adam--/MvxViewPager
+### android tabwidget的設定
+http://www.dotblogs.com.tw/alonstar/archive/2012/04/18/android_tabhost.aspx
+### 如何避免xamarin 移除舊版（保留舊版的資料，只更換程式）
+http://stackoverflow.com/questions/26364316/how-to-prevent-android-app-from-getting-uninstalled-during-deployment-with-xamar

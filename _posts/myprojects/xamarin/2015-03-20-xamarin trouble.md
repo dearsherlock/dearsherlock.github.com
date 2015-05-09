@@ -182,3 +182,174 @@ https://github.com/MvvmCross/MvvmCross/wiki/MvvmCross-plugins#ballcontrol
 http://www.dotblogs.com.tw/alonstar/archive/2012/04/18/android_tabhost.aspx
 ### 如何避免xamarin 移除舊版（保留舊版的資料，只更換程式）
 http://stackoverflow.com/questions/26364316/how-to-prevent-android-app-from-getting-uninstalled-during-deployment-with-xamar
+### 遇上adb devices中的device是offline
+使用run as administrator,進行android命令。
+[參考這篇](http://stackoverflow.com/questions/14993855/android-adb-device-offline-cant-issue-commands)
+
+然後進入c:\programe file (86)\android\android-tools\tools\
+執行以下：`android update sdk --no-ui
+`進行更新。（上次是發生在5.1更新後，本地沒有更新sdk到api22，裝置又互相在mac和pc vm上使用。）### 自定converter與特定屬性做binding
+關鍵字是MvxBaseAndroidTargetBinding,以及setup.cs中的FillTargetFactories需要復寫
+
+http://slodge.blogspot.tw/2013/02/android-textview-color-binding_15.html
+### MvxImageView
+No IMvxImageHelper registered - you must provide an image helper before you can use a MvxImageView
+
+
+Solution:You also need to include the MvvmCross File and DownloadCache Plugins, or else you'll get this error
+### MvxImageView的Imagesrc寫法
+
+ ImageUrl= "res:icon"icon小寫，原本的圖檔是在Resources/Drawable/Icon.png
+[參考這裡](http://stackoverflow.com/questions/20940360/mvximageview-cant-bind-imageurl-to-local-resource)### 取得裝置id
+
+https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/tree/master/AppId/Droid
+--->
+可能會遇上plugin掛不上去的問題，請用
+{%gist dearsherlock/a4f7eea1c78302688684%}
+
+
+https://www.nuget.org/packages/Xam.Plugin.DeviceInfo/
+
+
+### 遇上https無法抓取的問題（會有TSLexception）
+
+請加上以下這句就可以了（在android view project）
+{%gist dearsherlock/513ac60bfd6ab83a2523%}
+
+
+### 啟動時發生runtime error ，無法產生service instance
+
+
+
+
+### 發生sqlite one to many對應不支援
+{%gist dearsherlock/d29c61c8536cfe9edba9%}  
+安裝sqlite extension
+https://bitbucket.org/twincoders/sqlite-net-extensions
+
+但是和原本的sqlite會衝突，請將以下各dao implement class中的參照
+移除
+using Cirrious.MvvmCross.Plugins.Sqlite;改使用
+using Cirrious.MvvmCross.Community.Plugins.Sqlite;以下的bootstrap需要移除：
+{%gist dearsherlock/e3cbb4dafe5133fad945%}改變成以下的bootstrp:
+{%gist dearsherlock/36ff2c6995c0148653bd%}
+
+### ViewModel中的屬性進行非同步處理
+http://stackoverflow.com/questions/25382248/mvvmcross-async-and-await-method-in-pcl
+
+### 按鈕在兩邊，中間的空白要佔滿元件
+
+{%gist dearsherlock/8b2be07793b4b16d8d9f%}
+
+
+### 出現莫名的aapt.exe exited with code 1
+通常是加進來的檔案（圖檔名稱）違反java命名，可能有-等字眼。移除後就可以了。
+
+
+### android weight
+http://jimmy319.blogspot.tw/2011/09/android-layoutweight-viewproportionate.html
+
+### mvvmcross 檢查網路狀態之sample
+https://github.com/Cheesebaron/Cheesebaron.MvxPlugins/blob/master/Samples/Connectivity/Core/ViewModels/FirstViewModel.cs
+
+
+
+### sqlite 有onetomany卻沒有找到insertwithchild?
+請多加上:
+using SQLiteNetExtensions.Extensions;
+
+
+### 要印出log
+                System.Diagnostics.Debug.WriteLine("Invoice Count=" + i + ", Success Insert Current Invoice =" + invoiceInfo.InvoiceNumber);
+
+
+### 若有成功過但是onetomany不行～
+可能是app的db版本，請清除重建立
+
+
+### 1-many寫法
+http://stackoverflow.com/questions/24665304/sqlite-net-extensions-example-on-xamarin-forms
+
+
+### mvvmcross 傳送頁面資料限制
+一定要是簡單型態，因為是透過url傳送
+https://github.com/MvvmCross/MvvmCross/wiki/ViewModel--to-ViewModel-navigation#navigation-with-parameters---using-a-parameter-object
+
+
+### 解決傳送複雜物件問題
+http://stackoverflow.com/questions/19058173/passing-complex-navigation-parameters-with-mvvmcross-showviewmodel
+
+
+### 解決有時有些表格沒有PK
+發現是有些表格混用了sqlite的extension和標準版的sqlite-net所導致，檢查
+不要出現：
+using Cirrious.MvvmCross.Plugins.Sqlite;
+應該是要：
+using Cirrious.MvvmCross.Community.Plugins.Sqlite;
+
+
+### 解決1-many不正常的問題
+以下範例中，應該是會正常，有一次不正常是因為我把insert update都拆分到service層，沒有在同一個transaction,就會導致這樣。而child表格若有出現沒有建立，是因為沒有做createtable的動作（不會自動建立）
+
+{%gist dearsherlock/39fb5ded48d7e0feef19%}
+
+
+### 手勢滑動處理
+官方開發人員提供
+
+http://motzcod.es/post/82102717747/xamarin-android-swiperefreshlayout-for-mvvmcross
+
+自定listvie有滑動手勢
+https://github.com/chrisriesgo/android-swipelistview-sharp
+作者
+http://chrisriesgo.com/android-swipe-listview-for-xamarin/
+
+
+### APP名稱
+如果是mvvmcross的專案，他的app名稱會在Splashscreen.cs中的label
+請見這篇的討論：
+http://forums.xamarin.com/discussion/1178/change-app-name-on-main-screen
+
+
+### 產生qrcode
+原本使用Acr.MVVMCROSS.PLUGINS.Barcodescanner產生barcode
+後來作者自己建議使用：Acr.BarCodes
+兩個project都要include，參考[這裡](https://github.com/aritchie/barcodes)
+
+
+### 水平listview
+目前android版的並沒有支援，自定元件可以解決
+http://blog.ostebaronen.dk/2012/12/horizontal-listview-for-mono-for-android.html
+
+
+### Binding特殊寫法
+        local:MvxBind="{'Text':{'Path':'TestString'}}"
+ 			local:MvxBind="{'Text':{'Path':'Id'}}"
+ 			
+ 			
+### update control
+MvxBindableListAdapter-->MvxAdapter
+
+MvxBindableViewHelpers-->MvxAttributeHelpers
+
+MvxAndroidBindingResource-->加上using
+
+
+MvxAndroidBindingResource.Instance.BindableListViewStylableGroupId---->MvxAndroidBindingResource.Instance.BindingStylableGroupId, 
+
+MvxAndroidBindingResource.Instance.BindableListItemTemplateId-->
+MvxAndroidBindingResource.Instance.ListItemTemplateId
+
+
+
+### 出現Duplicate managed type found! Mappings between managed types
+通常是你有參考到了mono版的supportv4 lib,移除用xamarin support v4就可以了，移除後，有可以build不過，改p0->.position
+
+
+### 處理edittext不要一開始就focus(會讓鍵盤跑上來)
+http://stackoverflow.com/questions/1555109/stop-edittext-from-gaining-focus-at-activity-startup
+
+
+
+### 如何鎖住螢幕方向
+    [Activity(Label = "NFCInv", Theme = "@style/StyledIndicators",ScreenOrientation = ScreenOrientation.Portrait)]

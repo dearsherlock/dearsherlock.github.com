@@ -352,4 +352,15 @@ http://stackoverflow.com/questions/1555109/stop-edittext-from-gaining-focus-at-a
 
 
 ### 如何鎖住螢幕方向
-    [Activity(Label = "NFCInv", Theme = "@style/StyledIndicators",ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "NFCInv", Theme = "@style/StyledIndicators",ScreenOrientation = ScreenOrientation.Portrait)]### Xamarin 使用Beam傳送/接收資料範例
+https://github.com/xamarin/monodroid-samples/tree/master/AndroidBeamDemo
+### nfc觸發後不要recreate
+https://forums.xamarin.com/discussion/25346/nfc-onnewintent-action-is-never-nfcadapter-actionndefdiscovered
+
+
+
+### Visibility
+
+https://github.com/MvvmCross/MvvmCross/wiki/Value-Converters#the-mvx-visibility-valueconverters
+
+但要記得下載nuget for mvvmcross visibility` local:MvxBind="Visibility Item.IsShowDelete, Converter=Visibility"`

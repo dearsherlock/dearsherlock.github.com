@@ -19,3 +19,5 @@ a.可以和intent篩檢方法來過濾nfc tag。
 - 一個app裡面可以有多個intent篩檢，AAR只能有一個。
 
 b.若使用者沒有裝app，用AAR傳送可以觸發使用者進行下載app。
+
+

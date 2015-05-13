@@ -51,3 +51,11 @@ onresum的時候需要改變一點，改用另外一個行為flag(ACTION_TECH_DI
 {%gist dearsherlock/a4f3741a78517a4249ce%}
 
 如此就不會產生新的activity，造成困擾
+
+
+### 實際使用傳資料和過濾
+產生資料端
+{%gist dearsherlock/32f8acc2646687cb496d%}
+
+接收端以intent來過濾
+{%gist dearsherlock/cb812670d788db5bdf65%}

@@ -1,4 +1,12 @@
+---
+layout: post
+category : CAAS 
+tagline: "CHT CAAS"
+tags : [CHT,CAAS]
+title: "CAAS使用心得"
 
+
+---
 1.可否設定常用(最愛)標籤？太多伺服器很難區分哪個是常用的
 ![image](https://farm8.staticflickr.com/7756/17211551587_968f0b05c6_o.png)
 

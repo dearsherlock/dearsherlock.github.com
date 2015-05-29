@@ -13,6 +13,7 @@
 		<string>page</string>
 		<string>ad</string>
 		<string>elements</string>
+		<string>testImg</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

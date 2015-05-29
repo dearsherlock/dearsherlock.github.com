@@ -364,3 +364,24 @@ http://stackoverflow.com/questions/1555109/stop-edittext-from-gaining-focus-at-a
 https://github.com/MvvmCross/MvvmCross/wiki/Value-Converters#the-mvx-visibility-valueconverters
 
 但要記得下載nuget for mvvmcross visibility` local:MvxBind="Visibility Item.IsShowDelete, Converter=Visibility"`
+
+ 
+ ### 手勢元件GestureOverlayView設定成透明？
+  android:uncertainGestureColor="#00000000"  android:gestureColor="#00000000" 
+ ### 建置的時候出現：COMPILETODALVIK : UNEXPECTED TOP-LEVEL error
+ 在建置錯誤的專案選項中設定如下，就可以建置通過，但後續有沒有其他錯誤可以觀察。
+ ![image](https://farm9.staticflickr.com/8760/17485057934_267d713a39_o.png)
+ ### 下拉更新
+pull to refresh
+http://javatechig.com/android/android-lollipop-swipe-to-refresh-example
+https://github.com/bduncavage/PullToRefresharp
+
+
+
+### 無法對齊正中 android:layout_gravity vs android:gravity
+![image](https://farm8.staticflickr.com/7788/17994806268_379f46290f_o.png)
+
+像上面的就是用了        android:layout_gravity="center_vertical|center_horizontal" 卻沒有用。
+要用這個才可以
+  android:gravity="center_vertical|center_horizontal" 
+

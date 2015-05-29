@@ -19,6 +19,7 @@
 		<string>pos</string>
 		<string>uml</string>
 		<string>axure</string>
+		<string>amazon</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>

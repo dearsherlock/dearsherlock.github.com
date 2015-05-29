@@ -7,6 +7,8 @@ title: "CAAS使用心得"
 
 
 ---
+### 目前的使用心得
+
 1.可否設定常用(最愛)標籤？太多伺服器很難區分哪個是常用的
 ![image](https://farm8.staticflickr.com/7756/17211551587_968f0b05c6_o.png)
 
@@ -19,7 +21,7 @@ title: "CAAS使用心得"
 ![image](https://farm9.staticflickr.com/8808/17420819071_12ba13dd5c_o.png)
 
 且取得後應該要把密碼黃底標示，比較知道剛剛到底做了什麼事情！
-![image](https://farm9.staticflickr.com/8875/18193737622_91d932b22b_o.png)
+![image](https://farm9.staticflickr.com/8855/18213056782_0a8efef962_o.png)
 
 4.選擇os規格，修改和送出分不清楚。（後來才知道要先按修改）
 ![image](https://farm8.staticflickr.com/7733/17574015734_ba24a227e1_o.png)

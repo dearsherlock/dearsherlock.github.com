@@ -3,7 +3,7 @@ layout: post
 category : life 
 tagline: "Chap1"
 tags : [Design,Product,Behavior]
-title: "行為改變科學的實務設計 (人類心智如何決定下一件代辦事項)"
+title: "Oreilly筆記：行為改變科學的實務設計 (人類心智如何決定下一件代辦事項)"
 
 ---
 

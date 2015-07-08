@@ -51,3 +51,5 @@ ex:看到FB icon有未讀訊息，就會去打開看，有時會有新好友，�
 - 不要讓使用者經常失敗或預期會失敗  
 - 需要假設使用者的生命中還有其他更重要的事情  
 
+
+[Chap2](http://dearsherlock.github.io/life/action%20behavior%20chap2/)

@@ -61,3 +61,6 @@ title: "Oreilly筆記：行為改變科學的實務設計 (人類採取特定行
 ![](https://farm1.staticflickr.com/258/19339496728_3e2e23b736_o.jpg)
 
 每次通過CREATE漏斗的機率也不同，因為使用者的心境變了。
+
+
+[Chap1](http://dearsherlock.github.io/life/action%20behavior%20chap1/)

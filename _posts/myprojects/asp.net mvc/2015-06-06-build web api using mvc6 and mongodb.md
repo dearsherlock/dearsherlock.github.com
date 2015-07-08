@@ -16,6 +16,47 @@ ex:
 寫個hellocontrol,其實api存取的網址是api/hello?normal=xxx&joke=xxx
 
 
+### 依據以下元件要完成
+
+![image](https://farm9.staticflickr.com/8845/18009893043_47e159a058_o.png)
+MongoConfig
+{%gist dearsherlock/a929b1390b0c5dc2af7e%}
+
+
+MongoServiceBase
+{%gist dearsherlock/3fa617a057cba2b0cf6a%}
+
+PinInDataService
+{%gist dearsherlock/e30b799b2cf858ae6859%}
+
+PinInController
+{%gist dearsherlock/54bf2156e2d19022fb8e%}
+
+
+
+網頁端，使用非同步ajax取回json資料，若要加上google analytics如下範例。另外加上bootstrap支援響應式互動、加上open graph標籤。
+
+{%gist dearsherlock/c5e69e533e2089c52ed8%}
+
+
+### 產生loading icon
+參考這裡
+http://jsfiddle.net/jveldboom/c73MQ/2/
+icon可以在這裡產生
+http://www.ajaxload.info/
+
+
+### Deploy 
+Mongodb匯出比較簡單，直接copy目錄過去就可以了
+IIS就會遇到一些問題，如錯誤：0x80070021
+![image](https://farm1.staticflickr.com/292/18396901670_194f68225e_o.png)
+
+這是因為win2012的安全性，需要把一些元件另外安裝[如下網址](http://stackoverflow.com/questions/20048486/http-error-500-19-and-error-code-0x80070021)
+
+安裝以下元件
+![image](https://farm1.staticflickr.com/331/17962162764_4999fea418_o.png)
+安裝過程
+![image](https://farm9.staticflickr.com/8883/18398665879_9a6664fb92_o.png)
 
 ### QA
 雖然本來以為有下面的問題，但後來查證是我自己串url寫錯了～
@@ -31,6 +72,19 @@ ex:
               <pages validateRequest="False" />
           </system.web>
 即可避免資料送出後系統將Html語法判斷為惡意程式碼。
+
+
+
+
+若有要加上copy 到剪貼簿
+http://www.steamdev.com/zclip/#download（不支援ajax）
+
+http://zeroclipboard.org/?version=v2.2.0&type=amd
+以上好像都不支援ajax
+
+若要文字結合背景產生圖片
+http://www.allenj.net/archives/3793
+
 
 
 

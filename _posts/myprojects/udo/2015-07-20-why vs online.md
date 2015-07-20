@@ -125,10 +125,17 @@ Scrum master在完成任務後，就可以貼拉board上的任務進行狀態修
 
 #### 目前建立的專案連結
 
-| 位置                                                                                                                                        | 用途說明                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| [OTT帳戶首頁入口](https://chtott.visualstudio.com/)                                                                                         | 用來管理不同專案，以後可能會開不同用途的專案。 |
-| [中華影視TV App專案入口](https://chtott.visualstudio.com/DefaultCollection/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App)                    | 目前定位為TV版APP的專案管理    |
-| [工作管理](https://chtott.visualstudio.com/DefaultCollection/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App/_backlogs#level=Epics&_a=backlog) | 工作管理，從Epics->Features->Backlogs                       |
-| [討論區](https://chtott.visualstudio.com/_rooms)                                                                                            | 討論區入口                     |
+| 位置                                                                                                                                                                    | 用途說明                                       |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| [OTT帳戶首頁入口](https://chtott.visualstudio.com/)                                                                                                                     | 用來管理不同專案，以後可能會開不同用途的專案。 |
+| [中華影視TV App專案入口](https://chtott.visualstudio.com/DefaultCollection/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App)                                                | 目前定位為TV版APP的專案管理                    |
+| [工作管理](https://chtott.visualstudio.com/DefaultCollection/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App/_backlogs#level=Epics&_a=backlog)                             | 工作管理，從Epics->Features->Backlogs          |
+| [討論區](https://chtott.visualstudio.com/_rooms)                                                                                                                        | 討論區入口                                     |
+| [管理使用者](https://chtott.visualstudio.com/DefaultCollection/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App%20Team/_admin) | 新增使用者(微軟帳號)                           |
+
+
+[Git文件](https://chtott.visualstudio.com/DefaultCollection/_git/%E4%B8%AD%E8%8F%AF%E5%BD%B1%E8%A6%96TV%20App)
+
+修改您的VS Online密碼，是為了要讓github client存取用
+https://chtott.visualstudio.com/_details/security/altcreds
 

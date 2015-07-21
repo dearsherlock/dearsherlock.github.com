@@ -1,9 +1,9 @@
 ---
 layout: post
 category : life 
-tagline: "Chap4”
+tagline: "Chap4"
 tags : [Design,Product,Behavior]
-title: "Oreilly筆記：行為改變科學的實務設計 (弄清楚想要達成的成果)”
+title: "Oreilly筆記：行為改變科學的實務設計 (弄清楚想要達成的成果)"
 
 ---
 

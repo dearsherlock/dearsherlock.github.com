@@ -93,6 +93,7 @@ c.介面元素導向：純粹用UI讓使用者清楚知道如何使用
 
 ### 尼爾森的十大可用性原則-美觀與簡化設計 Aesthetic and minimalist design
 重點的呈現。會用到的是格式塔心理學，用來提高注意力或是一些設計準則。
+
 格式塔心理學：
 ![](https://farm1.staticflickr.com/563/19892789064_cfddfbeab5_o.jpg)
 

@@ -12,7 +12,8 @@ adb over tcp
 `
 /Applications/android\ sdk/platform-tools/adb`
 
-3.執行adb tcpip port
+
+3.執行adb tcpip port,執行完後拔開usb
 ex:
 
 `/Applications/android\ sdk/platform-tools/adb tcpip 6666`

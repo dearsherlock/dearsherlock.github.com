@@ -7,6 +7,7 @@ title: "易用性評估方法"
 
 ---
 
+
 ### 易用性評估方法
 
 這堂課的老師是Shuyang，其實課後整理時，發現這篇文章『[嫁給RD的UI Desugner：十大易用性原則](http://blog.akanelee.me/posts/160115-top-ten-usability-principles)』就已經把尼爾森的十大可用性原則講完了～大家可以看一下比較圖文並茂。而針對我也滿困惑的英文 "Heuristic Evaluation"，陳啟亮顧問也有[他的看法](http://www.xxc.idv.tw/dokuwiki/heuristics_usability_evaluation)，反正課堂上老師是都用易用性評估來取代。

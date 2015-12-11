@@ -6,7 +6,7 @@ tags : [Design,Product,Research]
 title: "不要變成使用者研究機器人。兩招教你可以有更好的研究產出"
 
 ---
-閒閒練一下英文，譯自[Don't Be a User Research Robot. 2 Tips for Better Research Deliverables](http://www.hichuck.com/blog/2015/12/8/dont-be-a-user-research-robot-recommendations-and-being-personal-matter)
+練一下英文，譯自[Don't Be a User Research Robot. 2 Tips for Better Research Deliverables](http://www.hichuck.com/blog/2015/12/8/dont-be-a-user-research-robot-recommendations-and-being-personal-matter)
 
 不要變成使用者研究機器人。兩招教你可以有更好的研究產出。
 

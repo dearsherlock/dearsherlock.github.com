@@ -14,6 +14,20 @@ title: "2015~2016的設計趨勢"
 一個簡單的使用者流程不會一直都在賣弄設計技巧，但他可以幫助使用者完成他們的任務。以下是一些方式可以讓使用者更快地完成一些目的：
 - 更少步驟：把要完成一個工作的步驟列出來，然被移除一些多餘的。舉例來說：使用者要登入：1.點選使用者名稱欄位 2.輸入使用者名稱 3.點選密碼欄位等等。你可以看一下，如果你預設把游標放在使用者名稱欄位，你就可省下一個步驟。嘗試把它列出來，以思考出更新鮮的、目標導向的觀點。
 - 更簡單的步驟：目標不是放在把步驟數量變得最少，而是更簡單。讓介面本身是有易讀性，[不要讓使用者有太多的選擇](http://studio.uxpin.com/blog/applying-hicks-law-to-web-design-free-example-wireframes/)。不要陷入[三次點擊的規則](http://uxmyths.com/post/654026581/myth-all-pages-should-be-accessible-in-3-clicks)，但要把精神放在設計的時候。
-- 描繪使用者流程：[Jessica Downey的方法](http://innovation.avg.com/2014/12/23/jumpstarting-your-app-conception-without-sketching-ui/)對於描繪使用者，使用了一個視覺的輔助方法來幫助設計師了解並且組構任務步驟，以及使用者的角度。另外一個Basecamp的Ryan提出了[類似但更簡化的方法。](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows)
+- 描繪使用者流程：[Jessica Downey的方法](http://dearsherlock.github.io/design/jumpstarting%20your%20app%20without%20sketching/)對於描繪使用者，使用了一個視覺的輔助方法來幫助設計師了解並且組構任務步驟，以及使用者的角度。另外一個Basecamp的Ryan提出了[類似但更簡化的方法。](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows)
 - 使用者測試：猜測是不可靠的。測試使用者看看他們如何能夠憑本能地去完成任務。當你使用以上的其他步驟時，會讓你得到更正確的資料。
-
+我們來看一下三個實際上簡化流程的範例：
+1.Uber在手機上輸入卡號是很乏味的，但Uber提供了拍信用卡擷取資訊的方式。![image](https://farm6.staticflickr.com/5803/23743570726_94d0d9ba37_o.png)
+他們這樣就簡單的付費流程：省下了
+1.輸入First Name
+2.輸入Last Name
+3.輸入卡號
+4.輸入安全碼
+
+簡化成只要：
+1.對信用卡拍照
+
+對於使用者，這個經驗不只是有用，還很神奇。
+
+2.Dropbox
+Dropbox的

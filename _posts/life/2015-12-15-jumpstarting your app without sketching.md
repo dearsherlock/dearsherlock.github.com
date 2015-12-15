@@ -3,7 +3,7 @@ layout: post
 category : design 
 tagline: "Design"
 tags : [Design,Product,Research]
-title: "不用UI草圖就開始構想你的APP"
+title: "Jumpstarting your app conception without sketching UI"
 
 ---
 

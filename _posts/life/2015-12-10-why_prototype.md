@@ -1,3 +1,11 @@
+---
+layout: post
+category : design 
+tagline: "Design"
+tags : [Design,Product,Research]
+title: "Prototyping with Frammer"
+
+---
 ## Why Prototype?
 - 溝通Idea
 - 設計在兩種狀態之間發生的事情
@@ -69,4 +77,9 @@ https://farm1.staticflickr.com/729/23018809714_6f94d4ac0e_o.png
 
 - 設成圓形的圖層：myLayerCircle.borderRadius = "50%"
 
+
+迴圈與Framer圖層：
+{%gist dearsherlock/716c97c358c01595b1de%}
+結果：
+{%gist dearsherlock/3f18641f29d8ff75a2a3%}
 

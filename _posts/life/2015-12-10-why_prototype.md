@@ -26,7 +26,8 @@ title: "Prototyping with Frammer"
 如我自己的[hello framer](https://www.dropbox.com/sh/oo8enm9qvscdnvm/AABD6Q0SK_BioIgqmS5I39_ha?dl=0)
 
 
-## 若PC環境下，可以用另外的工具開發
+## 若PC環境下，可以用另外的工具開發  
+
 ### Brackets
 http://brackets.io/，使用外掛管理器，另外安裝CoffeeScreipt，以及CoffeeScript Auto Compiler(自動產生JS的產生器)，安裝完後，刪除原本的app.js，改成assp.coffee，把framer studio裡面的code copy出來，注意一下資源檔案，儲存之後就可以產生app.js。
 
@@ -114,13 +115,4 @@ Framer.Device.contentScale=1.94  //可以把解析度自動擴增調高。
 比較好的結構：有好的命名和階層性
 ![image](https://farm1.staticflickr.com/607/23872116316_cb01fa6da5_o.png)
 
-
-
-## 動畫
-### 簡單的移動、大小和透明度改變
-{%gist dearsherlock/8eb2984620d2fab396c2%}
-
-
-<iframe src="http://share.framerjs.com/nd0k5lgulao7/" height="500" width="100%" frameborder="0" 
-     allowfullscreen="allowfullscreen">
-</iframe>
+## [動畫](http://)

@@ -121,5 +121,6 @@ Framer.Device.contentScale=1.94  //可以把解析度自動擴增調高。
 {%gist dearsherlock/8eb2984620d2fab396c2%}
 
 
-<iframe src="http://share.framerjs.com/nd0k5lgulao7/" width=100%>
+<iframe src="http://share.framerjs.com/nd0k5lgulao7/" height="500" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
 </iframe>

@@ -115,4 +115,4 @@ Framer.Device.contentScale=1.94  //可以把解析度自動擴增調高。
 比較好的結構：有好的命名和階層性
 ![image](https://farm1.staticflickr.com/607/23872116316_cb01fa6da5_o.png)
 
-## [動畫](http://)
+## [動畫](framer_animation/)

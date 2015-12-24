@@ -14,7 +14,7 @@ title: "Framer Animation"
 
 [Demo](http://share.framerjs.com/nd0k5lgulao7)
 
-<iframe src="http://share.framerjs.com/nd0k5lgulao7/" height="500" width="100%" frameborder="0" 
+<iframe src="http://share.framerjs.com/nd0k5lgulao7/" height="600" width="100%" frameborder="0" 
      allowfullscreen="allowfullscreen">
 </iframe>
 
@@ -25,9 +25,61 @@ title: "Framer Animation"
 {%gist dearsherlock/ec402bcc1d1d3476792d%}
 
 
-<iframe src="http://share.framerjs.com/5lgz9g5e08du/" height="500" width="100%" frameborder="0" 
+### 使用for-loop設定動畫次數
+{%gist dearsherlock/ec47d5a2add03a03f2a1%}
+
+[Demo](http://share.framerjs.com/5lgz9g5e08du/)
+
+<iframe src="http://share.framerjs.com/5lgz9g5e08du/" height="600" width="100%" frameborder="0" 
      allowfullscreen="allowfullscreen">
 </iframe>
 
-{%gist dearsherlock/c2bca6076186fe61d800%}
 
+### 設定動畫的旋轉和旋轉樣式
+{%gist dearsherlock/81da458dc2a867936399%}
+
+curve的種類有三種：
+
+- linear  
+![image](https://farm1.staticflickr.com/589/23921877565_dc359e39d4_o.gif)
+
+- ease系列：ease-in-out:緩進緩出...有四種各不相同，預設為ease
+
+![image](https://farm6.staticflickr.com/5705/23839616341_21fc066205_o.gif)
+
+ease:預設，開始快，後面會慢下來  
+ease-in:開始會慢  
+ease-out:後面會慢  
+ease-in-out:開始會慢，後面會慢  
+
+[DEMO](http://share.framerjs.com/s3pogr270eoy/)
+
+<iframe src="http://share.framerjs.com/s3pogr270eoy/" height="800" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+- spring(張力tension,摩擦friction,速度velocity)  
+![image](http://framerjs.com/assets/static/images/learn/animation-spring.gif)
+ 	
+- spring參數 - 張力越大，速度越快，反彈更大。  
+ 	
+<iframe height="300" scrolling="no" src="http://codepen.io/stakes/embed/tDhyo/?height=268&theme-id=0&default-tab=result" frameborder="no" allowfullscreen="true" width="100%">
+</iframe>
+
+- spring參數 - 摩擦很像避震器，數字越小，越軟Q，越數字越大，越硬一些
+
+<iframe height="300" scrolling="no" src="http://codepen.io/stakes/embed/LJlov/?height=268&theme-id=0&default-tab=result" frameborder="no" allowfullscreen="true" width="100%">
+</iframe>
+
+- spring參數 - 速度，數字越大，越快完成。  
+
+<iframe height="300" scrolling="no" src="http://codepen.io/stakes/embed/KGmlc/?height=268&theme-id=0&default-tab=result" frameborder="no" allowfullscreen="true" width="100%">
+</iframe>
+
+
+- 貝茲曲線
+
+![image](https://farm6.staticflickr.com/5707/23627572450_231d908410_o.png)
+
+可以[參考這裡](http://cubic-bezier.com/)

@@ -21,6 +21,9 @@ title: "Framer Animation"
 ### 加上動畫長度、延遲  
 {%gist dearsherlock/169494605aafe9370ab2%}
 
+另外一種設定delay的方式(需要建立animation物件)  
+{%gist dearsherlock/d58c1113ff30f58add4f%}
+
 ### 物件階層若要for-loop設定動畫  
 {%gist dearsherlock/ec402bcc1d1d3476792d%}
 
@@ -83,3 +86,34 @@ ease-in-out:開始會慢，後面會慢
 ![image](https://farm6.staticflickr.com/5707/23627572450_231d908410_o.png)
 
 可以[參考這裡](http://cubic-bezier.com/)
+
+
+### 動畫的反轉、設定動畫的啟動  
+
+{%gist dearsherlock/98fabefc26edb140636a%}
+
+
+[DEMO](http://share.framerjs.com/o9trj9ajt0ru/)
+
+<iframe src="http://share.framerjs.com/o9trj9ajt0ru/" height="800" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+### 動畫的設定方式
+啟動動畫的方式一：
+{%gist dearsherlock/8e5f38798d57fea65548%}
+
+[Demo](http://share.framerjs.com/cpy3ls3dmre5/)  
+<iframe src="http://share.framerjs.com/cpy3ls3dmre5/" height="800" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+啟動動畫的方式二：
+{%gist dearsherlock/265f477ffd95475434c8%}
+
+[DEMO](http://share.framerjs.com/x7ghp30e5n3c/)  
+<iframe src="http://share.framerjs.com/x7ghp30e5n3c/" height="800" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+

@@ -117,3 +117,17 @@ ease-in-out:開始會慢，後面會慢
      allowfullscreen="allowfullscreen">
 </iframe>
 
+
+### 練習
+建立一個按鈕，並且由上往下跳出，
+
+{%gist dearsherlock/5fbe4a827737347a33f6%}
+
+[DEMO](http://share.framerjs.com/g7g2go839k5f/)
+<iframe src="http://share.framerjs.com/g7g2go839k5f/" height="800" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 更多參考資源
+[可以參考這裡：Animation Resources for User Interfaces](http://www.prototypingwithframer.com/animation-resources/)

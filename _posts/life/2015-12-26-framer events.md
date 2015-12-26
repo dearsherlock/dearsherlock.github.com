@@ -1,0 +1,113 @@
+---
+layout: post
+category : design 
+tagline: "Design"
+tags : [Design,Product,Framer]
+title: "Framer Events"
+
+---
+### Event
+幾種event的寫法：
+
+{%gist dearsherlock/55622fd854f3a130a5f9%}
+
+### 其他Event
+可以看參考文件中的Event說明，一大堆的事件等你來使用  
+![image](https://farm2.staticflickr.com/1550/23980071295_7d8fb167f9_o.png)
+
+
+
+### Print/Log
+print會在preview視窗跳出一個小視窗，印製的指令可以加上#{物件.屬性} 來串連印製，若要串連，也可以用逗號隔開繼續印出,比較不像string.format
+`
+layerC.on "click",(event,layer) -> 
+	print "be click in layer C, #{layer.name} and event is #{event} "`
+
+![image](https://farm6.staticflickr.com/5760/23352789123_13bbba05e0_o.png)
+
+而Log是另外一種debug方式，版面會比較乾淨，會印到web console中。點選Inspect，就可以叫出Web Inspector
+`console.log "be click in layer C, #{layer.name} and event is #{event},event "`
+
+如下：
+![image](https://farm6.staticflickr.com/5818/23351594154_bf153b3e05_o.png)
+
+但請記住，若想要進一步分析，請在console.log中後面加上物件當變數，若包在字串中，就沒辦法攤開了～攤開如下：  
+
+`console.log "be click in layer C, #{layer.name} and event is #{event},event "`
+
+![image](https://farm2.staticflickr.com/1567/23353052393_a971aa7ce1_o.png)
+
+### 設定圖層順序
+如果某個圖層知道要在人家後面，就只要輸入以下：  
+`layerA.placeBehind layerB`
+
+要放在人家前面，也會有placeBefore  
+`layerA.placeBefore layerB`
+
+
+### 練習一
+設定event click的處理，當點下最愛按鈕可以改變按鈕的layout（放大且有星號），按下分享，可以動畫跑出三個社交媒體的按鈕，不想要分享的話，按一下螢幕就可以把按鈕縮回去。
+
+{%gist dearsherlock/fb338ba00e9f43cdc1a9%}
+
+
+[DEMO](http://share.framerjs.com/1i30dsrqudmz/)
+
+
+
+<iframe src="http://share.framerjs.com/1i30dsrqudmz/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 練習二
+當事件結束時(並且改變背景顏色)呼叫另外一個事件啟動(並且改變背景顏色)。--->這個之前已經有範例。
+此練習加上delay 5秒後，會呼叫動畫的暫停。而也示範了註冊事件的不同寫法，
+
+ex:
+	.on Events.AnimationStart = .on "start"  
+   .on Events.AnimationEnd = .on "end"
+
+{%gist dearsherlock/2f705d9e7fc877bde60b%}
+
+[DEMO](http://share.framerjs.com/vwbkkdma5gj0/)
+
+<iframe src="http://share.framerjs.com/vwbkkdma5gj0/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+
+### 練習三 1/3
+拖拉進去6種心型圖片，可以在點擊背景的時候出現一堆亂數產生會往上飄的心型圖片(很像天燈)  
+{%gist dearsherlock/e0fee47d0c98c198d233%}
+
+[DEMO](http://share.framerjs.com/thhcjr0ymlte/)
+
+<iframe src="http://share.framerjs.com/thhcjr0ymlte/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 練習三 2/3
+承上，把event當變數傳進去,取得發動event的x,y軸，就可以讓愛心比較貼近點擊的地方。並且把建立layer和動畫抽取成function，讓程式更簡潔
+
+{%gist dearsherlock/dde78bec38f23eb32a1f%}
+
+
+[DEMO](http://share.framerjs.com/lc7ivbyh2fpc/)
+<iframe src="http://share.framerjs.com/lc7ivbyh2fpc/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 練習三 3/3 加上影片當成背景，並且控制影片的播放和暫停，並且讓播放暫停按鈕更有趣的變化
+{%gist dearsherlock/0f3e38beb8dac844de57%}
+[DEMO](http://share.framerjs.com/8jyknimjmye6/)
+<iframe src="http://share.framerjs.com/8jyknimjmye6/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
+
+
+

@@ -50,7 +50,8 @@ title: "Framer 小秘技"
 - ⌘/  = 整塊註解加上#，再按一次會把#刪除
 - ⌘]  = 縮排
 - ⌘[  = 凸排
-
+- ⌘+  = 程式字型放大
+- ⌘-  = 程式字型縮小
 
 ### 基本Util
 [在這裡的Utilities函式庫](http://framerjs.com/docs/#utils.utilities)十分有用，以下介紹幾個常用或沒在裡面的。method的()可以拿掉。

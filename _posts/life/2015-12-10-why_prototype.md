@@ -30,4 +30,4 @@ title: "Prototyping with Frammer"
 
 ## [動畫](../framer_animation/)
 
-## [如何更有效率](../framer_animation/)
+## [如何更有效率](../framer%20tips//)

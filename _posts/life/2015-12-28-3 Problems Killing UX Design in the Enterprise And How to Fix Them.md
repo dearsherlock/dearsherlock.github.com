@@ -9,8 +9,8 @@ title: "企業中三個常見的UX設計問題與解法"
 
 [譯自這裡](http://studio.uxpin.com/blog/3-problems-solutions-ux-design-enterprise/?utm_source=facebook&utm_medium=uxlink&utm_campaign=&utm_content=blog)
 
-**在大企業裡的UX設計是完全不同一件事。從一些頂級UX從業人員的見解，我們將解釋與用戶體驗設計在大公司的三種最常見的問題 - 以及高手如何解決這些問題。
-**
+
+**在大企業裡的UX設計是完全不同一件事。從一些頂級UX從業人員的見解，我們將解釋與用戶體驗設計在大公司的三種最常見的問題 - 以及高手如何解決這些問題。**
 
 較大的團隊會提供比較多的腦力和觀點，但他們還會加入了更多的意見、政治力、路障。經過委員會出來的設計總是會減少一些偉大的想法而變成一堆妥協。
 

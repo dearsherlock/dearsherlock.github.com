@@ -3,7 +3,7 @@ layout: post
 category : design 
 tagline: "Design"
 tags : [Design,Product,Research]
-title: "3 Problems Killing UX Design in the Enterprise (And How to Fix Them)"
+title: "企業中三個常見的UX設計問題與解法"
 
 ---
 

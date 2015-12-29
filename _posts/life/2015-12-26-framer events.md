@@ -113,9 +113,6 @@ ex:
 ### 拖拉
 - 若你需要物件啟動拖拉功能，你需要設定  `layer.draggable.enabled = true`
 
-- d  
-`layer.draggable.bounce = false
-`
 
 - 若你要設定拖拉只能維持在某方向，如垂直或水平，可以設定如下，就可以保持垂直拖拉  
 `layer.draggable.horizontal = false`
@@ -128,14 +125,22 @@ ex:
 - 若你要設定拖拉的範圍，需要設定如下(但連overdrag也要同時設定為false才有用，不然會飄走)：
 {%gist dearsherlock/340518fdb59b01db5bd2%}
 
-`layer.draggable.overdrag = false
-`
 - 設定物件是否需要彈回效果  
 `layer.draggable.bounce = false`
 
-- 設定彈跳效果，需要搭配bounce=true的彈跳效果。
+- 設定彈跳效果，需要搭配bounce=true的彈跳效果。  
 {%gist dearsherlock/d1cea1ed2d5347918cd1%}
 
 - 設定物件拖拉時是否會有慣性力(若false則手要一直拖)  
 `layer.draggable.momentum = false`
+
+- 拖拉事件的註冊
+會有Events.DragStart、Events.DragEnd等  
+{%gist dearsherlock/9e2c8f3e67ca0cf4c5d0%}
+
+[DEMO:拖拉一個圓形，點下會有微微放大，放開會拉回原地](http://share.framerjs.com/6kwauuxayy63/)  
+<iframe src="http://share.framerjs.com/6kwauuxayy63/" height="600" width="100%" frameborder="0" 
+     allowfullscreen="allowfullscreen">
+</iframe>
+
 

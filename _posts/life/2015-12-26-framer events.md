@@ -6,6 +6,9 @@ tags : [Design,Product,Framer]
 title: "Framer Events"
 
 ---
+## 寫在前頭
+Event算是滿基礎且重要的一堂，而大概知道event寫的signature之後就差不多會了～另外就是事件和事件之間的串接，參數的傳遞，也是要掌握事件處理滿重要的一些基礎。
+
 ### Event
 幾種event的寫法：
 

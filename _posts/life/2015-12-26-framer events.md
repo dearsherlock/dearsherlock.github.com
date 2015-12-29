@@ -122,7 +122,7 @@ ex:
   或是  
 `layer.draggable.speedY=number`
 
-- 若你要設定拖拉的範圍，需要設定如下(但連overdrag也要同時設定為false才有用，不然會飄走)：
+- 若你要設定拖拉的範圍，需要設定如下(但連overdrag也要同時設定為false才有用，不然會飄走)，設定完constraint之後：  
 {%gist dearsherlock/340518fdb59b01db5bd2%}
 
 - 設定物件是否需要彈回效果  
@@ -143,4 +143,41 @@ ex:
      allowfullscreen="allowfullscreen">
 </iframe>
 
+
+### 練習-下拉更新畫面，顯示動畫 1/3
+{%gist dearsherlock/e805f4a232a435b33a1f%}
+
+[DEMO](http://share.framerjs.com/psn7u82rdeut/)
+
+<iframe src="http://share.framerjs.com/psn7u82rdeut/" height="600" width="100%" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+
+### 練習-下拉更新畫面，增加背景、火箭圖案，且會有動作，火會消失 2/3
+
+{%gist dearsherlock/a070c0a99990193124cd%}
+
+[DEMO](http://share.framerjs.com/96lyj7e04fag/)
+
+<iframe src="http://share.framerjs.com/96lyj7e04fag/" height="600" width="100%" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 練習-建構雲朵，調整圖層上下順序，雲朵動畫建構
+{%gist dearsherlock/214d92399c6060e16624%}
+
+[DEMO](http://share.framerjs.com/ablbtn8z88h0/)
+
+
+<iframe src="http://share.framerjs.com/ablbtn8z88h0/" height="600" width="100%" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
+
+
+### 綜和練習，建構一個動畫，企鵝可以拖拉，拖的時候會放大，放開就縮回，但是click會放很大，兩秒後會跌倒這樣
+
+
+{%gist dearsherlock/6159933c82ae74b8ee06%}
+
+[DEMO](http://share.framerjs.com/sz84dsm6f1gx/)  
+<iframe src="http://share.framerjs.com/sz84dsm6f1gx/" height="600" width="100%" frameborder="0" allowfullscreen="allowfullscreen">
+</iframe>
 

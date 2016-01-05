@@ -27,6 +27,15 @@ title: "Framer 物件屬性設定"
 
 - 設成圓形的圖層：myLayerCircle.borderRadius = "50%"
 
+- 設定Y軸放大的起點：介於0~1之間，預設為0.5，從上下放大。而0是從上方往下延伸放大，1是從下方往上延伸放大的效果。  
+  `layer.originY=1
+ ` 
+
+- 設定layer的內容：可以塞html等等到這個屬性。或是簡單的文字  
+`
+layer.html=test`
+ 
+
 ### 迴圈與Framer 物件子圖層：
 如下程式中，subLayers是共用屬性，可用for...in...或是for (key,value ) of...來處理。
 

@@ -44,3 +44,7 @@ layer.html=test`
 結果：
 
 {%gist dearsherlock/3f18641f29d8ff75a2a3%}
+
+
+
+[回到Framer主介紹頁](../why_prototype)

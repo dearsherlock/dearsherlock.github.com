@@ -21,6 +21,7 @@ title: "Prototyping with Frammer"
 ## Framer的基本概念
 程式碼會寫在app.coffee（執行期間會轉成app.js），影像若要載入，可以用拖拉的方式拖入IDE中，你也可以用程式來建立物件，也可以使用photoshop或是sketch的圖層來匯入，減少自己建立物件的過程。匯入的東西都會是專案的資產內容，就可以進行控制。但基本上還是要有好的圖層結構，比較不會出錯。
 
+## [Framer展示](../Framer%20Present)
 
 ## [Coffee基礎](../coffee%20script)
 

@@ -80,3 +80,8 @@ title: "Frammer 學習無止盡"
 
 [回到Framer主介紹頁](../why_prototype)
 
+
+### 範例 -- 鍵盤事件(監聽keyboard)
+http://examples.framerjs.com/#event-keyboard-shortcuts.framer
+
+

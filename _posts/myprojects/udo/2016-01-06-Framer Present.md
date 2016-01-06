@@ -21,7 +21,7 @@ Framer在設計的階段可以在Preview視窗中使用不同的底稿，可以�
 ### 自定Viewer
 以TV為例子，若想要1280x720來做設計，載入的底稿需要大於這個解析度，且要慢慢的嘗試他的大小和邊界。如我嘗試1280x720解析度下，載入一個Flickr上面的圖檔，此圖檔因為有上下邊框，大小若沒設好，就會露出太多不想要看到的。
 以下是成功的設定：  
-{%gist earsherlock/b7a12df8e84b623d1d9d%}
+{%gist dearsherlock/b7a12df8e84b623d1d9d%}
 
 底稿不會影響座標，是多少就會是多少，上面設定完之後範例如下
 ![image](https://farm2.staticflickr.com/1633/24202477775_ce6d104296_o.png)

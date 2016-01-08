@@ -5,7 +5,8 @@ logo:             kid.jpg
 disqus_shortname: ""
 share:            true
 readtime:		  true
-wpm:			  200
+# 文章下方會提示讀者本篇文章會讀多久，目前設定每分鐘讀200字
+wpm:			  100
 dropcap:		  true
 theme:			  blue
 nprogress:        true
@@ -55,7 +56,7 @@ timezone:    Asia/Taipei
 future:      true
 highlighter: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    20
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

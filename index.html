@@ -45,7 +45,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 </h3>
             </header>
             <section class="notepad-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:5 }}</p>
+                <p>{{ post.content | strip_html | truncatewords:2 }}</p>
             </section>
             <div class="notepad-index-post-tags">
             {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}{% if site.readtime %}&nbsp;<a><i class="fa fa-clock-o"></i> {% if readtime > 60 %}{% assign readtime_hours = readtime | divided_by: 60 %}{% assign readtime_minutes = readtime | modulo:60 %}{% if readtime_hours > 1 and readtime_hours < 2 %}1 hour{% else %}<span class="hour">{{ readtime_hours }}</span> hours{% endif %}{% if readtime_minutes < 1 %}{% elsif readtime_minutes > 1 and readtime_minutes < 1.5 %} and 1 minute {% elsif readtime_minutes > 1.5 %} and <span class="time">{{ readtime_minutes }}</span> minutes{% endif %}{% else %}{% if readtime < 1 %}Less than 1 minute {% elsif readtime > 1 and readtime < 1.5 %}1 minute {% elsif readtime > 1.5 %}<span class="time">{{ readtime }}</span> minutes {% endif %}{% endif %} read</a>{% endif %}{% if post.featured %}&nbsp;<a href="{{ site.url }}/featured"><i class="fa fa-star-half-o fa-spin"></i> Featured</a>{% endif %}{% if post.video %}&nbsp;<a><i class="fa fa-youtube-play"></i> Video</a>{% endif %}{% if post.location %}&nbsp;<a href="https://www.google.com/maps/place/{% if post.locationgps %}{{ post.locationgps }}{% else %}{{ post.location}}{% endif %}" target="_blank"><i class="fa fa-map-marker"></i> {{ post.location }}</a>{% endif %}
@@ -112,7 +112,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 </h3>
             </header>
             <section class="notepad-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:5 }}</p>
+                <p>{{ post.content | strip_html | truncatewords:2 }}</p>
             </section>
             <div class="notepad-index-post-tags">
             {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}{% if site.readtime %}&nbsp;<a><i class="fa fa-clock-o"></i> {% if readtime > 1 and readtime < 1.5 %}1 minute read{% endif %}{% if readtime > 1.5 %}<span class="time">{{ readtime }}</span> minutes read{% endif %}{% if readtime < 1 %}Less than 1 minute read{% endif %}</a>{% endif %}{% if post.featured %}&nbsp;<a href="{{ site.url }}/featured"><i class="fa fa-star-half-o fa-spin"></i> Featured</a>{% endif %}{% if post.video %}&nbsp;<a><i class="fa fa-youtube-play"></i> Video</a>{% endif %}{% if post.location %}&nbsp;<a href="https://www.google.com/maps/place/{% if post.locationgps %}{{ post.locationgps }}{% else %}{{ post.location}}{% endif %}" target="_blank"><i class="fa fa-map-marker"></i> {{ post.location }}</a>{% endif %}

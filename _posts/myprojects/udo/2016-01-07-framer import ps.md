@@ -61,7 +61,7 @@ loadImporter.coffee:215
 ![image](https://farm2.staticflickr.com/1605/23600564273_7fae0fd3f3_o.png)
 
 ## 範例
-目前比較乾淨一點的PSD示範[在此](https://drive.google.com/file/d/0B62x5TTVLcQ0UDk0Y2stdDlWUFU/view?usp=sharing)
+目前比較乾淨一點的PSD示範[0110更新版本在此](https://drive.google.com/file/d/0B62x5TTVLcQ0aThOa01BaGxGOU0/view?usp=sharing)
 
 PSD結構圖：  
 ![image](https://farm2.staticflickr.com/1702/23988331890_7a395c1c9a_o.png)
@@ -111,3 +111,4 @@ PSD結構圖：
 ![image](https://farm2.staticflickr.com/1497/24287286605_d90c5ac45b_o.png)
 
 
+### Step 8: [完整更新的結構](https://drive.google.com/file/d/0B62x5TTVLcQ0aThOa01BaGxGOU0/view?usp=sharing)

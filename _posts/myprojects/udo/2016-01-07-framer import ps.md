@@ -60,6 +60,9 @@ loadImporter.coffee:215
 
 ![image](https://farm2.staticflickr.com/1605/23600564273_7fae0fd3f3_o.png)
 
+## framer的fontsite:
+大多是直接指PX。
+
 ## 範例
 目前比較乾淨一點的PSD示範[0110更新版本在此](https://drive.google.com/file/d/0B62x5TTVLcQ0aThOa01BaGxGOU0/view?usp=sharing)
 
@@ -67,6 +70,7 @@ PSD結構圖：
 ![image](https://farm2.staticflickr.com/1702/23988331890_7a395c1c9a_o.png)
 
 [Framer匯入成功後DEMO在此](http://share.framerjs.com/482ooft8cgn6/)，目前只有把所有的物件放入ScrollComponent裡面，可以上下滑動，隱藏了4:3和全版廣告物件。
+
 
 
 ## 調教過程
@@ -107,8 +111,13 @@ PSD結構圖：
 改善後  
 ![image](https://farm2.staticflickr.com/1525/23658628084_7c202ae2d0_o.png)
 
-### Step7 : 結構要乾淨，若物件是集合，就要以集合呈現
+
+### Step7 : 目錄的名稱不要重複，即使跨了目錄也一樣。
+
+
+### Step8 : 結構要乾淨，若物件是集合，就要以集合呈現
 ![image](https://farm2.staticflickr.com/1497/24287286605_d90c5ac45b_o.png)
 
 
-### Step 8: [完整更新的結構](https://drive.google.com/file/d/0B62x5TTVLcQ0aThOa01BaGxGOU0/view?usp=sharing)
+### Step 9: [完整更新的結構](https://drive.google.com/file/d/0B62x5TTVLcQ0aThOa01BaGxGOU0/view?usp=sharing)
+

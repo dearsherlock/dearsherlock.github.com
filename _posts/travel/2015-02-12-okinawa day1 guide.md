@@ -12,7 +12,7 @@ title: "沖繩之旅Day1"
 
 之前規劃的行程如下連結：
 [link](
-http://dearsherlock.github.io/travel/okinawa%20travel%20customize/)
+http://dearsherlock.github.io/travel/okinawa-travel-customize)
 
 蒐集的資料如下連結：
 [link](http://dearsherlock.github.io/travel/okinawa%20travel/)

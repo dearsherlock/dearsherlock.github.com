@@ -16,4 +16,4 @@ Lydia Kuo（郭藺瑩）目前是 Yahoo! 亞太區行動產品暨設計中心的
 
 ### 資源
 
-[簡報](2016 CHT Sharing.pdf)
+[簡報](2016_CHT_Sharing.pdf)

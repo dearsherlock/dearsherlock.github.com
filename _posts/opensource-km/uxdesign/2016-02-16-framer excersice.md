@@ -54,3 +54,26 @@ ex:要引用SVG的Snap方法，需要使用到snap.svg-min.js 的js檔案。
 ![image](https://farm2.staticflickr.com/1594/24427342664_b3962272e4_o.png)
 3.關閉專案重開，就會發現沒有錯誤了。
 
+
+#### 改變Cursor
+
+`document.body.style.cursor = "auto"`
+
+
+
+
+### 新發現的命名原則
+發現有一個bug，如果啟動兩個for-loop，並且兩個forloop的each都命名成一樣，會有問題（會吃到另外一個）
+
+ex:
+
+for itMoviePromote in promoteMovies.subLayers
+	arqueeMask.superLayer=itMoviePromote
+for itMoviePromote in promoteMovies2.subLayers
+	arqueeMask.superLayer=itMoviePromote
+
+以上會發現第1個loop會被蓋掉。
+
+解決方法：
+eachXXX命名成不一樣就好了。
+

@@ -1,4 +1,13 @@
+---
+layout: post
+category : Design
+tagline: "使用者中心設計與原型開發"
+tags : [yahoo,design,ued]
+title: "使用者中心設計與原型開發"
+imagefeature: https://farm8.staticflickr.com/7459/26783163525_f9f412b5be_o.jpg
+covereffect: slice
 
+---
 
 ### 講師
 蘇伯方 Kaba Su
@@ -129,6 +138,15 @@ UI和UX的差別
 ![image](https://farm2.staticflickr.com/1630/26664609561_6140b97e64_o.png)
 
 ![image](https://farm2.staticflickr.com/1491/26730837625_65290f649f_o.png)
+
+![image](https://farm8.staticflickr.com/7458/26784851175_c69340acae_o.png)
+
+![image](https://farm8.staticflickr.com/7143/26691128272_417911bb7b_o.png)
+
+![image](https://farm8.staticflickr.com/7418/26181197053_05bc43d705_o.png)
+
+
+![image](https://farm8.staticflickr.com/7006/26760274166_5b01f1e976_o.png)
 
 ### Golden Circle
 來自Ted演說，[Simon Sinek - 偉大的領導者如何鼓動行為](https://www.youtube.com/watch?v=sZw8a8y85BU) 

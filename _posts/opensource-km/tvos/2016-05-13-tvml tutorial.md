@@ -14,7 +14,8 @@ covereffect: push
 第一個教學，[在此可以參考！](https://www.raywenderlich.com/114886/beginning-tvos-development-with-tvml-tutorial)
 
 
-如果是xcode 7.3.1，則他已經內建好TVML project，所以可以不需要作一些初始動作。
+如果是xcode 7.3.1，則他已經內建好TVML project template，還滿完整的Hello World，可以省下很多功夫。
+![image](https://farm8.staticflickr.com/7797/27076866256_675d50bedd_o.png)
 
 
 ### 啟動TVML Server端
@@ -32,6 +33,10 @@ covereffect: push
 
 在xcode可以在這裡設定：
 ![image](https://farm8.staticflickr.com/7364/27009464662_642df16820_o.png)
+
+原因如下：
+`
+Note: Adding this key to your Info.plist is necessary because as of iOS 9, your app will prevent linking to non-HTTPS servers to encourage best practices. In this tutorial, you’ll be testing against a local server without HTTPS enabled, so you’ll disable the default behavior.`
 
 ### 第一個範例
 {%gist dearsherlock/daf1f4138cf1982d3ad271d83775369a%}

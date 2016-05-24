@@ -8,7 +8,6 @@ imagefeature: https://farm8.staticflickr.com/7519/27210555915_63cdba19df_o.jpg
 covereffect: slice
 
 ---
-
 ### UX到底要度量啥
 用戶體驗在本質上是主觀的。對於產品接觸面的指標，我們可以簡單地衡量如瀏覽量、停留時間等，以及轉換率（如註冊和銷售數字）。但我們應該要怎麼直接地測量UX成效呢？  
 

@@ -4,7 +4,7 @@ category : Life
 tagline: "UX到底要度量啥"
 tags : [ux,kpi]
 title: "UX到底要度量啥"
-imagefeature: https://farm8.staticflickr.com/7781/26758380546_c1969b404f_o.jpg
+imagefeature: https://farm8.staticflickr.com/7519/27210555915_63cdba19df_o.jpg
 covereffect: slice
 
 ---
@@ -12,9 +12,13 @@ covereffect: slice
 ### UX到底要度量啥
 
 
-[譯自這裡](https://studio.uxpin.com/user-experience/ux-metrics-tracking/)
+[原英文版在此](https://studio.uxpin.com/user-experience/ux-metrics-tracking/)
 
-用戶體驗在本質上是主觀的。我們可以衡量客戶對於產品接觸面的指標，如瀏覽量、停留時間等，以及轉換率（如註冊和銷售數字）。但我們應該要怎麼直接地測量UX成效呢？根據Google員工所[完成的研究](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36299.pdf)，以用戶為中心的指標是很難得到的。參數若過於籠統就會沒有用，若太過於精確卻又很難一體適用。在他們的論文中，他們提出了一套有用的UX分析方法，我們來看看團隊應該要來跟進哪些指標。
+用戶體驗在本質上是主觀的。對於產品接觸面的指標，我們可以簡單地衡量如瀏覽量、停留時間等，以及轉換率（如註冊和銷售數字）。但我們應該要怎麼直接地測量UX成效呢？  
+
+根據幾年前Google員工所[完成的研究](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36299.pdf)，以用戶為中心的指標是很難得到的。參數若過於籠統就會沒有用，若太過於特定標的卻又很難一體適用。  
+
+在他們的論文中，他們提出了一套有用的UX分析方法，我們來看看團隊應該要來跟進哪些指標。
 
 ### 基本款：脈搏指標
 這是比較舊的分析模型，比較適用衡量業務目標的進展狀況。雖然是有用的，但是對於UX決策卻是落後指標。
@@ -29,24 +33,24 @@ covereffect: slice
 **七天活躍用戶**：獨立的用戶在七天內的存取數量  
 **收入**：網站或服務所賺到的錢。
 
-雖然企業可以跟進這些指標，但是要記住的是，這些測量指標缺乏了前後關係。例如，在前五分鐘的瀏覽次數看起來很多，但有可能是找不到東西。
+雖然企業可以跟進這些指標，但是要記住的是，這些測量指標缺乏了前後因果關係。  
+例如，在前五分鐘的瀏覽次數看起來很多，但有可能是找不到東西。
 比較有意義的是心跳指標。
 
 
 ### 高階：心跳指標
-心跳指標是更完整的UX指標
-如下：
-**Happiness**：可以呈現整體的滿意度或是喜悅，UXPin使用了[NPS](http://help.surveymonkey.com/articles/zh_TW/kb/Using-a-SurveyMonkey-Survey-to-Measure-Net-Promoter-Score)當成是幸福指標
+心跳指標是更完整的UX指標，如下：  
+**Happiness**：可以呈現整體的滿意度或是喜悅，UXPin使用了[NPS](http://help.surveymonkey.com/articles/zh_TW/kb/Using-a-SurveyMonkey-Survey-to-Measure-Net-Promoter-Score)當成是幸福指標  
 **Engagement**：可以了解客戶參與產品的程度。如每週訪問次數，每次的訪問行為等。UXPin使用了[Kiss指標](https://www.kissmetrics.com/products/)以跟進客戶在不同功能上的行為。
 ![image](https://farm8.staticflickr.com/7042/27109263802_2389306676_o.png)
 
-**Adoption**：在某段時間的某個功能的使用量或是用戶數。
-**Retention**：產品的用戶數持續使用。可以檢視每月、每季、每年。
+**Adoption**：在某段時間的某個功能的使用量或是用戶數。  
+**Retention**：產品的用戶數持續使用。可以檢視每月、每季、每年。  
 **Task Success**：任務完成度。觀察客戶多快、且不中斷地完成任務。在LOFI的prototype中就可以看出來任務完成情形，而HIFI更可以精確看出任務的完成度。
 
 ### 哪個指標對你最重要
-很明顯的初階那五個不可或缺要分析。
-你要有步驟地去完成這些指標。
+初階那五個都是很明顯不可或缺的分析。
+而你要有步驟地去完成這些度量。
 
 - 設定目標
 讓每個人都參與知道要完成的目標而去衝刺。每個人都會有不同觀點，但沒關係，也許會變得更好。
@@ -66,19 +70,17 @@ Chrome Store的下載數，匯入的檔案數量。
 
 - 度量
 最後一步是從你的目標和信號繪製找出可被追蹤的指標。
-UXPin推出自己的產品之前會檢查：
-- 在UXPIN上使用高保真的設計使用頻率下降。
-- 在UXPIN上使用高保真的互動設計使用頻率提高。
-- 越來越多人使用整合插件
-
+例如：UXPin推出自己的產品之前會檢查：
+	- 在UXPIN上使用高保真的設計使用頻率下降。
+	- 在UXPIN上使用高保真的互動設計使用頻率提高。
+	- 越來越多人使用整合插件    
 以上就可以得出人們會先用其他平台進行高保真的設計，然後才在UXPIN上進行互動設計。
 
 
 ### 結論
-並沒有一個UX的量化分析是放諸四海皆準的。
-每個產品都是為了不同人且不同目的。
+並沒有一個UX的量化分析是放諸四海皆準的。  
+每個產品都是為了不同人且不同目的。  
 要取悅你的用戶的最好方法就是去注意他們如何進行互動，衡量特定事件對你的產品的影響，並且盡可能關注你可以改善的地方。
-
 要記得平衡量化指標和質化的意見回饋。
 
 

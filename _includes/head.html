@@ -21,8 +21,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Webfonts -->
-<!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'> -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
 <!-- For all browsers -->
 <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/normalize.css">
@@ -42,25 +42,10 @@
 {% if page.charttype == 'pie' %}<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/pie.js"></script>{% endif %}
 {% if page.charttype == 'serial' %}<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/serial.js"></script>{% endif %}
 {% endif %}
-
-<style>
-*{font-size:19px; font-family: 'cwTeXHei', serif;}
-html, body{padding:3%; line-height:2em;}
-h1{font-size:2em;}
-
-@font-face {
-  font-family: 'cwTeXHei';
-  src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
-  src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
-       url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
-}
-</style>
-<!-- {% if page.mathjax %}
+{% if page.mathjax %}
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script>MathJax.Hub.Config({config:["MMLorHTML.js"],extensions:["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],jax:["input/TeX"],tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:false},TeX:{TagSide:"right",TagIndent:".8em",MultLineWidth:"85%",equationNumbers:{autoNumber:"AMS",},unicode:{fonts:"STIXGeneral,'Arial Unicode MS'"}},showProcessingMessages:false});</script>{% endif %}
- --><!-- Battle For the Net 
+<!-- Battle For the Net 
 <script type="text/javascript">
     var _bftn_options = {
       animation: 'banner',

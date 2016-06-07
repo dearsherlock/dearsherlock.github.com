@@ -10,7 +10,7 @@ wpm:			  100
 dropcap:		  true
 theme:			  blue
 nprogress:        true
-header_bg:        "https://c2.staticflickr.com/8/7382/27521313545_68ef980ee0_o.jpg"
+header_bg:        homepage.jpg
 author_bg:		  mybackground.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 

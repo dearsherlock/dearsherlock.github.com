@@ -71,7 +71,7 @@ Trend的使用者經驗設計團隊：
 
 挑戰四) 研究的產出實質績效難衡量，Brainstorm有趣，但太理想無法實現...  
 解法) 鍥而不捨關心研究的產出如何落實於產品。理想的願景，設定階段性時程來實現。  
-![image](https://farm8.staticflickr.com/7359/27347160653_245edd6061_o.jpg)
+![image](https://c2.staticflickr.com/8/7372/27882657461_d8f6670281_h.jpg)
 
 
 ## 小結

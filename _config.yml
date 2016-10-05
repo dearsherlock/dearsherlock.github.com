@@ -8,7 +8,7 @@ readtime:		  true
 # 文章下方會提示讀者本篇文章會讀多久，目前設定每分鐘讀200字
 wpm:			  100
 dropcap:		  true
-theme:			  blue
+theme:			  minima
 nprogress:        true
 header_bg:        homepage.jpg
 author_bg:		  mybackground.jpg

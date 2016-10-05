@@ -51,31 +51,41 @@ covereffect: slice
 ###決定接觸點
 
 先決定接觸點。
+
 ![](https://farm6.staticflickr.com/5562/30087723806_215599f3f3_o.png)
+
 如在MOD上的體驗接觸點
+
 ![](https://farm6.staticflickr.com/5537/30038794921_ec6e8c62b5_o.png)
 
 ### 把接觸點上相關的人、事列出
+
 ![](https://farm6.staticflickr.com/5293/29494445133_417da108f9_o.png)
 
 ![](https://farm6.staticflickr.com/5295/30008591152_23b904f7fa_o.png)
 
 ### 接下來把該接觸點上的態度列出
+
 注意要把態度分離開來，因為設計要解決的是態度的問題，而非人或事。有時解決了人或事不見得可以改變用戶的態度。
+
 ![](https://farm6.staticflickr.com/5118/29827796670_bc52b6a55b_o.png)
 
 ![](https://farm6.staticflickr.com/5522/30008652272_461760a58f_o.png)
 
 
 ### 若有時間，則列出背後團隊
+
 列出來可以比較明確知道改善前後的效益，改善前花費了哪些人或事，改善後需要加上/減少人或事。
+
 ![](https://farm6.staticflickr.com/5728/30038998361_503e82684d_o.png)
 
 
 ![](https://farm9.staticflickr.com/8128/29827852620_c2b1d089e4_o.png)
 
 ### 找出關鍵問題點
+
 票選大家覺得的問題點。
+
 ![](https://farm9.staticflickr.com/8275/29827868690_9c26d0705c_o.png)
 
 分析改善後可以帶來的效益
@@ -86,24 +96,33 @@ covereffect: slice
 ![](https://farm6.staticflickr.com/5144/29494901414_080c21e5eb_o.png)
 
 ### 找出痛點對應的角色並檢視流程
+
 檢視對應的人事物，並想出可否針對流程進行改造，看看有沒有機會。
+
 ![](https://farm6.staticflickr.com/5545/30088162476_7689d75b37_o.png)
 
 ### 協同設計
+
 可與用戶一起發想，對於痛點處怎麼樣才會安心或舒適，用戶喜歡怎麼樣的體驗。
+
 ![](https://farm9.staticflickr.com/8403/30008781012_3151616b89_o.png)
 
 最後討論出點子
+
 ![](https://farm9.staticflickr.com/8399/29494659213_88b26c6112_o.png)
 
 最後成形
+
 ![](https://farm8.staticflickr.com/7503/30008817802_23bee4e5de_o.png)
 
 ### 可將用戶體驗旅程設計更全面，請用戶測試
+
 可以將旅程更全面化改善，改善後用戶對體驗的感受也有所改善。
+
 ![](https://farm9.staticflickr.com/8601/30123303835_692491a80f_o.png)
 
 ### 用戶最後仍然完成所有的事情，但是體驗更好，也會有效益
+
 ![](https://farm6.staticflickr.com/5713/30008868112_c4646834ec_o.png)
 
 
@@ -112,7 +131,9 @@ covereffect: slice
 
 
 ![](https://farm9.staticflickr.com/8806/30039263671_030a1cf6e2_o.png)
+
 範例
+
 ![](https://farm6.staticflickr.com/5448/29495097104_e065cf8f04_o.png)
 
 

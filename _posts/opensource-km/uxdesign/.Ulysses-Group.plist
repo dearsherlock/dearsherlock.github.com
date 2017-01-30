@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>2016-01-26-yahoo design driven.md</string>
+		</array>
+		<array>
+			<string>2016-02-16-framer excersice.md</string>
+		</array>
+		<array>
+			<string>2016-02-24-framer css effect.md</string>
+		</array>
+		<array>
+			<string>2016-02-24-steam effect.md</string>
+		</array>
+		<array>
+			<string>2016-03-03-gitlab config.md</string>
+		</array>
+		<array>
+			<string>2016-03-12-trello api.md</string>
+		</array>
+		<array>
+			<string>2016-03-21-how improve app ux.md</string>
+		</array>
+		<array>
+			<string>how improve app ux.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

@@ -37,5 +37,6 @@ covereffect: slice
 
 ![](https://c1.staticflickr.com/1/526/32429892212_417c3f6fe8_k.jpg)
 
-{% youtube QHX1pvxB3VI %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QHX1pvxB3VI" frameborder="0" allowfullscreen></iframe>
 

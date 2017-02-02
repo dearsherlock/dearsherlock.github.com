@@ -124,3 +124,10 @@ covereffect: slice
 嗯嗯，三爽手機是危險物品啊…  
 ![](https://farm1.staticflickr.com/559/32525633651_b15d7cfeac_b.jpg)  
 就這樣結束了五天的行程囉！下次再去挑戰其他國家看看囉～
+
+### 整理2017香港五天小遊記
+第一天：[香港機場＋中環鏞記酒家＋石板街＋半山電扶梯＋孫中山紀念館＋太平山夜景＋蠟像館](http://dearsherlock.github.io/travel/hongkong-day1-guide)
+第二天：[北角利強記雞蛋仔＋銅鑼灣時代廣場、聰嫂甜品、甘牌燒鵝＋黃大仙廟＋油麻地廟街夜市](http://dearsherlock.github.io/travel/hongkong-day2)
+第三天：[尖沙嘴珍妮曲奇餅乾、九龍公園、蘭芳園＋海港城＋維多利亞港夜景](http://dearsherlock.github.io/travel/hongkong-day3)
+第四天：[迪士尼樂園＋迪士尼樂園酒店](http://dearsherlock.github.io/travel/hongkong-day4)
+第五天：[添好運點心樓＋IFC商場＋摩天輪＋天星碼頭＋香港機場](http://dearsherlock.github.io/travel/hongkong-day5)

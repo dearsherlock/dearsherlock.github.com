@@ -4,7 +4,7 @@ category : travel
 tagline: "20170122"
 tags : [hongkong,2017 travel]
 title: "香港之旅Day3"
-imagefeature: https://c1.staticflickr.com/1/648/32643829395_9ec9012abf_h.jpg
+imagefeature: https://c1.staticflickr.com/1/648/32643829395\_9ec9012abf\_h.jpg
 covereffect: slice
 
 ---
@@ -61,10 +61,10 @@ covereffect: slice
 前往今天的午餐『蘭芳園』，要記得隨時問一下你的餐點來了沒，因為服務生很忙，且有時候真的會少點，我們是自己會記錄自己點了啥，才不會漏了。像他這次就晚來了一份，但價格是沒算錯～  
 
 心多多撈丁 HKD 54 送招牌絲襪奶茶  
-傳統咖央西多士 HKD 25   
+傳統咖央西多士 HKD 25  
 龍蝦撈丁 HKD 54 送咖啡  
 金牌豬排包 HKD 25  
-鹹檸檬 HKD 25 (結果是檸檬＋汽水＠＠)    
+鹹檸檬 HKD 25 (結果是檸檬＋汽水＠＠)  
 ![](https://farm1.staticflickr.com/531/32490558882_14dfa63876_b.jpg)  
 ![](https://farm1.staticflickr.com/325/32264321020_ac659b277a_b.jpg)  
 ![](https://farm1.staticflickr.com/301/32264321940_ddcf5d5238_b.jpg)
@@ -121,7 +121,14 @@ covereffect: slice
 接下來就回維多利亞港等燈光秀。其實...真的還好... 比起新加坡的燈光秀...嗯嗯...跟想像中差很多...就是從左到右各大樓秀一下燈光，打一打雷射...
 也許是要到船上才比較有感吧～  
 ![](https://farm1.staticflickr.com/271/31800776004_9412726e4b_b.jpg)  
-![](https://farm1.staticflickr.com/620/32643834215_01be9f4244_b.jpg)   
+![](https://farm1.staticflickr.com/620/32643834215_01be9f4244_b.jpg)  
 回住宿點的時候原本想說去香港站的添好運點心樓，繞了一下，結果人家早就8:30停止收單了(到的時候都已經9點快半了)只好悻悻然叫Uber回住宿點。結果又發生接送問題（可能是我設的定位點他不能轉進來到計程車停靠站吧～）然後我取消後又被收了一筆取消費，就很不爽(過程中有打給司機，但都講港語聽不懂)。後來不死心又往前走到了康樂廣場，才順利叫到Uber。不過可能是夜間加成吧，花了HKD34。
 回台過程，就客訴了一下Uber，後來Uber就幫我取消掉了那筆叫車取消費。
 算也是滿累的一晚啊～
+
+### 整理2017香港五天小遊記
+第一天：[香港機場＋中環鏞記酒家＋石板街＋半山電扶梯＋孫中山紀念館＋太平山夜景＋蠟像館](http://dearsherlock.github.io/travel/hongkong-day1-guide)
+第二天：[北角利強記雞蛋仔＋銅鑼灣時代廣場、聰嫂甜品、甘牌燒鵝＋黃大仙廟＋油麻地廟街夜市](http://dearsherlock.github.io/travel/hongkong-day2)
+第三天：[尖沙嘴珍妮曲奇餅乾、九龍公園、蘭芳園＋海港城＋維多利亞港夜景](http://dearsherlock.github.io/travel/hongkong-day3)
+第四天：[迪士尼樂園＋迪士尼樂園酒店](http://dearsherlock.github.io/travel/hongkong-day4)
+第五天：[添好運點心樓＋IFC商場＋摩天輪＋天星碼頭＋香港機場](http://dearsherlock.github.io/travel/hongkong-day5)

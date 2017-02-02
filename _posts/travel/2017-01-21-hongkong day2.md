@@ -4,7 +4,7 @@ category : travel
 tagline: "20170121"
 tags : [hongkong,2017 travel]
 title: "香港之旅Day2"
-imagefeature: https://c1.staticflickr.com/1/489/32515421911_f1a50e8d84_b.jpg
+imagefeature: https://c1.staticflickr.com/1/489/32515421911\_f1a50e8d84\_b.jpg
 covereffect: slice
 
 ---
@@ -164,5 +164,13 @@ covereffect: slice
 走回住宿的地方，經過麵包店，老婆就說要不要買蛋糕慶生，小孩當然說好，不過卻好像是壽星出錢ㄟ～＠＠ 兩個小孩吃的最開心。  
 ![](https://farm1.staticflickr.com/399/31795041444_e21fcfc7e1_b.jpg)  
 ![](https://farm1.staticflickr.com/417/31795043334_17d1f5bbcc_b.jpg)  
-![](https://farm1.staticflickr.com/314/31795045694_8d1c2fbb02_b.jpg)        
+![](https://farm1.staticflickr.com/314/31795045694_8d1c2fbb02_b.jpg)  
 就這樣結束第二天充實的香港之旅。
+
+
+### 整理2017香港五天小遊記
+第一天：[香港機場＋中環鏞記酒家＋石板街＋半山電扶梯＋孫中山紀念館＋太平山夜景＋蠟像館](http://dearsherlock.github.io/travel/hongkong-day1-guide)
+第二天：[北角利強記雞蛋仔＋銅鑼灣時代廣場、聰嫂甜品、甘牌燒鵝＋黃大仙廟＋油麻地廟街夜市](http://dearsherlock.github.io/travel/hongkong-day2)
+第三天：[尖沙嘴珍妮曲奇餅乾、九龍公園、蘭芳園＋海港城＋維多利亞港夜景](http://dearsherlock.github.io/travel/hongkong-day3)
+第四天：[迪士尼樂園＋迪士尼樂園酒店](http://dearsherlock.github.io/travel/hongkong-day4)
+第五天：[添好運點心樓＋IFC商場＋摩天輪＋天星碼頭＋香港機場](http://dearsherlock.github.io/travel/hongkong-day5)

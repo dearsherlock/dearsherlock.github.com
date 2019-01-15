@@ -42,7 +42,7 @@ Utils.interval 1,->
 # 	CLOCKStartVALUE.set
 	if isShow
 		if TIMELINEFRAME.states.current.name=="Hide"
-			soundBeep.volume = 0.6
+			soundBeep.volume = 0.3
 		else
 			soundBeep.volume=1
 			
@@ -103,11 +103,22 @@ TIMELINEFRAME.on Events.StateSwitchEnd, (from, to) ->
 TIMELINEFRAME.stateSwitch("INIT",false)		
 
 
+layerMask=new Layer
+	size: Screen.size
+	image:"https://farm5.staticflickr.com/4808/39779421263_a77e22474b_o.jpg"
 
+MyPlayBtnFrame.bringToFront()
+MyPlayBtnFrame.parent=layerMask
+MyPlayBtnFrame.y=900
+MyPlayBtnFrame.centerX()
+	
+layerMask.on Events.Click,->
+	layerMask.visible=false
+	FINALTABLE_TIMEREMAIN.player.play()
+	
 
-FINALTABLE_TIMEREMAIN.player.play()
 FINALTABLE_TIMEREMAIN.player.loop=true
-# FINALTABLE_TIMEREMAIN.player.muted=true
+FINALTABLE_TIMEREMAIN.player.muted=false
 
 #Setting timeremaing
 timeremaing=new TextLayer
@@ -203,6 +214,3 @@ Events.wrap(window).addEventListener "keydown", (event) ->
 		CLOCKEndVALUE.setHours(CLOCKNOWVALUE.getHours()+1)
 		CLOCKEndVALUE.setMinutes(CLOCKNOWVALUE.getMinutes()+40)
 		CLOCKEndVALUE.setSeconds(CLOCKNOWVALUE.getSeconds()+2)
-		
-# sound = new Audio("sounds/Complete1.m4a")
-# sound.play()

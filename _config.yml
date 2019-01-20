@@ -1,10 +1,10 @@
 # Site
-name: "User Experience Design Office"
-description: "不設計，毋寧死"
-meta_description: "Jekyll template, Medium styled, free for bloggers."
+name: "Coding Nightmare"
+description: "Sherlock's Diary"
+meta_description: "Sherlock's Diary"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-url:     'http://udo.nctu.me'
+url:     'http://dearsherlock.github.com'
 #baseurl: /mediumish-theme-jekyll
 google_analytics: 'UA-63838656-1'
 #disqus: 'demowebsite'
@@ -18,7 +18,7 @@ authors:
     email: tw.sherlock@gmail.com
     web: http://dearsherlock.github.io/
     twitter: https://medium.com/@proaben
-    description: "UDO 部落格專欄作家。專長互動設計、數據分析、系統架構。"
+    description: "宅爸"
   john:
     name: John
     display_name: John

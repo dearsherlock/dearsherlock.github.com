@@ -1,8 +1,7 @@
 ---
 layout: post
-category : POS 
 tagline: "POS大亂鬥"
-tags : [asus ,company network]
+categories : [asus ,company network]
 title: "測試Squared Register功能"
 
 ---

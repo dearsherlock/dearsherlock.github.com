@@ -1,8 +1,7 @@
 ---
 layout: post
-category : CHTPOS 
 tagline: "OOA/ERD Table"
-tags : [CHTPOS,Schedule]
+categories : [CHTPOS,Schedule]
 title: "CHTPOS i18n/Product/Order/Orgnization Design"
 
 ---

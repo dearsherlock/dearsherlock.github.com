@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Azure 
 tagline: "Azure Devops: Visual Studio Online"
-tags : [Azure,Devops]
+categories : [Azure,Devops]
 title: "Azure DevOps 設定初始篇：Features V.S. Backlogs"
 
 ---

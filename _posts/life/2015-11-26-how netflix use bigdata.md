@@ -1,8 +1,7 @@
 ---
 layout: post
-category : analytics 
 tagline: "Analytics"
-tags : [Design,Analytics]
+categories : [Design,Analytics]
 title: "How Netflix Uses Analytics To Select Movies, Create Content, and Make Multimillion Dollar Decisions"
 
 ---

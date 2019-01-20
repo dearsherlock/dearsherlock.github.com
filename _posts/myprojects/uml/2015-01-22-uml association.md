@@ -1,8 +1,7 @@
 ---
 layout: post
-category : UML 
 tagline: "UML 教學"
-tags : [uml,association,composiition,aggregation]
+categories : [uml,association,composiition,aggregation]
 title: "網路上與UML相關之KM文章"
 
 ---

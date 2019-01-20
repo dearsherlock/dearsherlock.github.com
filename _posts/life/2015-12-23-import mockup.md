@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Design"
-tags : [Design,Product,Interaction]
+categories : [Design,Product,Interaction]
 title: "匯入Photoshop/Sketch"
 
 ---

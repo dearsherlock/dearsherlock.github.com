@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Life 
 tagline: "Github with Proxy"
-tags : [Github,Proxy]
+categories : [Github,Proxy]
 title: "MAC下設定github proxy"
 
 ---

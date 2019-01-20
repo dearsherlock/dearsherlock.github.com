@@ -1,8 +1,7 @@
 ---
 layout: post
-category : analytics 
 tagline: "Analytics"
-tags : [Design,Analytics]
+categories : [Design,Analytics]
 title: "Netflix Recommendations: Beyond the 5 stars I"
 
 ---

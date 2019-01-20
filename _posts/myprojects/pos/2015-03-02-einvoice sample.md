@@ -1,8 +1,7 @@
 ---
 layout: post
-category : CHTPOS 
 tagline: "e-invoice sample"
-tags : [e-invoice,qrcode]
+categories : [e-invoice,qrcode]
 title: "電子發票範例"
 
 ---

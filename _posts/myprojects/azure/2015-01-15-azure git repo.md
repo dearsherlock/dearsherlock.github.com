@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Azure 
 tagline: "Azure DevOps : Team Project GIT REPO"
-tags : [Azure,Devops]
+categories : [Azure,Devops]
 title: "Visual Studio Online Git Client Session2"
 
 ---

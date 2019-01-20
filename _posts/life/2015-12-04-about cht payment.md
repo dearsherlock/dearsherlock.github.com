@@ -1,8 +1,7 @@
 ---
 layout: post
-category : life 
 tagline: "payment"
-tags : [Design,Product]
+categories : [Design,Product]
 title: "中華支付"
 
 ---

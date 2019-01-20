@@ -1,8 +1,7 @@
 ---
 layout: post
-category : travel 
 tagline: "20150202"
-tags : [okinawa,2015 travel]
+categories : [okinawa,2015 travel]
 title: "沖繩之旅Day5"
 
 ---

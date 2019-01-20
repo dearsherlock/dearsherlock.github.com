@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Design"
-tags : [Design,Product,Research]
+categories : [Design,Product,Research]
 title: "企業中三個常見的UX設計問題與解法"
 
 ---

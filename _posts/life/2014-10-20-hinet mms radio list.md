@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Music 
 tagline: "mms清單"
-tags : [Music,Radio]
+categories : [Music,Radio]
 title: "台灣HiNet 網路廣播電台清單（網頁直播 + mms 串流網址）"
 
 ---

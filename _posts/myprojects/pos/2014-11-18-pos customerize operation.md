@@ -1,8 +1,7 @@
 ---
 layout: post
-category : POS 
 tagline: "POS Function Testing"
-tags : [pos]
+categories : [pos]
 title: "客訂作業流程測試"
 
 ---

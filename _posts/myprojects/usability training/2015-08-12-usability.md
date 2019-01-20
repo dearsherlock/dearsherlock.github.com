@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Design 
 tagline: "Usability"
-tags : [Design,Usability]
+categories : [Design,Usability]
 title: "易用性評估方法"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Life 
 tagline: "智慧零售論壇"
-tags : [IOT,Smart City,POS]
+categories : [IOT,Smart City,POS]
 title: "2015智慧城市展"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : TeamWork 
 tagline: "Why VS Online"
-tags : [Visual Studio online,]
+categories : [Visual Studio online,]
 title: "使用Visual Studio Online"
 
 ---

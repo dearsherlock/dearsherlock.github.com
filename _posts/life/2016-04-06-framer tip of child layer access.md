@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Framer 
 tagline: "framer tips"
-tags : [framer,children]
+categories : [framer,children]
 title: "Framer小外掛介紹：存取子Layer中的內部物件"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : CHTPOS 
 tagline: "Schedule Table"
-tags : [CHTPOS,Schedule]
+categories : [CHTPOS,Schedule]
 title: "Product Marketing Schedule Design"
 
 ---

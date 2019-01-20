@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Design
 tagline: "2016年的網頁設計需要注意的六大趨勢"
-tags : [fans,social_network,facebook,growth_hack]
+categories : [fans,social_network,facebook,growth_hack]
 title: "2016年的網頁設計需要注意的六大趨勢"
 imagefeature: https://farm8.staticflickr.com/7648/26715894161_c47c854cf5_o.jpg
 

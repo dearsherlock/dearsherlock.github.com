@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Music 
 tagline: "Wav,Cus,iTunes的愛恨情仇"
-tags : [Wav,Cus,iTunes]
+categories : [Wav,Cus,iTunes]
 title: "教你如何音樂轉檔（使用Bigasoft Audio Converter）"
 
 ---

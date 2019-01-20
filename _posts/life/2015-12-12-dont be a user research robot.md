@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Research"
-tags : [Design,Product,Research]
+categories : [Design,Product,Research]
 title: "不要變成使用者研究機器人。兩招教你可以有更好的研究產出"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : UML 
 tagline: "indentifying  v.s. non-identifying"
-tags : [UML,ER Diagram]
+categories : [UML,ER Diagram]
 title: "UML relationship"
 
 ---

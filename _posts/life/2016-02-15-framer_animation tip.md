@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Design"
-tags : [Design,Product,Research]
+categories : [Design,Product,Research]
 title: "Framer Animation Tip"
 
 ---

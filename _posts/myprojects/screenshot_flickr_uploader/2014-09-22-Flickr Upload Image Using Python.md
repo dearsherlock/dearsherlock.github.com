@@ -1,8 +1,7 @@
 ---
 layout: post
-category : mac 
 tagline: "於Mac中使用Python指令進行Flickr上傳圖片"
-tags : [Flickr,Python,Mac,Upload]
+categories : [Flickr,Python,Mac,Upload]
 title: "我的小工具系列"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : 時間管理 
 tagline: "時間管理"
-tags : [time manage,toogl]
+categories : [time manage,toogl]
 title: "如何使用toggl"
 
 ---

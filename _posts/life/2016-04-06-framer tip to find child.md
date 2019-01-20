@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Framer 
 tagline: "framer tips"
-tags : [framer,children]
+categories : [framer,children]
 title: "Framer小外掛介紹：把符合名稱的物件找出來"
 
 ---

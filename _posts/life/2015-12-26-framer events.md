@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Design"
-tags : [Design,Product,Framer]
+categories : [Design,Product,Framer]
 title: "Framer Events"
 
 ---

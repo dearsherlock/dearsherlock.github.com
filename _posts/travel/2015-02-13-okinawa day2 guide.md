@@ -1,8 +1,7 @@
 ---
 layout: post
-category : travel 
 tagline: "20150130"
-tags : [okinawa,20155 travel,american village]
+categories : [okinawa,20155 travel,american village]
 title: "沖繩之旅Day2"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : design 
 tagline: "Design"
-tags : [Design,Product,Prototype]
+categories : [Design,Product,Prototype]
 title: "Frammer Mirror Present"
 
 ---

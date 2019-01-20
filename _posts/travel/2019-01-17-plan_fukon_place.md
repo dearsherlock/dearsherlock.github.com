@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Travel 
 tagline: "九州規劃-景點篇"
-tags : [Travel,Japan]
+categories : [Travel,Japan]
 title: "日本九州自助行"
 
 ---

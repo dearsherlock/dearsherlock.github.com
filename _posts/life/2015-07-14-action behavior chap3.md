@@ -1,8 +1,7 @@
 ---
 layout: post
-category : life 
 tagline: "Chap3"
-tags : [Design,Product,Behavior]
+categories : [Design,Product,Behavior]
 title: "Oreilly筆記：行為改變科學的實務設計 (行為改變的策略)"
 
 ---

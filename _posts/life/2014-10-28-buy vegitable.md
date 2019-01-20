@@ -1,8 +1,7 @@
 ---
 layout: post
-category : 生活 
 tagline: "買菜人生"
-tags : [生活,黑心]
+categories : [生活,黑心]
 title: "轉載：16種常見蔬菜的挑選竅門"
 
 ---

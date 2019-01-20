@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Design
 tagline: "使用者中心設計與原型開發"
-tags : [yahoo,design,ued]
+categories : [yahoo,design,ued]
 title: "使用者中心設計與原型開發"
 imagefeature: https://farm8.staticflickr.com/7459/26783163525_f9f412b5be_o.jpg
 

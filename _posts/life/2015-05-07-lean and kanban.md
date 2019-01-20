@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Scrum
 tagline: "Ruddy Lee 老師的演講"
-tags : [Lean,Kanban,SCRUM]
+categories : [Lean,Kanban,SCRUM]
 title: "Lean、Kanban"
 
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Cloud 
 tagline: "Amazon好厲害"
-tags : [Amazon,Cloud,雲端空間]
+categories : [Amazon,Cloud,雲端空間]
 title: "Amazon 無限大空間"
 imagefeature: https://farm8.staticflickr.com/7613/16943255685_f5a12d1593_h.jpg
 

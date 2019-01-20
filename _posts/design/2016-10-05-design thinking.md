@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Design
 tagline: "designthinking"
-tags : [ux,design,thinking]
+categories : [ux,design,thinking]
 title: "設計思考解決問題研習"
 imagefeature: https://farm6.staticflickr.com/5291/29495754464_31b74aa36f_o.png
 

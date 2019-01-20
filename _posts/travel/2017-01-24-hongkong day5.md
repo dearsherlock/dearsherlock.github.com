@@ -1,8 +1,7 @@
 ---
 layout: post
-category : travel 
 tagline: "20170124"
-tags : [hongkong,2017 travel]
+categories : [hongkong,2017 travel]
 title: "香港之旅Day5"
 imagefeature: "https://c1.staticflickr.com/1/576/32525628611_4c2fa64b54_h.jpg"
 

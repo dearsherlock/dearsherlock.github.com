@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Travel 
 tagline: "第一次帶小孩出國(日本沖繩)"
-tags : [Travel,Japan]
+categories : [Travel,Japan]
 title: "日本沖繩自助行"
 
 ---

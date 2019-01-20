@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Life 
 tagline: "螢幕解析度"
-tags : [Retina,Monitor,Pixel Density]
+categories : [Retina,Monitor,Pixel Density]
 title: "計算需要視網膜解析度的螢幕所需解析度"
 
 ---

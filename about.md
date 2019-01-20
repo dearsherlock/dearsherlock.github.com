@@ -1,136 +1,84 @@
 ---
 layout: page
-permalink: /about/
-title: About
-tags: 
-  - sherlock
-  - dearsherlock
-imagefeature: fourseasons.jpg
-chart: true
-charttype: pie
-published: true
+title: 關於我
+comments: false
 ---
 
-<figure>
-  <img src="{{ site.url }}/images/page/hmfaysal-crest-square.jpg">
-  <figcaption>Hossain Mohammad Faysal</figcaption>
-</figure>
+網站使用 Jekyll and Mediumish 樣板所建構而成。非營利使用。也與Gitpages格式相容。
 
-{% assign total_words = 0 %}
-{% assign readtime = 0 %}
-{% assign featuredcount = 0 %}
-{% assign statuscount = 0 %}
+![jekyll template mediumish]({{site.baseurl}}/assets/images/mediumish-jekyll-template.png){: .shadow}
 
-{% for post in site.posts %}
-    {% assign post_words = post.content | strip_html | number_of_words %}
-    {% if site.wpm %}{% assign indi_readtime = post_words | append: '.0' | divided_by:site.wpm %}{% else %}{% assign indi_readtime = post_words | append: '.0' | divided_by:180 %}{% endif %}
-    {% assign total_words = total_words | plus: post_words %}
-    {% assign readtime = readtime | plus: indi_readtime %}
-    {% if post.featured %}
-    {% assign featuredcount = featuredcount | plus: 1 %}
-    {% endif %}
-{% endfor %}
-{% for status in site.data.statuses %}{% assign statuscount = statuscount | plus:1 %}{% endfor %}
+### Features
 
-My name is **夏洛克(sherlock)**, and this is my personal blog. 目前有 {{ site.posts | size }} 文章，並分成 {{ site.categories | size }} 類的文章，共有 {{ total_words }} 字, 且平均有 ({{ site.wpm }} WPM)讀者， 大約花了 {% if readtime > 60 %}{% assign readtime_hours = readtime | divided_by: 60 %}{% assign readtime_minutes = readtime | modulo:60 %}{% if readtime_hours > 1 and readtime_hours < 2 %}1 hour{% else %}<span class="hour">{{ readtime_hours }}</span> hours{% endif %}{% if readtime_minutes < 1 %}{% elsif readtime_minutes > 1 and readtime_minutes < 1.5 %} and 1 minute {% elsif readtime_minutes > 1.5 %} and <span class="time">{{ readtime_minutes }}</span> minutes{% endif %}{% else %}{% if readtime < 1 %}less than 1 minute {% elsif readtime > 1 and readtime < 1.5 %}1 minute {% elsif readtime > 1.5 %}<span class="time">{{ readtime }}</span> minutes {% endif %}{% endif %} 來閱讀。 {% if featuredcount != 0 %}共有 <a href="{{ site.url }}/featured">{{ featuredcount }} 精選文章</a>, 你應該要看看。{% endif %} 最近的一篇是 {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} 是在 {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} 發行並且於 <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}進行修改。最後一次更新是在 {{ site.time | date: "%A, %d %b %Y" }} 時間 {{ site.time | date: "%I:%M %p" }} [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time "Temps Universel Coordonné"). 網站更新記錄： [點我]({{ site.url }}/update-log).
+- Built for Jekyll
+- Compatible with Github pages
+- Featured Posts
+- Index Pagination
+- Post Share
+- Post Categories
+- Prev/Next Link
+- Category Archives (this is not yet compatible with github pages though)
+- Jumbotron Categories
+- Integrations:
+    - Disqus Comments
+    - Google Analaytics
+    - Mailchimp Integration
+- Design Features:
+    - Bootstrap v4.x
+    - Font Awesome
+    - Masonry
+- Layouts:
+    - Default
+    - Post
+    - Page
+    - Archive
+    
+### How to Use
+
+If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with [Jekyll's Docs](https://jekyllrb.com/docs/installation/){:target="_blank"}. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:
+
+#### Using Mediumish
+
+Download or Fork *Mediumish for Jekyll*. 
+- In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.
+- Mediumish requires 2 plugins: 
+    - <code>$ gem install jekyll-paginate</code>
+    - <code>$ gem install jekyll-archives</code>.
+- Edit the menu and footer copyrights in <code>default.html</code>
+- Start by adding your .md files in <code>_posts</code>. Mediumish already has a few as an example. 
+- YAML front matter
+    - featured post - <code>featured:true</code>
+    - exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code>
+    - post image - <code>image: assets/images/mypic.jpg</code>
+    - page comments - <code>comments:true</code>
+    - meta description (optional) - <code>description: "this is my meta description"</code>
+    
+YAML Post Example:
+<pre>
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/5.jpg
+featured: true
+---
+</pre>
+
+YAML Page Example
+<pre>
+---
+layout: page
+title: Mediumish Template for Jekyll
+comments: true
+---
+</pre>
+
+#### Contribute
+
+- [Clone the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
+- Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
+- Open a pull request on GitHub and describe the feature or fix.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Currently there are [{{ statuscount }} status messages.]({{ site.url }}/status-updates)
-
-<div class="chart" id="chartdiv" style="width: 100%; height: 500px; margin-bottom: 20px;" ></div>
-
-
-
-
-
-<!-- amCharts javascript code -->
-<script type="text/javascript">
-	AmCharts.makeChart("chartdiv",
-		{
-			"type": "pie",
-			"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
-			"balloonText": "Category: [[title]]<br><span style='font-size:14px'><b>[[value]] Posts</b> ([[percents]]%)</span>",
-			"innerRadius": "40%",
-			"minRadius": 100,
-			"pullOutRadius": "15%",
-			"startRadius": "30%",
-			"colors": [
-				"#FC913A",
-				"#F9D423",
-				"#FF4E50",
-				"#FCD202",
-				"#F8FF01",
-				"#B0DE09",
-				"#04D215",
-				"#0D8ECF",
-				"#0D52D1",
-				"#2A0CD0",
-				"#8A0CCF",
-				"#CD0D74",
-				"#754DEB",
-				"#DDDDDD",
-				"#999999",
-				"#333333",
-				"#000000",
-				"#57032A",
-				"#CA9726",
-				"#990000",
-				"#4B0C25"
-			],
-			"hoverAlpha": 0.74,
-			"pullOutEffect": "elastic",
-			"pullOutOnlyOne": true,
-			"startEffect": "easeOutSine",
-			"titleField": "category",
-			"valueField": "number-of-posts",
-			"allLabels": [],
-			"balloon": {},
-			"legend": {
-				"align": "center",
-				"markerType": "diamond",
-				"switchable": false,
-				"textClickEnabled": true,
-				"useMarkerColorForLabels": true,
-				"useMarkerColorForValues": true,
-				"valueText": "[[value]] Posts"
-			},
-			"titles": [
-				{
-					"id": "Title-1",
-					"text": "Number of Posts Breakdown"
-				}
-			],
-      "dataProvider": [
-{% assign tags_list = site.categories %}  
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %} 
-        {
-          "category": "{{ tag | capitalize }}",
-          "number-of-posts": {{ site.tags[tag].size }}
-        },
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %} 
-        {
-          "category": "{{ tag[0] | capitalize }}",
-          "number-of-posts": {{ tag[1].size }}
-        },
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
-      ]
-    }
-  );
-</script>
+<a href="https://www.buymeacoffee.com/sal" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>

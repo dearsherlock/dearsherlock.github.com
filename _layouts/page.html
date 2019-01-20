@@ -1,20 +1,25 @@
-<!doctype html>
-<html class="no-js" lang="en">
-{% include head.html %}
-<body class="post-template page">
+---
+layout: default
+---
 
 
-<main id="notepad-page-container" class="notepad-page-container" role="main">
-
-{% include headerpage.html %}
-
-        <article class="notepad-page-content">
-        <div>{{ content }}</div>
-        </article>
-        <div class="cf"></div>
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
     
-</main>
-{% include footer.html %}
-{% include scripts.html %}
-</body>
-</html>
+    <div class="article-post">
+    {{content}}
+    </div>
+    
+    {% if page.comments == true %}
+    
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">              
+            {% include disqus.html %}                
+        </div>
+    </div>
+    
+    {% endif %}
+    
+</section>

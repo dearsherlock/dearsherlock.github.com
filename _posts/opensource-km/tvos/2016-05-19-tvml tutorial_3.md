@@ -5,7 +5,6 @@ tagline: "Apple TV Hello World (3)-使用catalog樣板"
 tags : [fans,social_network,facebook,growth_hack]
 title: "Apple TV Hello World (3)-重構你的JS程式，使用catalog樣板"
 imagefeature: https://farm8.staticflickr.com/7783/26520087263_c6c9fd0985_o.jpg
-covereffect: push
 
 ---
 ### Category樣板介紹

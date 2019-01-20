@@ -5,7 +5,6 @@ tagline: "使用者經驗研究在產品開發中的應用"
 tags : [ux,research]
 title: "使用者經驗研究在產品開發中的應用"
 imagefeature: https://c2.staticflickr.com/8/7359/27347160653_830c818235_b.jpg
-covereffect: slice
 
 ---
 

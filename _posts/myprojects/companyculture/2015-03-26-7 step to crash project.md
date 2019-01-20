@@ -1,10 +1,10 @@
 ---
-layout: postcategory : CompanyCulture 
+layout: post
+category : CompanyCulture 
 tagline: "project management"
 tags : [Project Management] 
 title: "七個搞垮你專案的方式"
 imagefeature: https://farm8.staticflickr.com/7601/16934520815_a113f8757c_h.jpg
-covereffect: slice
 
 ---
 

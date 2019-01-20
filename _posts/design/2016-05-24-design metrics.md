@@ -5,7 +5,6 @@ tagline: "UX到底要度量啥"
 tags : [ux,kpi]
 title: "UX到底要度量啥"
 imagefeature: https://farm8.staticflickr.com/7519/27210555915_63cdba19df_o.jpg
-covereffect: slice
 
 ---
 ### UX到底要度量啥

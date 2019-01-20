@@ -5,7 +5,6 @@ tagline: "redesign"
 tags : [ux,design,thinking]
 title: "何時應該要重新設計你的產品"
 imagefeature: https://farm6.staticflickr.com/5291/29495754464_31b74aa36f_o.png
-covereffect: slice
 
 ---
 

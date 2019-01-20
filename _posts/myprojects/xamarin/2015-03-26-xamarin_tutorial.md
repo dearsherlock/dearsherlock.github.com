@@ -5,7 +5,6 @@ tagline: "Tutorial Projects"
 tags : [Xamarin,Tutorial,Sample]
 title: "Xamarin Tutorial Projects"
 imagefeature: https://farm9.staticflickr.com/8714/16665447317\_5ece224043\_h.jpg
-covereffect: slice
 
 ---
 

@@ -5,7 +5,6 @@ tagline: "20170120"
 tags : [hongkong,2017 travel]
 title: "香港之旅Day1"
 imagefeature: "https://c1.staticflickr.com/1/468/32199604660_b480698bbd_b.jpg"
-covereffect: slice
 
 ---
 

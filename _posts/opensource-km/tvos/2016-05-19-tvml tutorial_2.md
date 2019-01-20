@@ -5,7 +5,6 @@ tagline: "Apple TV Hello World (2)-重構你的JS程式，加上攔錯和使用p
 tags : [fans,social_network,facebook,growth_hack]
 title: "Apple TV Hello World (2)-重構你的JS程式，加上攔錯和使用presentModal"
 imagefeature: https://farm8.staticflickr.com/7527/27015435302_97d4b07d0f_o.jpg
-covereffect: push
 
 ---
 

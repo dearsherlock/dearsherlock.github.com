@@ -1,10 +1,10 @@
 ---
-layout: postcategory : life 
+layout: post
+category : life 
 tagline: "名人開講"
 tags : [company culture] 
 title: "李開復評論蘋果微軟還有Google三間公司"
 imagefeature: https://farm8.staticflickr.com/7598/16239130313_637f2b57ea_h.jpg
-covereffect: slice
 
 ---
 

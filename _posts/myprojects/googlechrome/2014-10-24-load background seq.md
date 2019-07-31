@@ -1,8 +1,7 @@
 ---
 layout: post
-category : Chrome extension 
 tagline: "Flickr Chrome tab工作記錄"
-tags : [Flickr,Chrome extension]
+categories : [Flickr,Chrome extension]
 title: "Chrome外掛小專案：背景圖載入循序圖記錄"
 
 ---
